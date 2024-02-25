@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "0QtIYdRVUBS1KZb9oW9VdVL2nWBA0EFjo6SHHnoUN4I=",
+  "Source": "ASPCMCV5",
+  "BasePath": "_content/ASPCMCV5",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ASPCMCV5\\wwwroot",
+      "Source": "ASPCMCV5",
+      "ContentRoot": "E:\\Belstu\\3k1s\\MDTWP\\laba2\\WebApplication1\\ASPCMCV5\\wwwroot\\",
+      "BasePath": "_content/ASPCMCV5",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

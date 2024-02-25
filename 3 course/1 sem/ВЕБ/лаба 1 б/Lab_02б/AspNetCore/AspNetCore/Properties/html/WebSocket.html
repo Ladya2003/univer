@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>WebSocket</title>
+    <style>
+        html {
+            color: white;
+            background-color: #4158D0;
+            background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+            width: 100vw;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: rgba(255, 255, 255, 0.95);
+            color: black;
+            width: 40vw;
+            margin: 30vh auto 0 auto;
+            padding: 3vw 2vw;
+            /*border-radius: 1*/
+            box-shadow: 0 0 10vw rgba(0,0,0,0.4);
+        }
+
+        div {
+            padding: 20px;
+        }
+        .header {
+            font-size: 30px;
+        }
+
+        button {
+            background-color: limegreen;
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            cursor: pointer;
+            font-size: 15px;
+            transition: 0.3s;
+        }
+            button:hover {
+                background-color: green;
+            }
+        #stopButton{
+            background-color: red;
+        }
+        #stopButton:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+
+        button:disabled {
+            background-color: #cccccc; 
+            cursor: not-allowed;
+        }
+
+
+        #output .message {
+            padding: 20px;
+            color: white;
+            max-width: 300px;
+            background: #7b4397; /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #dc2430, #7b4397); /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #dc2430, #7b4397); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+            margin: 10px auto;
+        }
+        #messageCount {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="header">Message WebSocket 
+</div>
+<div id="messageCount">Total Messages: 0</div>
+<button id="startButton">Start</button>
+<button id="stopButton"  disabled>Stop</button>
+<div id="output"></div>
+
+<script>
+    const startButton = document.getElementById('startButton');
+    const stopButton = document.getElementById('stopButton');
+    const outputDiv = document.getElementById('output');
+    const messageCountDiv = document.getElementById('messageCount');
+    let socket;
+    let messageCount = 0;
+
+    startButton.addEventListener('click', () => {
+
+        //создается новое WebSocket-соединение к серверу по адресу 
+        socket = new WebSocket('ws://localhost:5236/websocket');
+        //При получении сообщения от сервера, его содержимое выводится в div с id="output", а счетчик сообщений увеличивается на 1.
+        socket.onmessage = (event) => {
+            const message = event.data;
+            outputDiv.innerHTML += `<p class="message">${message}</p>`;
+            messageCount++; 
+            messageCountDiv.textContent = `Сообщений: ${messageCount}`;
+        };
+        startButton.disabled = true;
+        stopButton.disabled = false;
+        
+    });
+
+    stopButton.addEventListener('click', () => {
+        if (socket) {
+            socket.close();
+            startButton.disabled = false;
+            stopButton.disabled = true;
+        }
+    });
+</script>
+</body>
+</html>

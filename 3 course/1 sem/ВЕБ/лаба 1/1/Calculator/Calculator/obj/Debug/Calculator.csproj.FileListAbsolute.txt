@@ -1,0 +1,27 @@
+D:\УНИВЕР\СТР web-приложений\1\Calculator\Calculator\bin\Debug\Calculator.exe.config
+D:\УНИВЕР\СТР web-приложений\1\Calculator\Calculator\bin\Debug\Calculator.exe
+D:\УНИВЕР\СТР web-приложений\1\Calculator\Calculator\bin\Debug\Calculator.pdb
+D:\УНИВЕР\СТР web-приложений\1\Calculator\Calculator\bin\Debug\Newtonsoft.Json.dll
+D:\УНИВЕР\СТР web-приложений\1\Calculator\Calculator\bin\Debug\Newtonsoft.Json.xml
+D:\УНИВЕР\СТР web-приложений\1\Calculator\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+D:\УНИВЕР\СТР web-приложений\1\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
+D:\УНИВЕР\СТР web-приложений\1\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+D:\УНИВЕР\СТР web-приложений\1\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+D:\УНИВЕР\СТР web-приложений\1\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+D:\УНИВЕР\СТР web-приложений\1\Calculator\Calculator\obj\Debug\Calculator.csproj.CopyComplete
+D:\УНИВЕР\СТР web-приложений\1\Calculator\Calculator\obj\Debug\Calculator.exe
+D:\УНИВЕР\СТР web-приложений\1\Calculator\Calculator\obj\Debug\Calculator.pdb
+D:\Универ\5 семестр\ВЕБ\лаба 1\1\Calculator\Calculator\bin\Debug\Calculator.exe.config
+D:\Универ\5 семестр\ВЕБ\лаба 1\1\Calculator\Calculator\bin\Debug\Calculator.exe
+D:\Универ\5 семестр\ВЕБ\лаба 1\1\Calculator\Calculator\bin\Debug\Calculator.pdb
+D:\Универ\5 семестр\ВЕБ\лаба 1\1\Calculator\Calculator\bin\Debug\Newtonsoft.Json.dll
+D:\Универ\5 семестр\ВЕБ\лаба 1\1\Calculator\Calculator\bin\Debug\Newtonsoft.Json.xml
+D:\Универ\5 семестр\ВЕБ\лаба 1\1\Calculator\Calculator\obj\Debug\Calculator.csproj.AssemblyReference.cache
+D:\Универ\5 семестр\ВЕБ\лаба 1\1\Calculator\Calculator\obj\Debug\Calculator.csproj.SuggestedBindingRedirects.cache
+D:\Универ\5 семестр\ВЕБ\лаба 1\1\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
+D:\Универ\5 семестр\ВЕБ\лаба 1\1\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+D:\Универ\5 семестр\ВЕБ\лаба 1\1\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+D:\Универ\5 семестр\ВЕБ\лаба 1\1\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+D:\Универ\5 семестр\ВЕБ\лаба 1\1\Calculator\Calculator\obj\Debug\Calculator.csproj.CopyComplete
+D:\Универ\5 семестр\ВЕБ\лаба 1\1\Calculator\Calculator\obj\Debug\Calculator.exe
+D:\Универ\5 семестр\ВЕБ\лаба 1\1\Calculator\Calculator\obj\Debug\Calculator.pdb

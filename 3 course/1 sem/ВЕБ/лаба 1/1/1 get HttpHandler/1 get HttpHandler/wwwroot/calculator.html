@@ -1,0 +1,140 @@
+﻿<!--task 5-->
+<!--<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <style>
+        html {
+            background-color: #4158D0;
+            background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+            width: 100vw;
+            height: 100vh;
+        }
+        body {
+            background-color: rgb(255, 255, 255, 0.9);
+            width: 15vw;
+            margin: 20vh auto 0 auto;
+            padding: 2vw 5vw;
+            border-radius: 2vw;
+        }
+        input {
+            padding: 0.4vw 0.5vw;
+            border-radius: 0.5vw;
+        }
+        button {
+            background-color: dodgerblue;
+            color: white;
+            font-size: 16px;
+            padding: 0.8vw 1.2vw;
+            border-radius: 0.5vw;
+        }
+    </style>
+</head>
+<body>
+    <h1>Калькулятор</h1>
+    <form id="calculator-form">
+        <label for="x">Введите X: </label>
+        <input type="number" id="x" name="x" required><br><br>
+        <label for="y">Введите Y: </label>
+        <input type="number" id="y" name="y" required><br><br>
+        <button type="button" onclick="calculate()">Посчитать</button>
+    </form>
+    <p id="result"></p>
+
+    <script>
+        function calculate() {
+            const x = parseFloat(document.getElementById('x').value);
+            const y = parseFloat(document.getElementById('y').value);
+
+            const xhr = new XMLHttpRequest();
+            xhr.open('POST', '/api/calculator/add', true);
+            xhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    const result = JSON.parse(xhr.responseText);
+                    document.getElementById('result').textContent = `Result: ${result}`;
+                } else {
+                    document.getElementById('result').textContent = 'Error occurred during calculation.';
+                }
+            };
+            const data = JSON.stringify({ X: x, Y: y });
+            xhr.send(data);
+        }
+    </script>
+</body>
+</html>-->
+
+<!--task 6-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link href="css/site.css" rel="stylesheet" />
+    <style>
+        html {
+            background-color: #4158D0;
+            background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+            width: 100vw;
+            height: 100vh;
+        }
+
+        body {
+            background-color: rgb(255, 255, 255, 0.9);
+            width: 15vw;
+            margin: 20vh auto 0 auto;
+            padding: 2vw 5vw;
+            border-radius: 2vw;
+        }
+
+        input {
+            padding: 0.4vw 0.5vw;
+            border-radius: 0.5vw;
+        }
+
+            input[type=submit] {
+                background-color: dodgerblue;
+                color: white;
+                font-size: 16px;
+                padding: 0.8vw 1.2vw;
+            }
+    </style>
+</head>
+<body>
+    <h1>Калькулятор</h1>
+    <form id="calculator-form">
+        <label for="x">Введите X: </label>
+        <input type="number" id="x" name="x" required><br><br>
+        <label for="y">Введите Y: </label>
+        <input type="number" id="y" name="y" required><br><br>
+        <input type="submit" value="Умножение">
+    </form>
+    <p id="result"></p>
+
+    <script>
+        const form = document.getElementById('calculator-form');
+        const resultElement = document.getElementById('result');
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const x = parseFloat(document.getElementById('x').value);
+            const y = parseFloat(document.getElementById('y').value);
+
+            const response = await fetch('/api/calculator', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ X: x, Y: y })
+            });
+
+            if (response.ok) {
+                const result = await response.text();
+                resultElement.textContent = `Результат: ${result}`;
+            } else {
+                resultElement.textContent = 'Error occurred during calculation.';
+            }
+        });
+    </script>
+</body>
+</html>

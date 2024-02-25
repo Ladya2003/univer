@@ -1,0 +1,62 @@
+E:\student\learn\3_course\1_sem\СТРWП\New\Lab_2\bin\Debug\net7.0\appsettings.Development.json
+E:\student\learn\3_course\1_sem\СТРWП\New\Lab_2\bin\Debug\net7.0\appsettings.json
+E:\student\learn\3_course\1_sem\СТРWП\New\Lab_2\bin\Debug\net7.0\ASPCMVC01.staticwebassets.runtime.json
+E:\student\learn\3_course\1_sem\СТРWП\New\Lab_2\bin\Debug\net7.0\ASPCMVC01.exe
+E:\student\learn\3_course\1_sem\СТРWП\New\Lab_2\bin\Debug\net7.0\ASPCMVC01.deps.json
+E:\student\learn\3_course\1_sem\СТРWП\New\Lab_2\bin\Debug\net7.0\ASPCMVC01.runtimeconfig.json
+E:\student\learn\3_course\1_sem\СТРWП\New\Lab_2\bin\Debug\net7.0\ASPCMVC01.dll
+E:\student\learn\3_course\1_sem\СТРWП\New\Lab_2\bin\Debug\net7.0\ASPCMVC01.pdb
+E:\student\learn\3_course\1_sem\СТРWП\New\Lab_2\obj\Debug\net7.0\ASPCMVC01.csproj.AssemblyReference.cache
+E:\student\learn\3_course\1_sem\СТРWП\New\Lab_2\obj\Debug\net7.0\ASPCMVC01.GeneratedMSBuildEditorConfig.editorconfig
+E:\student\learn\3_course\1_sem\СТРWП\New\Lab_2\obj\Debug\net7.0\ASPCMVC01.AssemblyInfoInputs.cache
+E:\student\learn\3_course\1_sem\СТРWП\New\Lab_2\obj\Debug\net7.0\ASPCMVC01.AssemblyInfo.cs
+E:\student\learn\3_course\1_sem\СТРWП\New\Lab_2\obj\Debug\net7.0\ASPCMVC01.csproj.CoreCompileInputs.cache
+E:\student\learn\3_course\1_sem\СТРWП\New\Lab_2\obj\Debug\net7.0\ASPCMVC01.MvcApplicationPartsAssemblyInfo.cache
+E:\student\learn\3_course\1_sem\СТРWП\New\Lab_2\obj\Debug\net7.0\ASPCMVC01.RazorAssemblyInfo.cache
+E:\student\learn\3_course\1_sem\СТРWП\New\Lab_2\obj\Debug\net7.0\ASPCMVC01.RazorAssemblyInfo.cs
+E:\student\learn\3_course\1_sem\СТРWП\New\Lab_2\obj\Debug\net7.0\staticwebassets\msbuild.ASPCMVC01.Microsoft.AspNetCore.StaticWebAssets.props
+E:\student\learn\3_course\1_sem\СТРWП\New\Lab_2\obj\Debug\net7.0\staticwebassets\msbuild.build.ASPCMVC01.props
+E:\student\learn\3_course\1_sem\СТРWП\New\Lab_2\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ASPCMVC01.props
+E:\student\learn\3_course\1_sem\СТРWП\New\Lab_2\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ASPCMVC01.props
+E:\student\learn\3_course\1_sem\СТРWП\New\Lab_2\obj\Debug\net7.0\staticwebassets.pack.json
+E:\student\learn\3_course\1_sem\СТРWП\New\Lab_2\obj\Debug\net7.0\staticwebassets.build.json
+E:\student\learn\3_course\1_sem\СТРWП\New\Lab_2\obj\Debug\net7.0\staticwebassets.development.json
+E:\student\learn\3_course\1_sem\СТРWП\New\Lab_2\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\student\learn\3_course\1_sem\СТРWП\New\Lab_2\obj\Debug\net7.0\scopedcss\bundle\ASPCMVC01.styles.css
+E:\student\learn\3_course\1_sem\СТРWП\New\Lab_2\obj\Debug\net7.0\scopedcss\projectbundle\ASPCMVC01.bundle.scp.css
+E:\student\learn\3_course\1_sem\СТРWП\New\Lab_2\obj\Debug\net7.0\ASPCMVC01.dll
+E:\student\learn\3_course\1_sem\СТРWП\New\Lab_2\obj\Debug\net7.0\refint\ASPCMVC01.dll
+E:\student\learn\3_course\1_sem\СТРWП\New\Lab_2\obj\Debug\net7.0\ASPCMVC01.pdb
+E:\student\learn\3_course\1_sem\СТРWП\New\Lab_2\obj\Debug\net7.0\ASPCMVC01.genruntimeconfig.cache
+E:\student\learn\3_course\1_sem\СТРWП\New\Lab_2\obj\Debug\net7.0\ref\ASPCMVC01.dll
+D:\Универ\5 семестр\ВЕБ\лаба 2\New\Lab_2\bin\Debug\net7.0\appsettings.Development.json
+D:\Универ\5 семестр\ВЕБ\лаба 2\New\Lab_2\bin\Debug\net7.0\appsettings.json
+D:\Универ\5 семестр\ВЕБ\лаба 2\New\Lab_2\bin\Debug\net7.0\ASPCMVC01.staticwebassets.runtime.json
+D:\Универ\5 семестр\ВЕБ\лаба 2\New\Lab_2\bin\Debug\net7.0\ASPCMVC01.exe
+D:\Универ\5 семестр\ВЕБ\лаба 2\New\Lab_2\bin\Debug\net7.0\ASPCMVC01.deps.json
+D:\Универ\5 семестр\ВЕБ\лаба 2\New\Lab_2\bin\Debug\net7.0\ASPCMVC01.runtimeconfig.json
+D:\Универ\5 семестр\ВЕБ\лаба 2\New\Lab_2\bin\Debug\net7.0\ASPCMVC01.dll
+D:\Универ\5 семестр\ВЕБ\лаба 2\New\Lab_2\bin\Debug\net7.0\ASPCMVC01.pdb
+D:\Универ\5 семестр\ВЕБ\лаба 2\New\Lab_2\obj\Debug\net7.0\ASPCMVC01.csproj.AssemblyReference.cache
+D:\Универ\5 семестр\ВЕБ\лаба 2\New\Lab_2\obj\Debug\net7.0\ASPCMVC01.GeneratedMSBuildEditorConfig.editorconfig
+D:\Универ\5 семестр\ВЕБ\лаба 2\New\Lab_2\obj\Debug\net7.0\ASPCMVC01.AssemblyInfoInputs.cache
+D:\Универ\5 семестр\ВЕБ\лаба 2\New\Lab_2\obj\Debug\net7.0\ASPCMVC01.AssemblyInfo.cs
+D:\Универ\5 семестр\ВЕБ\лаба 2\New\Lab_2\obj\Debug\net7.0\ASPCMVC01.csproj.CoreCompileInputs.cache
+D:\Универ\5 семестр\ВЕБ\лаба 2\New\Lab_2\obj\Debug\net7.0\ASPCMVC01.MvcApplicationPartsAssemblyInfo.cache
+D:\Универ\5 семестр\ВЕБ\лаба 2\New\Lab_2\obj\Debug\net7.0\ASPCMVC01.RazorAssemblyInfo.cache
+D:\Универ\5 семестр\ВЕБ\лаба 2\New\Lab_2\obj\Debug\net7.0\ASPCMVC01.RazorAssemblyInfo.cs
+D:\Универ\5 семестр\ВЕБ\лаба 2\New\Lab_2\obj\Debug\net7.0\staticwebassets\msbuild.ASPCMVC01.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Универ\5 семестр\ВЕБ\лаба 2\New\Lab_2\obj\Debug\net7.0\staticwebassets\msbuild.build.ASPCMVC01.props
+D:\Универ\5 семестр\ВЕБ\лаба 2\New\Lab_2\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.ASPCMVC01.props
+D:\Универ\5 семестр\ВЕБ\лаба 2\New\Lab_2\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.ASPCMVC01.props
+D:\Универ\5 семестр\ВЕБ\лаба 2\New\Lab_2\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Универ\5 семестр\ВЕБ\лаба 2\New\Lab_2\obj\Debug\net7.0\staticwebassets.build.json
+D:\Универ\5 семестр\ВЕБ\лаба 2\New\Lab_2\obj\Debug\net7.0\staticwebassets.development.json
+D:\Универ\5 семестр\ВЕБ\лаба 2\New\Lab_2\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Универ\5 семестр\ВЕБ\лаба 2\New\Lab_2\obj\Debug\net7.0\scopedcss\bundle\ASPCMVC01.styles.css
+D:\Универ\5 семестр\ВЕБ\лаба 2\New\Lab_2\obj\Debug\net7.0\scopedcss\projectbundle\ASPCMVC01.bundle.scp.css
+D:\Универ\5 семестр\ВЕБ\лаба 2\New\Lab_2\obj\Debug\net7.0\ASPCMVC01.dll
+D:\Универ\5 семестр\ВЕБ\лаба 2\New\Lab_2\obj\Debug\net7.0\refint\ASPCMVC01.dll
+D:\Универ\5 семестр\ВЕБ\лаба 2\New\Lab_2\obj\Debug\net7.0\ASPCMVC01.pdb
+D:\Универ\5 семестр\ВЕБ\лаба 2\New\Lab_2\obj\Debug\net7.0\ASPCMVC01.genruntimeconfig.cache
+D:\Универ\5 семестр\ВЕБ\лаба 2\New\Lab_2\obj\Debug\net7.0\ref\ASPCMVC01.dll
