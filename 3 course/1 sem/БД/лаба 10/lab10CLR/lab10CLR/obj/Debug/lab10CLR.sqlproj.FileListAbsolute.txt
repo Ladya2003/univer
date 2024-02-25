@@ -1,0 +1,20 @@
+C:\Users\Lenovo\source\repos\lab10CLR\lab10CLR\bin\Debug\lab10CLR.dacpac
+C:\Users\Lenovo\source\repos\lab10CLR\lab10CLR\bin\Debug\lab10CLR.dll
+C:\Users\Lenovo\source\repos\lab10CLR\lab10CLR\bin\Debug\lab10CLR.pdb
+C:\Users\Lenovo\source\repos\lab10CLR\lab10CLR\obj\Debug\lab10CLR.sqlproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\lab10CLR\lab10CLR\obj\Debug\lab10CLR.dll
+C:\Users\Lenovo\source\repos\lab10CLR\lab10CLR\obj\Debug\lab10CLR.pdb
+C:\Users\Lenovo\source\repos\lab10CLR\lab10CLR\obj\Debug\Model.xml
+C:\Users\Lenovo\source\repos\lab10CLR\lab10CLR\obj\Debug\refactor.xml
+C:\Users\Lenovo\source\repos\lab10CLR\lab10CLR\obj\Debug\postdeploy.sql
+C:\Users\Lenovo\source\repos\lab10CLR\lab10CLR\obj\Debug\predeploy.sql
+D:\Универ\5 семестр\БД\лаба 10\lab10CLR\lab10CLR\bin\Debug\lab10CLR.dacpac
+D:\Универ\5 семестр\БД\лаба 10\lab10CLR\lab10CLR\bin\Debug\lab10CLR.dll
+D:\Универ\5 семестр\БД\лаба 10\lab10CLR\lab10CLR\bin\Debug\lab10CLR.pdb
+D:\Универ\5 семестр\БД\лаба 10\lab10CLR\lab10CLR\obj\Debug\lab10CLR.sqlproj.AssemblyReference.cache
+D:\Универ\5 семестр\БД\лаба 10\lab10CLR\lab10CLR\obj\Debug\lab10CLR.dll
+D:\Универ\5 семестр\БД\лаба 10\lab10CLR\lab10CLR\obj\Debug\lab10CLR.pdb
+D:\Универ\5 семестр\БД\лаба 10\lab10CLR\lab10CLR\obj\Debug\Model.xml
+D:\Универ\5 семестр\БД\лаба 10\lab10CLR\lab10CLR\obj\Debug\refactor.xml
+D:\Универ\5 семестр\БД\лаба 10\lab10CLR\lab10CLR\obj\Debug\postdeploy.sql
+D:\Универ\5 семестр\БД\лаба 10\lab10CLR\lab10CLR\obj\Debug\predeploy.sql

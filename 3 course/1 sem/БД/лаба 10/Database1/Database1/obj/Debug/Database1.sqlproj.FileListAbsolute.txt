@@ -1,0 +1,10 @@
+D:\Универ\5 семестр\БД\лаба 10\Database1\Database1\bin\Debug\Database1.dacpac
+D:\Универ\5 семестр\БД\лаба 10\Database1\Database1\bin\Debug\Database1.dll
+D:\Универ\5 семестр\БД\лаба 10\Database1\Database1\bin\Debug\Database1.pdb
+D:\Универ\5 семестр\БД\лаба 10\Database1\Database1\obj\Debug\Database1.sqlproj.AssemblyReference.cache
+D:\Универ\5 семестр\БД\лаба 10\Database1\Database1\obj\Debug\Database1.dll
+D:\Универ\5 семестр\БД\лаба 10\Database1\Database1\obj\Debug\Database1.pdb
+D:\Универ\5 семестр\БД\лаба 10\Database1\Database1\obj\Debug\Model.xml
+D:\Универ\5 семестр\БД\лаба 10\Database1\Database1\obj\Debug\refactor.xml
+D:\Универ\5 семестр\БД\лаба 10\Database1\Database1\obj\Debug\postdeploy.sql
+D:\Универ\5 семестр\БД\лаба 10\Database1\Database1\obj\Debug\predeploy.sql

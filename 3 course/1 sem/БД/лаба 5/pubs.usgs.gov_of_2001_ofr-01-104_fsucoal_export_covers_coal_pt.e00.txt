@@ -1,0 +1,1494 @@
+EXP  0 G:\DDSXXX\WORKING2\COVERS\COAL_PT.E00                                    
+LAB  2
+         1         0 6.0000000E+01 6.6000000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+         2         0 6.5000000E+01 6.8000000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+         3         0 6.4500000E+01 6.7500000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+         4         0 6.1000000E+01 6.7500000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+         5         0 6.3330002E+01 6.7169998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+         6         0 6.3329998E+01 6.7580002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+         7         0 9.0169998E+01 5.5580002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+         8         0 9.5080002E+01 5.5750000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+         9         0 8.9500000E+01 5.5829998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        10         0 9.6250000E+01 5.5750000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        11         0 1.3320000E+02 4.3330002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        12         0 1.3300000E+02 4.3330002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        13         0 1.3317000E+02 4.3419998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        14         0 1.3158000E+02 4.3830002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        15         0 1.3217000E+02 4.3330002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        16         0 1.3192000E+02 4.3419998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        17         0 1.3200000E+02 4.3419998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        18         0 1.3217000E+02 4.3500000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        19         0 1.3225000E+02 4.3549999E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        20         0 1.3258000E+02 4.3500000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        21         0 1.3217000E+02 4.3919998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        22         0 1.3425000E+02 4.6330002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        23         0 3.3499996E+01 5.6000000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        24         0 3.3669998E+01 5.5169998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        25         0 3.4499996E+01 5.4000000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        26         0 3.7579998E+01 5.3750000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        27         0 3.8330002E+01 5.3830002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        28         0 3.8420002E+01 5.3919998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        29         0 5.7830002E+01 5.9169998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        30         0 5.7830006E+01 5.9000000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        31         0 5.8000000E+01 5.8669998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        32         0 5.7999996E+01 5.8830002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        33         0 5.8169998E+01 5.8669998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        34         0 5.8000000E+01 5.9000000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        35         0 1.4208000E+02 4.9169998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        36         0 1.4250000E+02 4.8919994E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        37         0 1.4275000E+02 4.8669998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        38         0 1.4350000E+02 4.6330002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        39         0 1.4250000E+02 4.7500000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        40         0 1.4267000E+02 5.1000000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        41         0 1.3583000E+02 6.2500000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        42         0 1.2967000E+02 6.2580002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        43         0 1.2467000E+02 5.7000000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        44         0 1.4700000E+02 6.3330002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        45         0 1.7758000E+02 6.4919998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        46         0 1.5600000E+02 6.2330002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        47         0 1.7924998E+02 6.3250000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        48         0 1.0950000E+02 5.1250000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        49         0 1.0850000E+02 5.1330006E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        50         0 1.1300000E+02 5.1200001E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        51         0 1.0650000E+02 5.1000000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        52         0 1.1667000E+02 5.3000004E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        53         0 1.0658000E+02 5.1169998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        54         0 8.3669998E+01 5.4500000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        55         0 3.9830002E+01 4.7930000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        56         0 3.9830002E+01 4.7939999E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        57         0 4.1099998E+01 4.7970001E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        58         0 4.0790001E+01 4.7720001E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        59         0 4.0070000E+01 4.8189999E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        60         0 3.9849995E+01 4.7939999E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        61         0 8.6330002E+01 5.5500004E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        62         0 8.6169998E+01 5.4500000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        63         0 8.6330002E+01 5.4669998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        64         0 8.5910004E+01 5.5900002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        65         0 8.6669998E+01 5.3580002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        66         0 8.6330002E+01 5.4000000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        67         0 8.8000000E+01 5.3580002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        68         0 8.6330002E+01 5.4330002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        69         0 8.6169998E+01 5.4169998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        70         0 8.7830002E+01 5.3500000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        71         0 8.7169998E+01 5.3999996E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        72         0 8.8000000E+01 5.3669998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        73         0 8.7000000E+01 5.3500004E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        74         0 8.5830002E+01 5.4669998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        75         0 8.6330002E+01 5.4500000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        76         0 8.6500000E+01 5.4500000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        77         0 8.6169998E+01 5.5669998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        78         0 8.6500000E+01 5.3829998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        79         0 8.6330002E+01 5.4169998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        80         0 8.6250000E+01 5.4270000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        81         0 8.6500000E+01 5.3499996E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        82         0 8.6500000E+01 5.4000000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        83         0 8.7169998E+01 5.3330002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        84         0 8.6750000E+01 5.3750000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        85         0 8.6669998E+01 5.3669998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        86         0 8.6000000E+01 5.6330002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        87         0 8.6000000E+01 5.6299999E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        88         0 8.7169998E+01 5.3580002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        89         0 8.7169998E+01 5.3669998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        90         0 8.7169998E+01 5.3169994E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        91         0 6.1429996E+01 5.4919998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        92         0 4.0000004E+01 4.8070000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        93         0 6.1799999E+01 5.5099998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        94         0 3.9900002E+01 4.8279999E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        95         0 4.0029999E+01 4.8070000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        96         0 4.0330002E+01 4.8080002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        97         0 1.1633000E+02 5.0500000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        98         0 1.3297000E+02 5.1220001E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        99         0 1.3247000E+02 5.2820000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       100         0 8.6349998E+01 5.3650002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       101         0 1.0360000E+02 5.3150002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       102         0 1.0080000E+02 5.4450001E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       103         0 6.2500000E+01 5.7279999E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       104         0 9.1400002E+01 5.3500000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       105         0 9.4650002E+01 5.1200001E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       106         0 5.9770000E+01 6.6050003E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       107         0 6.3299999E+01 6.7599998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       108         0 6.4379997E+01 6.7650002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       109         0 6.3830006E+01 6.7519997E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       110         0 8.6349998E+01 5.9650002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       111         0 3.5740002E+01 4.8669998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       112         0 3.5960003E+01 4.8599998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       113         0 3.5930004E+01 4.8610001E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       114         0 3.5880005E+01 4.8619999E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       115         0 3.5919998E+01 4.8630001E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       116         0 3.5960003E+01 4.8590000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       117         0 3.5990002E+01 4.8609997E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       118         0 3.6029999E+01 4.8580002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       119         0 3.6039997E+01 4.8549999E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       120         0 3.6070004E+01 4.8549995E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       121         0 3.8160004E+01 4.8110001E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       122         0 3.7880001E+01 4.8070000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       123         0 3.7870003E+01 4.8119999E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       124         0 3.7750004E+01 4.8139999E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       125         0 3.7200001E+01 4.8259998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       126         0 3.7139999E+01 4.8400002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       127         0 3.7280003E+01 4.8130001E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       128         0 3.7829998E+01 4.8169998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       129         0 3.8220001E+01 4.8220001E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       130         0 3.8419998E+01 4.8349998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       131         0 3.8499996E+01 4.8330002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       132         0 3.8779999E+01 4.8000000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       133         0 3.8680000E+01 4.8099998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       134         0 3.8639999E+01 4.8080002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       135         0 3.8759998E+01 4.8049999E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       136         0 3.8660000E+01 4.8639999E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       137         0 3.8599998E+01 4.8779999E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       138         0 3.9720001E+01 4.8349998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       139         0 3.9830006E+01 4.8310001E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       140         0 3.8639999E+01 4.8560001E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       141         0 3.9020000E+01 4.8559998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       142         0 3.8389999E+01 4.8950001E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       143         0 3.8369999E+01 4.8950001E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       144         0 3.8469997E+01 4.8950001E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       145         0 3.8310001E+01 4.9020000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       146         0 2.4070000E+01 5.0779999E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       147         0 2.4270002E+01 5.0330002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       148         0 2.4279999E+01 5.0400005E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       149         0 3.2720001E+01 4.8610001E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       150         0 3.3039997E+01 4.8810001E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       151         0 3.3869999E+01 4.8439999E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       152         0 4.2939999E+01 4.2430000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       153         0 4.1740002E+01 4.2910000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       154         0 7.4570000E+01 5.1759998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       155         0 7.4570000E+01 5.1770000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       156         0 7.4580002E+01 5.1759998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       157         0 7.4580002E+01 5.1770000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       158         0 7.4779999E+01 5.1689999E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       159         0 7.4779999E+01 5.1700001E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       160         0 7.4790001E+01 5.1690002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       161         0 7.4790001E+01 5.1700001E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       162         0 7.4739998E+01 5.1520000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       163         0 7.4739998E+01 5.1529999E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       164         0 7.4730003E+01 5.1520000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       165         0 7.4730003E+01 5.1529999E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       166         0 7.5500000E+01 5.1150002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       167         0 7.3370003E+01 5.0740002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       168         0 6.8620003E+01 4.8330002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       169         0 6.5739998E+01 5.1080002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       170         0 6.9769997E+01 4.2190002E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       171         0 6.9730003E+01 4.1029995E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       172         0 6.9730003E+01 4.1040001E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       173         0 7.3199997E+01 4.0959999E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       174         0 7.2300003E+01 4.1369999E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       175         0 6.9769997E+01 3.9029999E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       176         0 7.2169998E+01 4.0139999E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       177         0 7.2730003E+01 4.0340000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       178         0 7.9070000E+01 4.2599998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       179         0 7.0709999E+01 4.0000000E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+       180         0 6.8660004E+01 3.9149998E+01
+ 1.0000000E+00 1.0000000E+00 0.0000000E+00 0.0000000E+00
+        -1         0 0.0000000E+00 0.0000000E+00
+TOL  2
+         1         2 1.5517999E-02
+         2         2 0.0000000E+00
+         3         2 0.0000000E+00
+         4         2 0.0000000E+00
+         5         2 0.0000000E+00
+         6         2 1.5517999E+00
+         7         2 1.5517999E-01
+         8         2 1.5517999E-01
+         9         2 1.5517999E-01
+        10         2 1.5517999E-01
+        -1         0         0         0         0         0         0
+SIN  2
+EOX
+LOG  2
+200104201423   0     0     0lukas shapearc E:\of01104\shapes\coal_pt coal_pt
+~
+200104201428   0     0     0lukas projectdefine cover coal_pt
+~
+EOL
+PRJ  2
+Projection    GEOGRAPHIC
+~
+Datum         PUL
+~
+Zunits        NO
+~
+Units         DD
+~
+Spheroid      KRASOVSKY
+~
+Xshift        0.0000000000
+~
+Yshift        0.0000000000
+~
+Parameters
+~
+EOP
+IFO  2
+COAL_PT.BND                     XX   4   4  16         1
+XMIN              4-1   14-1  12 3 60-1  -1  -1-1                   1-
+YMIN              4-1   54-1  12 3 60-1  -1  -1-1                   2-
+XMAX              4-1   94-1  12 3 60-1  -1  -1-1                   3-
+YMAX              4-1  134-1  12 3 60-1  -1  -1-1                   4-
+ 2.4070000E+01 3.9029999E+01 1.7924998E+02 6.8000000E+01
+COAL_PT.MET                          1   1 200       296
+META            200-1   14-1 200-1 20-1  -1  -1-1                   1-
+Identification_Information:
+
+
+  Citation:
+
+
+    Citation_Information:
+
+
+      Originator: Vernadsky State Geological Museum
+
+
+      Publication_Date: 20010600
+
+
+      Title:
+
+
+        coal_pt.shp
+
+
+        Coal locations with associated datasets of the Former Soviet Union
+
+
+      Geospatial_Data_Presentation_Form: ArcView shapefile
+
+
+      Publication_Information:
+
+
+        Publication_Place: Denver, CO
+
+
+        Publisher: U.S. Geological Survey
+
+
+      Larger_Work_Citation:
+
+
+        Citation_Information:
+
+
+          Originator: Michael E. Brownfield
+
+
+          Originator: Douglas W. Steinshouer
+
+
+          Originator: Mikhail Yu. Povarennykh
+
+
+          Originator: Ivan Eriomin
+
+
+          Originator: Mikhail Shpirt
+
+
+          Originator: Yevgeny Meitov
+
+
+          Originator: Irena Sharova
+
+
+          Originator: Nina Goriunova
+
+
+          Originator: Margarita V. Zyrianova
+
+
+          Publication_Date: 20010600
+
+
+          Title:
+
+
+            Open-file report 01-104
+
+
+            Coal Quality and Resources of the Former Soviet Union -
+
+
+            An ArcView Project
+
+
+          Publication_Information:
+
+
+            Publication_Place: Denver, CO. U.S.A.
+
+
+            Publisher: U.S. Geological Survey
+
+
+  Description:
+
+
+    Abstract:
+
+
+      This shapefile contains points that describe coal locations with
+
+
+      associated coal quality data in the countries comprising the
+
+
+      Former Soviet Union. (Armenia, Azerbaijan, Belarus, Estonia,
+
+
+      Georgia, Kazakhstan, Kyrgyzstan, Latvia, Lithuania, Moldova,
+
+
+      Russia, Tajikstan, Turkmenistan, Ukraine and Uzbekistan.)
+
+
+      This spatial dataset is available as an ArcView shapefile,
+
+
+      an Arc/Info export file, an Arc/Info ascii ungenerate file
+
+
+      and as Spatial Data Transfer Standard (SDTS) files.
+
+
+    Purpose:
+
+
+      This spatial dataset is intended to delineate coal locations with
+
+
+      associated coal quality data and to link to coal quality data in
+
+
+      U.S.G.S. Open File Report 01-104, "Coal Quality and Resources
+
+
+      of the Former Soviet Union - An ArcView Project".
+
+
+  Time_Period_of_Content:
+
+
+    Time_Period_Information:
+
+
+      Single_Date/Time:
+
+
+        Calendar_Date: 20010000
+
+
+    Currentness_Reference: Publication date
+
+
+  Status:
+
+
+    Progress: Complete
+
+
+    Maintenance_and_Update_Frequency: None planned
+
+
+  Spatial_Domain:
+
+
+    Bounding_Coordinates:
+
+
+      West_Bounding_Coordinate: 24.0700
+
+
+      East_Bounding_Coordinate: 179.2500
+
+
+      North_Bounding_Coordinate: 68.0000
+
+
+      South_Bounding_Coordinate: 39.0300
+
+
+  Keywords:
+
+
+    Theme:
+
+
+      Theme_Keyword_Thesaurus: None
+
+
+      Theme_Keyword: Coal
+
+
+      Theme_Keyword: Coal-bearing territory
+
+
+      Theme_Keyword: Coal deposit
+
+
+    Place:
+
+
+      Place_Keyword_Thesaurus: None
+
+
+      Place_Keyword: Eurasia
+
+
+      Place_Keyword: Asia
+
+
+      Place_Keyword: Europe
+
+
+      Place_Keyword: Former Soviet Union
+
+
+      Place_Keyword: Armenia
+
+
+      Place_Keyword: Azerbaijan
+
+
+      Place_Keyword: Belarus
+
+
+      Place_Keyword: Estonia
+
+
+      Place_Keyword: Georgia
+
+
+      Place_Keyword: Kazakhstan
+
+
+      Place_Keyword: Kyrgyzstan
+
+
+      Place_Keyword: Latvia
+
+
+      Place_Keyword: Lithuania
+
+
+      Place_Keyword: Moldova
+
+
+      Place_Keyword: Russian Federation
+
+
+      Place_Keyword: Russia
+
+
+      Place_Keyword: Tajikstan
+
+
+      Place_Keyword: Turkmenistan
+
+
+      Place_Keyword: Ukraine
+
+
+      Place_Keyword: Uzbekistan
+
+
+      Place_Keyword: AA
+
+
+      Place_Keyword: AJ
+
+
+      Place_Keyword: BE
+
+
+      Place_Keyword: EN
+
+
+      Place_Keyword: GG
+
+
+      Place_Keyword: KZ
+
+
+      Place_Keyword: KG
+
+
+      Place_Keyword: LG
+
+
+      Place_Keyword: LU
+
+
+      Place_Keyword: MD
+
+
+      Place_Keyword: RS
+
+
+      Place_Keyword: TI
+
+
+      Place_Keyword: TX
+
+
+      Place_Keyword: UP
+
+
+      Place_Keyword: UZ
+
+
+  Access_Constraints: None
+
+
+  Use_Constraints: None
+
+
+  Point_of_Contact:
+
+
+    Contact_Information:
+
+
+      Contact_Organization_Primary:
+
+
+        Contact_Organization: U.S. Geological Survey
+
+
+        Contact_Person: Michael Brownfield
+
+
+      Contact_Position: Research Geologist
+
+
+      Contact_Address:
+
+
+        Address_Type: Mailing and physical address
+
+
+        Address: Box 25046 Denver Federal Center MS 939
+
+
+        City: Denver
+
+
+        State_or_Province: CO
+
+
+        Postal_Code: 80225-0046
+
+
+        Country: U.S.A.
+
+
+      Contact_Voice_Telephone: 303.236 7767
+
+
+      Contact_Facsimile_Telephone: 303.236.0459
+
+
+      Contact_Electronic_Mail_Address: mbrownfield@usgs.gov
+
+
+      Hours_of_Service: 7:00 am - 3:00 pm MST
+
+
+  Data_Set_Credit:
+
+
+    Mikhail Goncharev (Vernadsky State Geological Museum) -
+
+
+       Digitization of source data and G.I.S. manipulation
+
+
+  Browse_Graphic:
+
+
+    Browse_Graphic_File_Name: coal_pt.jpg
+
+
+    Browse_Graphic_File_Description:
+
+
+      Spatial extent of locations associated with coal quality data
+
+
+      of the Former Soviet Union
+
+
+    Browse_Graphic_File_Type: JPEG
+
+
+  Native_Data_Set_Environment: ArcView version 3.0a
+
+
+Data_Quality_Information:
+
+
+  Attribute_Accuracy:
+
+
+    Attribute_Accuracy_Report:
+
+
+      All the attributes other than standard Arc/Info attributes
+
+
+      are of character type.
+
+
+  Logical_Consistency_Report:
+
+
+    Points are not duplicated and are attributed.
+
+
+  Completeness_Report: N/A
+
+
+  Positional_Accuracy:
+
+
+    Horizontal_Positional_Accuracy:
+
+
+      Horizontal_Positional_Accuracy_Report: Dependent on source materials.
+
+
+    Vertical_Positional_Accuracy:
+
+
+      Vertical_Positional_Accuracy_Report: N/A
+
+
+  Lineage:
+
+
+    Source_Information:
+
+
+      Source_Citation:
+
+
+        Citation_Information:
+
+
+          Originator: Unknown
+
+
+          Publication_Date: 00000000
+
+
+          Title:
+
+
+            Unkown
+
+
+          Geospatial_Data_Presentation_Form: Unknown
+
+
+          Publication_Information:
+
+
+            Publication_Place: Unknown
+
+
+            Publisher:
+
+
+              Unknown
+
+
+          Other_Citation_Details: Published in Russian
+
+
+      Type_of_Source_Media: Unknown
+
+
+      Source_Time_Period_of_Content:
+
+
+        Time_Period_Information:
+
+
+          Single_Date/Time:
+
+
+            Calendar_Date: 0000000
+
+
+        Source_Currentness_Reference: Date of publication
+
+
+      Source_Citation_Abbreviation: unk
+
+
+      Source_Contribution:
+
+
+        Unknown.
+
+
+    Process_Step:
+
+
+      Process_Description:
+
+
+        Unknown
+
+
+      Process_Date: 20000000
+
+
+Spatial_Data_Organization_Information:
+
+
+  Direct_Spatial_Reference_Method: Point
+
+
+  Point_and_Vector_Object_Information:
+
+
+    SDTS_Terms_Description:
+
+
+      SDTS_Point_and_Vector_Object_Type: Point
+
+
+      Point_and_Vector_Object_Count: 180
+
+
+Spatial_Reference_Information:
+
+
+  Horizontal_Coordinate_System_Definition:
+
+
+    Geographic:
+
+
+      Latitude_Resolution: 1 degree
+
+
+      Longitude_Resolution: 1 degree
+
+
+      Geographic_Coordinate_Units: Decimal degrees
+
+
+    Geodetic_Model:
+
+
+      Horizontal_Datum_Name: Pulkovo Datum 1942
+
+
+      Ellipsoid_Name: Krasovsky
+
+
+      Semi-major_Axis: 6378245
+
+
+      Denominator_of_Flattening_Ratio: 298.3
+
+
+Entity_and_Attribute_Information:
+
+
+  Detailed_Description:
+
+
+    Entity_Type:
+
+
+      Entity_Type_Label: territory.dbf
+
+
+      Entity_Type_Definition: DBase table of attribute data
+
+
+      Entity_Type_Definition_Source: None
+
+
+    Attribute:
+
+
+      Attribute_Label: Area
+
+
+      Attribute_Definition: Area of polygon
+
+
+      Attribute_Definition_Source: Software computed
+
+
+      Attribute_Domain_Values:
+
+
+        Range_Domain:
+
+
+          Range_Domain_Minimum: 0.000
+
+
+          Range_Domain_Maximum: 0.000
+
+
+    Attribute:
+
+
+      Attribute_Label: Perimeter
+
+
+      Attribute_Definition: Perimeter of polygon
+
+
+      Attribute_Definition_Source: Software computed
+
+
+      Attribute_Domain_Values:
+
+
+        Range_Domain:
+
+
+          Range_Domain_Minimum: 0.000
+
+
+          Range_Domain_Maximum: 0.000
+
+
+    Attribute:
+
+
+      Attribute_Label: Coal_pt-id
+
+
+      Attribute_Definition: Numeric identifier for point features
+
+
+      Attribute_Definition_Source: User Defined
+
+
+      Attribute_Domain_Values:
+
+
+        Range_Domain:
+
+
+          Range_Domain_Minimum: 1
+
+
+          Range_Domain_Maximum: 180
+
+
+    Attribute:
+
+
+      Attribute_Label: coalkey
+
+
+      Attribute_Definition: Key field
+
+
+      Attribute_Definition_Source: User Defined
+
+
+      Attribute_Domain_Values:
+
+
+        Range_Domain:
+
+
+          Range_Domain_Minimum: 1
+
+
+          Range_Domain_Maximum: 180
+
+
+Distribution_Information:
+
+
+  Distributor:
+
+
+    Contact_Information:
+
+
+      Contact_Organization_Primary:
+
+
+        Contact_Organization: U.S. Geological Survey
+
+
+        Contact_Person: Christa D. Lopez
+
+
+      Contact_Address:
+
+
+        Address_Type: Mailing and physical address
+
+
+        Address: Box 25046, Denver Federal Center, MS 939
+
+
+        City: Denver
+
+
+        State_or_Province: CO
+
+
+        Postal_Code: 80225-0046
+
+
+        Country: U.S.A.
+
+
+      Contact_Voice_Telephone: 303.236.1644
+
+
+      Contact_Facsimile_Telephone: 303.236.0459
+
+
+      Contact_Electronic_Mail_Address: clopez@usgs.gov
+
+
+      Hours_of_Service: 8:00 am -4:00 pm MST
+
+
+  Resource_Description:
+
+
+    CD-ROM Open File Report 01-104
+
+
+    "Coal Quality and Resources of the Former Soviet Union -
+
+
+    An ArcView Project"
+
+
+  Distribution_Liability:
+
+
+    Although data are processed on a computer system at the
+
+
+    U.S. Geological Survey, U.S. Department of the Interior,
+
+
+    no warranty, expressed or implied, is made by the U.S.
+
+
+    Geological Survey regarding the correctness of the data,
+
+
+    or of the utility of the data in any computer system,
+
+
+    nor shall the act of distribution constitute any such warranty.
+
+
+  Standard_Order_Process:
+
+
+    Digital_Form:
+
+
+      Digital_Transfer_Information:
+
+
+        Format_Name:
+
+
+          ArcView Shapefile
+
+
+          ARCE (ARC/INFO Export - No compression ascii)
+
+
+          ARCG (ARC/INFO Ungenerate)
+
+
+          SDTS (Spatial Data Transfer Standard)
+
+
+      Digital_Transfer_Option:
+
+
+        Offline_Option:
+
+
+          Offline_Media: CD-ROM
+
+
+          Recording_Format: Joliet
+
+
+          Compatibility_Information:
+
+
+            Joliet format allows the CD-ROM to be read by
+
+
+            most computer operating systems.
+
+
+    Fees: None
+
+
+
+
+
+
+
+
+METADATA_REFERENCE_INFORMATION
+
+
+
+
+
+  Metadata_Date: 20010310
+
+
+  Metadata_Review_Date: 20010400
+
+
+  Metadata_Contact
+
+
+    Contact_Information
+
+
+      Contact_Organization_Primary
+
+
+        Contact_Organization: U.S. Geological Survey
+
+
+        Contact_Person: David A. Ferderer
+
+
+      Contact_Position: Data Library Manager - CERT
+
+
+      Contact_Address
+
+
+        Address_Type: mailing and physical address
+
+
+        Address: Box 25046, Denver Federal Center, MS 939
+
+
+        City: Denver
+
+
+        State_or_Province: CO
+
+
+        Postal_Code: 80225-0046
+
+
+        Country: U.S.A.
+
+
+      Contact_Voice_Telephone: 303.236.3611
+
+
+      Contact_Facsimile_Telephone:  303.236.0459
+
+
+      Contact_Electronic_Mail_Address: dferdere@usgs.gov
+
+
+      Hours_of_Service: 8:00 am - 4:00 pm MST
+
+
+  Metadata_Standard_Name: FGDC CSDGM
+
+
+  Metadata_Standard_Version: FGDC-STD-001-1998
+
+
+COAL_PT.PAT                     XX   5   5  20       180
+AREA              4-1   14-1  12 3 60-1  -1  -1-1                   1-
+PERIMETER         4-1   54-1  12 3 60-1  -1  -1-1                   2-
+COAL_PT#          4-1   94-1   5-1 50-1  -1  -1-1                   3-
+COAL_PT-ID        4-1  134-1   5-1 50-1  -1  -1-1                   4-
+COALKEY           4-1  174-1   4-1 50-1  -1  -1-1                   5-
+ 0.0000000E+00 0.0000000E+00          1          1          1
+ 0.0000000E+00 0.0000000E+00          2          2          2
+ 0.0000000E+00 0.0000000E+00          3          3          3
+ 0.0000000E+00 0.0000000E+00          4          4          4
+ 0.0000000E+00 0.0000000E+00          5          5          5
+ 0.0000000E+00 0.0000000E+00          6          6          6
+ 0.0000000E+00 0.0000000E+00          7          7          7
+ 0.0000000E+00 0.0000000E+00          8          8          8
+ 0.0000000E+00 0.0000000E+00          9          9          9
+ 0.0000000E+00 0.0000000E+00         10         10         10
+ 0.0000000E+00 0.0000000E+00         11         11         11
+ 0.0000000E+00 0.0000000E+00         12         12         12
+ 0.0000000E+00 0.0000000E+00         13         13         13
+ 0.0000000E+00 0.0000000E+00         14         14         14
+ 0.0000000E+00 0.0000000E+00         15         15         15
+ 0.0000000E+00 0.0000000E+00         16         16         16
+ 0.0000000E+00 0.0000000E+00         17         17         17
+ 0.0000000E+00 0.0000000E+00         18         18         18
+ 0.0000000E+00 0.0000000E+00         19         19         19
+ 0.0000000E+00 0.0000000E+00         20         20         20
+ 0.0000000E+00 0.0000000E+00         21         21         21
+ 0.0000000E+00 0.0000000E+00         22         22         22
+ 0.0000000E+00 0.0000000E+00         23         23         23
+ 0.0000000E+00 0.0000000E+00         24         24         24
+ 0.0000000E+00 0.0000000E+00         25         25         25
+ 0.0000000E+00 0.0000000E+00         26         26         26
+ 0.0000000E+00 0.0000000E+00         27         27         27
+ 0.0000000E+00 0.0000000E+00         28         28         28
+ 0.0000000E+00 0.0000000E+00         29         29         29
+ 0.0000000E+00 0.0000000E+00         30         30         30
+ 0.0000000E+00 0.0000000E+00         31         31         31
+ 0.0000000E+00 0.0000000E+00         32         32         32
+ 0.0000000E+00 0.0000000E+00         33         33         33
+ 0.0000000E+00 0.0000000E+00         34         34         34
+ 0.0000000E+00 0.0000000E+00         35         35         35
+ 0.0000000E+00 0.0000000E+00         36         36         36
+ 0.0000000E+00 0.0000000E+00         37         37         37
+ 0.0000000E+00 0.0000000E+00         38         38         38
+ 0.0000000E+00 0.0000000E+00         39         39         39
+ 0.0000000E+00 0.0000000E+00         40         40         40
+ 0.0000000E+00 0.0000000E+00         41         41         41
+ 0.0000000E+00 0.0000000E+00         42         42         42
+ 0.0000000E+00 0.0000000E+00         43         43         43
+ 0.0000000E+00 0.0000000E+00         44         44         44
+ 0.0000000E+00 0.0000000E+00         45         45         45
+ 0.0000000E+00 0.0000000E+00         46         46         46
+ 0.0000000E+00 0.0000000E+00         47         47         47
+ 0.0000000E+00 0.0000000E+00         48         48         48
+ 0.0000000E+00 0.0000000E+00         49         49         49
+ 0.0000000E+00 0.0000000E+00         50         50         50
+ 0.0000000E+00 0.0000000E+00         51         51         51
+ 0.0000000E+00 0.0000000E+00         52         52         52
+ 0.0000000E+00 0.0000000E+00         53         53         53
+ 0.0000000E+00 0.0000000E+00         54         54         54
+ 0.0000000E+00 0.0000000E+00         55         55         55
+ 0.0000000E+00 0.0000000E+00         56         56         56
+ 0.0000000E+00 0.0000000E+00         57         57         57
+ 0.0000000E+00 0.0000000E+00         58         58         58
+ 0.0000000E+00 0.0000000E+00         59         59         59
+ 0.0000000E+00 0.0000000E+00         60         60         60
+ 0.0000000E+00 0.0000000E+00         61         61         61
+ 0.0000000E+00 0.0000000E+00         62         62         62
+ 0.0000000E+00 0.0000000E+00         63         63         63
+ 0.0000000E+00 0.0000000E+00         64         64         64
+ 0.0000000E+00 0.0000000E+00         65         65         65
+ 0.0000000E+00 0.0000000E+00         66         66         66
+ 0.0000000E+00 0.0000000E+00         67         67         67
+ 0.0000000E+00 0.0000000E+00         68         68         68
+ 0.0000000E+00 0.0000000E+00         69         69         69
+ 0.0000000E+00 0.0000000E+00         70         70         70
+ 0.0000000E+00 0.0000000E+00         71         71         71
+ 0.0000000E+00 0.0000000E+00         72         72         72
+ 0.0000000E+00 0.0000000E+00         73         73         73
+ 0.0000000E+00 0.0000000E+00         74         74         74
+ 0.0000000E+00 0.0000000E+00         75         75         75
+ 0.0000000E+00 0.0000000E+00         76         76         76
+ 0.0000000E+00 0.0000000E+00         77         77         77
+ 0.0000000E+00 0.0000000E+00         78         78         78
+ 0.0000000E+00 0.0000000E+00         79         79         79
+ 0.0000000E+00 0.0000000E+00         80         80         80
+ 0.0000000E+00 0.0000000E+00         81         81         81
+ 0.0000000E+00 0.0000000E+00         82         82         82
+ 0.0000000E+00 0.0000000E+00         83         83         83
+ 0.0000000E+00 0.0000000E+00         84         84         84
+ 0.0000000E+00 0.0000000E+00         85         85         85
+ 0.0000000E+00 0.0000000E+00         86         86         86
+ 0.0000000E+00 0.0000000E+00         87         87         87
+ 0.0000000E+00 0.0000000E+00         88         88         88
+ 0.0000000E+00 0.0000000E+00         89         89         89
+ 0.0000000E+00 0.0000000E+00         90         90         90
+ 0.0000000E+00 0.0000000E+00         91         91         91
+ 0.0000000E+00 0.0000000E+00         92         92         92
+ 0.0000000E+00 0.0000000E+00         93         93         93
+ 0.0000000E+00 0.0000000E+00         94         94         94
+ 0.0000000E+00 0.0000000E+00         95         95         95
+ 0.0000000E+00 0.0000000E+00         96         96         96
+ 0.0000000E+00 0.0000000E+00         97         97         97
+ 0.0000000E+00 0.0000000E+00         98         98         98
+ 0.0000000E+00 0.0000000E+00         99         99         99
+ 0.0000000E+00 0.0000000E+00        100        100        100
+ 0.0000000E+00 0.0000000E+00        101        101        101
+ 0.0000000E+00 0.0000000E+00        102        102        102
+ 0.0000000E+00 0.0000000E+00        103        103        103
+ 0.0000000E+00 0.0000000E+00        104        104        104
+ 0.0000000E+00 0.0000000E+00        105        105        105
+ 0.0000000E+00 0.0000000E+00        106        106        106
+ 0.0000000E+00 0.0000000E+00        107        107        107
+ 0.0000000E+00 0.0000000E+00        108        108        108
+ 0.0000000E+00 0.0000000E+00        109        109        109
+ 0.0000000E+00 0.0000000E+00        110        110        110
+ 0.0000000E+00 0.0000000E+00        111        111        111
+ 0.0000000E+00 0.0000000E+00        112        112        112
+ 0.0000000E+00 0.0000000E+00        113        113        113
+ 0.0000000E+00 0.0000000E+00        114        114        114
+ 0.0000000E+00 0.0000000E+00        115        115        115
+ 0.0000000E+00 0.0000000E+00        116        116        116
+ 0.0000000E+00 0.0000000E+00        117        117        117
+ 0.0000000E+00 0.0000000E+00        118        118        118
+ 0.0000000E+00 0.0000000E+00        119        119        119
+ 0.0000000E+00 0.0000000E+00        120        120        120
+ 0.0000000E+00 0.0000000E+00        121        121        121
+ 0.0000000E+00 0.0000000E+00        122        122        122
+ 0.0000000E+00 0.0000000E+00        123        123        123
+ 0.0000000E+00 0.0000000E+00        124        124        124
+ 0.0000000E+00 0.0000000E+00        125        125        125
+ 0.0000000E+00 0.0000000E+00        126        126        126
+ 0.0000000E+00 0.0000000E+00        127        127        127
+ 0.0000000E+00 0.0000000E+00        128        128        128
+ 0.0000000E+00 0.0000000E+00        129        129        129
+ 0.0000000E+00 0.0000000E+00        130        130        130
+ 0.0000000E+00 0.0000000E+00        131        131        131
+ 0.0000000E+00 0.0000000E+00        132        132        132
+ 0.0000000E+00 0.0000000E+00        133        133        133
+ 0.0000000E+00 0.0000000E+00        134        134        134
+ 0.0000000E+00 0.0000000E+00        135        135        135
+ 0.0000000E+00 0.0000000E+00        136        136        136
+ 0.0000000E+00 0.0000000E+00        137        137        137
+ 0.0000000E+00 0.0000000E+00        138        138        138
+ 0.0000000E+00 0.0000000E+00        139        139        139
+ 0.0000000E+00 0.0000000E+00        140        140        140
+ 0.0000000E+00 0.0000000E+00        141        141        141
+ 0.0000000E+00 0.0000000E+00        142        142        142
+ 0.0000000E+00 0.0000000E+00        143        143        143
+ 0.0000000E+00 0.0000000E+00        144        144        144
+ 0.0000000E+00 0.0000000E+00        145        145        145
+ 0.0000000E+00 0.0000000E+00        146        146        146
+ 0.0000000E+00 0.0000000E+00        147        147        147
+ 0.0000000E+00 0.0000000E+00        148        148        148
+ 0.0000000E+00 0.0000000E+00        149        149        149
+ 0.0000000E+00 0.0000000E+00        150        150        150
+ 0.0000000E+00 0.0000000E+00        151        151        151
+ 0.0000000E+00 0.0000000E+00        152        152        152
+ 0.0000000E+00 0.0000000E+00        153        153        153
+ 0.0000000E+00 0.0000000E+00        154        154        154
+ 0.0000000E+00 0.0000000E+00        155        155        155
+ 0.0000000E+00 0.0000000E+00        156        156        156
+ 0.0000000E+00 0.0000000E+00        157        157        157
+ 0.0000000E+00 0.0000000E+00        158        158        158
+ 0.0000000E+00 0.0000000E+00        159        159        159
+ 0.0000000E+00 0.0000000E+00        160        160        160
+ 0.0000000E+00 0.0000000E+00        161        161        161
+ 0.0000000E+00 0.0000000E+00        162        162        162
+ 0.0000000E+00 0.0000000E+00        163        163        163
+ 0.0000000E+00 0.0000000E+00        164        164        164
+ 0.0000000E+00 0.0000000E+00        165        165        165
+ 0.0000000E+00 0.0000000E+00        166        166        166
+ 0.0000000E+00 0.0000000E+00        167        167        167
+ 0.0000000E+00 0.0000000E+00        168        168        168
+ 0.0000000E+00 0.0000000E+00        169        169        169
+ 0.0000000E+00 0.0000000E+00        170        170        170
+ 0.0000000E+00 0.0000000E+00        171        171        171
+ 0.0000000E+00 0.0000000E+00        172        172        172
+ 0.0000000E+00 0.0000000E+00        173        173        173
+ 0.0000000E+00 0.0000000E+00        174        174        174
+ 0.0000000E+00 0.0000000E+00        175        175        175
+ 0.0000000E+00 0.0000000E+00        176        176        176
+ 0.0000000E+00 0.0000000E+00        177        177        177
+ 0.0000000E+00 0.0000000E+00        178        178        178
+ 0.0000000E+00 0.0000000E+00        179        179        179
+ 0.0000000E+00 0.0000000E+00        180        180        180
+COAL_PT.TIC                     XX   3   3  12         4
+IDTIC             4-1   14-1   5-1 50-1  -1  -1-1                   1-
+XTIC              4-1   54-1  12 3 60-1  -1  -1-1                   2-
+YTIC              4-1   94-1  12 3 60-1  -1  -1-1                   3-
+          1 2.4070000E+01 3.9029999E+01
+          2 2.4070000E+01 6.8000000E+01
+          3 1.7924998E+02 6.8000000E+01
+          4 1.7924998E+02 3.9029999E+01
+EOI
+EOS
