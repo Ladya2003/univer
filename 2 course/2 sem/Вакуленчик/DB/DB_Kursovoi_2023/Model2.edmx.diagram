@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bda03ff7408348e1a96461c4044e7120" Name="Diagram1" ZoomLevel="97">
+        <EntityTypeShape EntityType="Model1.ACCOUNT" Width="1.5" PointX="8.125" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model1.CAR" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model1.CLIENT" Width="1.5" PointX="5.875" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model1.EQUIPMENT" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model1.EQUIPMENTLIST" Width="1.5" PointX="0.625" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model1.ORDERTABLE" Width="1.5" PointX="3" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model1.SUPPLIER" Width="1.5" PointX="5.25" PointY="3.5" IsExpanded="true" />
+        <AssociationConnector Association="Model1.SYS_C007999" ManuallyRouted="false" />
+        <AssociationConnector Association="Model1.FK_EQUIPMENT_CAR" ManuallyRouted="false" />
+        <AssociationConnector Association="Model1.SYS_C008025" ManuallyRouted="false" />
+        <AssociationConnector Association="Model1.SYS_C008037" ManuallyRouted="false" />
+        <AssociationConnector Association="Model1.SYS_C008036" ManuallyRouted="false" />
+        <AssociationConnector Association="Model1.SYS_C008011" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

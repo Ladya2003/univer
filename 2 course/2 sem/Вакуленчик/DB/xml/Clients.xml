@@ -1,0 +1,9 @@
+<Clients xmlns:xsi="http://www.w3.org/2001/XMLSchema" xsi:nonamespaceSchemaLocation="http://www.oracle.com/Users.xsd">
+  <Client>
+    <id>110</id>
+    <name>A</name>
+    <surname>P</surname>
+    <age>19</age>
+    <email>ar@mail.ru</email>
+  </Client>
+</Clients>

@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище Model1Container" CdmEntityContainer="Entities2">
+    <EntitySetMapping Name="ACCOUNT">
+      <EntityTypeMapping TypeName="Model1.ACCOUNT">
+        <MappingFragment StoreEntitySet="ACCOUNT">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDCLIENT" ColumnName="IDCLIENT" />
+          <ScalarProperty Name="LOGIN" ColumnName="LOGIN" />
+          <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CAR">
+      <EntityTypeMapping TypeName="Model1.CAR">
+        <MappingFragment StoreEntitySet="CAR">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDSUPPLIER" ColumnName="IDSUPPLIER" />
+          <ScalarProperty Name="IMGSOURCE" ColumnName="IMGSOURCE" />
+          <ScalarProperty Name="BRAND" ColumnName="BRAND" />
+          <ScalarProperty Name="MODEL" ColumnName="MODEL" />
+          <ScalarProperty Name="COLOR" ColumnName="COLOR" />
+          <ScalarProperty Name="WEIGHT" ColumnName="WEIGHT" />
+          <ScalarProperty Name="COST" ColumnName="COST" />
+          <ScalarProperty Name="CARRATING" ColumnName="CARRATING" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CLIENT">
+      <EntityTypeMapping TypeName="Model1.CLIENT">
+        <MappingFragment StoreEntitySet="CLIENT">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="SURNAME" ColumnName="SURNAME" />
+          <ScalarProperty Name="AGE" ColumnName="AGE" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EQUIPMENT">
+      <EntityTypeMapping TypeName="Model1.EQUIPMENT">
+        <MappingFragment StoreEntitySet="EQUIPMENT">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDEQUIPMENTLIST" ColumnName="IDEQUIPMENTLIST" />
+          <ScalarProperty Name="IDCAR" ColumnName="IDCAR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EQUIPMENTLIST">
+      <EntityTypeMapping TypeName="Model1.EQUIPMENTLIST">
+        <MappingFragment StoreEntitySet="EQUIPMENTLIST">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ORDERTABLE">
+      <EntityTypeMapping TypeName="Model1.ORDERTABLE">
+        <MappingFragment StoreEntitySet="ORDERTABLE">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDCLIENT" ColumnName="IDCLIENT" />
+          <ScalarProperty Name="IDCAR" ColumnName="IDCAR" />
+          <ScalarProperty Name="QUANTITY" ColumnName="QUANTITY" />
+          <ScalarProperty Name="ISTESTDRIVE" ColumnName="ISTESTDRIVE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SUPPLIER">
+      <EntityTypeMapping TypeName="Model1.SUPPLIER">
+        <MappingFragment StoreEntitySet="SUPPLIER">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="COMPANY_NAME" ColumnName="COMPANY_NAME" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="ADDNEWORDER" FunctionName="Хранилище Model1.ADDNEWORDER" />
+    <FunctionImportMapping FunctionImportName="DELETECAR" FunctionName="Хранилище Model1.DELETECAR" />
+    <FunctionImportMapping FunctionImportName="DELETECLIENT" FunctionName="Хранилище Model1.DELETECLIENT" />
+    <FunctionImportMapping FunctionImportName="DELETEORDER" FunctionName="Хранилище Model1.DELETEORDER" />
+    <FunctionImportMapping FunctionImportName="GETALLCARINFO" FunctionName="Хранилище Model1.GETALLCARINFO">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model1.GETALLCARINFO_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDSUPPLIER" ColumnName="IDSUPPLIER" />
+          <ScalarProperty Name="IMGSOURCE" ColumnName="IMGSOURCE" />
+          <ScalarProperty Name="BRAND" ColumnName="BRAND" />
+          <ScalarProperty Name="MODEL" ColumnName="MODEL" />
+          <ScalarProperty Name="COLOR" ColumnName="COLOR" />
+          <ScalarProperty Name="WEIGHT" ColumnName="WEIGHT" />
+          <ScalarProperty Name="COST" ColumnName="COST" />
+          <ScalarProperty Name="CARRATING" ColumnName="CARRATING" />
+          <ScalarProperty Name="IDCAR" ColumnName="IDCAR" />
+          <ScalarProperty Name="IDEQUIPMENTLIST" ColumnName="IDEQUIPMENTLIST" />
+          <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+          <ScalarProperty Name="COMPANY_NAME" ColumnName="COMPANY_NAME" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GETALLORDERINFO" FunctionName="Хранилище Model1.GETALLORDERINFO">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model1.GETALLORDERINFO_Result2">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="BRAND" ColumnName="BRAND" />
+          <ScalarProperty Name="MODEL" ColumnName="MODEL" />
+          <ScalarProperty Name="WEIGHT" ColumnName="WEIGHT" />
+          <ScalarProperty Name="COST" ColumnName="COST" />
+          <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="SURNAME" ColumnName="SURNAME" />
+          <ScalarProperty Name="QUANTITY" ColumnName="QUANTITY" />
+          <ScalarProperty Name="ISTESTDRIVE" ColumnName="ISTESTDRIVE" />
+          <ScalarProperty Name="IDCAR" ColumnName="IDCAR" />
+          <ScalarProperty Name="IDCLIENT" ColumnName="IDCLIENT" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GETALLSUPPLIERINFO" FunctionName="Хранилище Model1.GETALLSUPPLIERINFO">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model1.GETALLSUPPLIERINFO_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="COMPANY_NAME" ColumnName="COMPANY_NAME" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GETCLIENTS" FunctionName="Хранилище Model1.GETCLIENTS">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model1.GETCLIENTS_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NAME" ColumnName="NAME" />
+          <ScalarProperty Name="SURNAME" ColumnName="SURNAME" />
+          <ScalarProperty Name="AGE" ColumnName="AGE" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="LOGIN" ColumnName="LOGIN" />
+          <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GETCLIENTS2" FunctionName="Хранилище Model1.GETCLIENTS2" />
+    <FunctionImportMapping FunctionImportName="INSERTCAR" FunctionName="Хранилище Model1.INSERTCAR" />
+    <FunctionImportMapping FunctionImportName="INSERTUSER" FunctionName="Хранилище Model1.INSERTUSER" />
+    <FunctionImportMapping FunctionImportName="UPDATECAR" FunctionName="Хранилище Model1.UPDATECAR" />
+    <FunctionImportMapping FunctionImportName="UPDATECLIENT" FunctionName="Хранилище Model1.UPDATECLIENT" />
+    <FunctionImportMapping FunctionImportName="UPDATEISTESTDRIVE" FunctionName="Хранилище Model1.UPDATEISTESTDRIVE" />
+    <FunctionImportMapping FunctionImportName="UPDATEISTESTDRIVETOZERO" FunctionName="Хранилище Model1.UPDATEISTESTDRIVETOZERO" />
+    <FunctionImportMapping FunctionImportName="UPDATEORDER" FunctionName="Хранилище Model1.UPDATEORDER" />
+    <FunctionImportMapping FunctionImportName="UPDATESUPPLIER" FunctionName="Хранилище Model1.UPDATESUPPLIER" />
+    <FunctionImportMapping FunctionImportName="INSERTEQUIPMENT" FunctionName="Хранилище Model1.INSERTEQUIPMENT" />
+    <FunctionImportMapping FunctionImportName="UPDATEQUANTITY" FunctionName="Хранилище Model1.UPDATEQUANTITY" />
+    <FunctionImportMapping FunctionImportName="UPDATEQUANTITYDECREMENT" FunctionName="Хранилище Model1.UPDATEQUANTITYDECREMENT" />
+  </EntityContainerMapping>
+</Mapping>

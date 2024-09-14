@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище Model1" Provider="Oracle.ManagedDataAccess.Client" ProviderManifestToken="18.0" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ACCOUNT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="IDCLIENT" Type="number" Precision="38" Scale="0" />
+    <Property Name="LOGIN" Type="varchar2" MaxLength="40" />
+    <Property Name="PASSWORD" Type="varchar2" MaxLength="40" />
+  </EntityType>
+  <EntityType Name="CAR">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="IDSUPPLIER" Type="number" Precision="38" Scale="0" />
+    <Property Name="IMGSOURCE" Type="varchar2" MaxLength="40" />
+    <Property Name="BRAND" Type="varchar2" MaxLength="40" />
+    <Property Name="MODEL" Type="varchar2" MaxLength="40" />
+    <Property Name="COLOR" Type="varchar2" MaxLength="40" />
+    <Property Name="WEIGHT" Type="float" Precision="126" Scale="0" />
+    <Property Name="COST" Type="float" Precision="126" Scale="0" />
+    <Property Name="CARRATING" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="CLIENT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="NAME" Type="varchar2" MaxLength="40" />
+    <Property Name="SURNAME" Type="varchar2" MaxLength="40" />
+    <Property Name="AGE" Type="number" Precision="38" Scale="0" />
+    <Property Name="EMAIL" Type="varchar2" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="EQUIPMENT">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="IDEQUIPMENTLIST" Type="number" Precision="38" Scale="0" />
+    <Property Name="IDCAR" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="EQUIPMENTLIST">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="DESCRIPTION" Type="varchar2" MaxLength="40" />
+  </EntityType>
+  <EntityType Name="ORDERTABLE">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="IDCLIENT" Type="number" Precision="38" Scale="0" />
+    <Property Name="IDCAR" Type="number" Precision="38" Scale="0" />
+    <Property Name="QUANTITY" Type="number" Precision="38" Scale="0" />
+    <Property Name="ISTESTDRIVE" Type="number" Precision="1" Scale="0" />
+  </EntityType>
+  <EntityType Name="SUPPLIER">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="COMPANY_NAME" Type="varchar2" MaxLength="40" />
+    <Property Name="EMAIL" Type="varchar2" MaxLength="40" />
+  </EntityType>
+  <Association Name="FK_EQUIPMENT_CAR">
+    <End Role="CAR" Type="Self.CAR" Multiplicity="0..1" />
+    <End Role="EQUIPMENT" Type="Self.EQUIPMENT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CAR">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="EQUIPMENT">
+        <PropertyRef Name="IDCAR" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="SYS_C007999">
+    <End Role="CLIENT" Type="Self.CLIENT" Multiplicity="0..1" />
+    <End Role="ACCOUNT" Type="Self.ACCOUNT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CLIENT">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ACCOUNT">
+        <PropertyRef Name="IDCLIENT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="SYS_C008011">
+    <End Role="EQUIPMENTLIST" Type="Self.EQUIPMENTLIST" Multiplicity="0..1" />
+    <End Role="EQUIPMENT" Type="Self.EQUIPMENT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EQUIPMENTLIST">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="EQUIPMENT">
+        <PropertyRef Name="IDEQUIPMENTLIST" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="SYS_C008025">
+    <End Role="SUPPLIER" Type="Self.SUPPLIER" Multiplicity="0..1" />
+    <End Role="CAR" Type="Self.CAR" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SUPPLIER">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CAR">
+        <PropertyRef Name="IDSUPPLIER" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="SYS_C008036">
+    <End Role="CLIENT" Type="Self.CLIENT" Multiplicity="0..1" />
+    <End Role="ORDERTABLE" Type="Self.ORDERTABLE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CLIENT">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ORDERTABLE">
+        <PropertyRef Name="IDCLIENT" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="SYS_C008037">
+    <End Role="CAR" Type="Self.CAR" Multiplicity="0..1" />
+    <End Role="ORDERTABLE" Type="Self.ORDERTABLE" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CAR">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ORDERTABLE">
+        <PropertyRef Name="IDCAR" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="ADDNEWORDER" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE">
+    <Parameter Name="P_ID" Type="number" Mode="In" />
+    <Parameter Name="P_IDCLIENT" Type="number" Mode="In" />
+    <Parameter Name="P_IDCAR" Type="number" Mode="In" />
+    <Parameter Name="P_QUANTITY" Type="number" Mode="In" />
+    <Parameter Name="P_ISTESTDRIVE" Type="number" Mode="In" />
+  </Function>
+  <Function Name="DELETECAR" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE">
+    <Parameter Name="P_ID" Type="number" Mode="In" />
+  </Function>
+  <Function Name="DELETECLIENT" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE">
+    <Parameter Name="P_ID" Type="number" Mode="In" />
+  </Function>
+  <Function Name="DELETEORDER" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE">
+    <Parameter Name="P_ID" Type="number" Mode="In" />
+  </Function>
+  <Function Name="GETALLCARINFO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE" />
+  <Function Name="GETALLORDERINFO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE" />
+  <Function Name="GETALLSUPPLIERINFO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE" />
+  <Function Name="GETCLIENTS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE" />
+  <Function Name="GETCLIENTS2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE" />
+  <Function Name="INSERTCAR" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE">
+    <Parameter Name="INSERTBRAND" Type="varchar2" Mode="In" />
+    <Parameter Name="INSERTMODEL" Type="varchar2" Mode="In" />
+    <Parameter Name="INSERTCOLOR" Type="varchar2" Mode="In" />
+    <Parameter Name="INSERTWEIGHT" Type="float" Mode="In" />
+    <Parameter Name="INSERTCOST" Type="float" Mode="In" />
+    <Parameter Name="INSERTIMGSOURCE" Type="varchar2" Mode="In" />
+    <Parameter Name="INSERTCOMPANYNAME" Type="number" Mode="In" />
+    <Parameter Name="INSERTRATINGCAR" Type="number" Mode="In" />
+  </Function>
+  <Function Name="INSERTEQUIPMENT" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE">
+    <Parameter Name="INSERTEQUIPMENTLISTID" Type="number" Mode="In" />
+    <Parameter Name="INSERTCARID" Type="number" Mode="In" />
+  </Function>
+  <Function Name="INSERTUSER" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE">
+    <Parameter Name="INSERTLOGIN" Type="varchar2" Mode="In" />
+    <Parameter Name="INSERTPASSWORD" Type="varchar2" Mode="In" />
+    <Parameter Name="INSERTNAME" Type="varchar2" Mode="In" />
+    <Parameter Name="INSERTSURNAME" Type="varchar2" Mode="In" />
+    <Parameter Name="INSERTAGE" Type="number" Mode="In" />
+    <Parameter Name="INSERTEMAIL" Type="varchar2" Mode="In" />
+  </Function>
+  <Function Name="UPDATECAR" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE">
+    <Parameter Name="P_ID" Type="number" Mode="In" />
+    <Parameter Name="INSERTBRAND" Type="varchar2" Mode="In" />
+    <Parameter Name="INSERTMODEL" Type="varchar2" Mode="In" />
+    <Parameter Name="INSERTCOLOR" Type="varchar2" Mode="In" />
+    <Parameter Name="INSERTWEIGHT" Type="float" Mode="In" />
+    <Parameter Name="INSERTCOST" Type="float" Mode="In" />
+    <Parameter Name="INSERTDESCRIPTION" Type="number" Mode="In" />
+    <Parameter Name="INSERTCOMPANYNAME" Type="number" Mode="In" />
+    <Parameter Name="INSERTRATINGCAR" Type="number" Mode="In" />
+  </Function>
+  <Function Name="UPDATECLIENT" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE">
+    <Parameter Name="P_ID" Type="number" Mode="In" />
+    <Parameter Name="INSERTLOGIN" Type="varchar2" Mode="In" />
+    <Parameter Name="INSERTPASSWORD" Type="varchar2" Mode="In" />
+    <Parameter Name="INSERTNAME" Type="varchar2" Mode="In" />
+    <Parameter Name="INSERTSURNAME" Type="varchar2" Mode="In" />
+    <Parameter Name="INSERTAGE" Type="number" Mode="In" />
+    <Parameter Name="INSERTEMAIL" Type="varchar2" Mode="In" />
+  </Function>
+  <Function Name="UPDATEISTESTDRIVE" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE">
+    <Parameter Name="ORDERID" Type="number" Mode="In" />
+  </Function>
+  <Function Name="UPDATEISTESTDRIVETOZERO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE">
+    <Parameter Name="ORDERID" Type="number" Mode="In" />
+  </Function>
+  <Function Name="UPDATEORDER" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE">
+    <Parameter Name="P_ID" Type="number" Mode="In" />
+    <Parameter Name="P_IDCLIENT" Type="number" Mode="In" />
+    <Parameter Name="P_IDCAR" Type="number" Mode="In" />
+    <Parameter Name="P_QUANTITY" Type="number" Mode="In" />
+    <Parameter Name="P_ISTESTDRIVE" Type="number" Mode="In" />
+  </Function>
+  <Function Name="UPDATEQUANTITY" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE">
+    <Parameter Name="ORDERID" Type="number" Mode="In" />
+  </Function>
+  <Function Name="UPDATEQUANTITYDECREMENT" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE">
+    <Parameter Name="ORDERID" Type="number" Mode="In" />
+  </Function>
+  <Function Name="UPDATESUPPLIER" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE">
+    <Parameter Name="P_ID" Type="number" Mode="In" />
+    <Parameter Name="INSERTCOMPANYNAME" Type="varchar2" Mode="In" />
+    <Parameter Name="INSERTEMAIL" Type="varchar2" Mode="In" />
+  </Function>
+  <EntityContainer Name="Хранилище Model1Container">
+    <EntitySet Name="ACCOUNT" EntityType="Self.ACCOUNT" Schema="ADMINCORE" store:Type="Tables" />
+    <EntitySet Name="CAR" EntityType="Self.CAR" Schema="ADMINCORE" store:Type="Tables" />
+    <EntitySet Name="CLIENT" EntityType="Self.CLIENT" Schema="ADMINCORE" store:Type="Tables" />
+    <EntitySet Name="EQUIPMENT" EntityType="Self.EQUIPMENT" Schema="ADMINCORE" store:Type="Tables" />
+    <EntitySet Name="EQUIPMENTLIST" EntityType="Self.EQUIPMENTLIST" Schema="ADMINCORE" store:Type="Tables" />
+    <EntitySet Name="ORDERTABLE" EntityType="Self.ORDERTABLE" Schema="ADMINCORE" store:Type="Tables" />
+    <EntitySet Name="SUPPLIER" EntityType="Self.SUPPLIER" Schema="ADMINCORE" store:Type="Tables" />
+    <AssociationSet Name="FK_EQUIPMENT_CAR" Association="Self.FK_EQUIPMENT_CAR">
+      <End Role="CAR" EntitySet="CAR" />
+      <End Role="EQUIPMENT" EntitySet="EQUIPMENT" />
+    </AssociationSet>
+    <AssociationSet Name="SYS_C007999" Association="Self.SYS_C007999">
+      <End Role="CLIENT" EntitySet="CLIENT" />
+      <End Role="ACCOUNT" EntitySet="ACCOUNT" />
+    </AssociationSet>
+    <AssociationSet Name="SYS_C008011" Association="Self.SYS_C008011">
+      <End Role="EQUIPMENTLIST" EntitySet="EQUIPMENTLIST" />
+      <End Role="EQUIPMENT" EntitySet="EQUIPMENT" />
+    </AssociationSet>
+    <AssociationSet Name="SYS_C008025" Association="Self.SYS_C008025">
+      <End Role="SUPPLIER" EntitySet="SUPPLIER" />
+      <End Role="CAR" EntitySet="CAR" />
+    </AssociationSet>
+    <AssociationSet Name="SYS_C008036" Association="Self.SYS_C008036">
+      <End Role="CLIENT" EntitySet="CLIENT" />
+      <End Role="ORDERTABLE" EntitySet="ORDERTABLE" />
+    </AssociationSet>
+    <AssociationSet Name="SYS_C008037" Association="Self.SYS_C008037">
+      <End Role="CAR" EntitySet="CAR" />
+      <End Role="ORDERTABLE" EntitySet="ORDERTABLE" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

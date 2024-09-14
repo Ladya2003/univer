@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="Entities3" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="GETALLCARINFO" ReturnType="Collection(Model.GETALLCARINFO_Result)" />
+  </EntityContainer>
+  <ComplexType Name="GETALLCARINFO_Result">
+    <Property Type="Decimal" Name="ID" Nullable="false" />
+    <Property Type="Decimal" Name="IDSUPPLIER" Nullable="true" />
+    <Property Type="String" Name="IMGSOURCE" Nullable="true" />
+    <Property Type="String" Name="BRAND" Nullable="true" />
+    <Property Type="String" Name="MODEL" Nullable="true" />
+    <Property Type="String" Name="COLOR" Nullable="true" />
+    <Property Type="Decimal" Name="WEIGHT" Nullable="true" />
+    <Property Type="Decimal" Name="COST" Nullable="true" />
+    <Property Type="Decimal" Name="CARRATING" Nullable="true" />
+    <Property Type="Decimal" Name="IDCAR" Nullable="true" />
+    <Property Type="Decimal" Name="IDEQUIPMENTLIST" Nullable="true" />
+    <Property Type="String" Name="DESCRIPTION" Nullable="true" />
+    <Property Type="String" Name="COMPANY_NAME" Nullable="true" />
+    <Property Type="String" Name="EMAIL" Nullable="true" />
+  </ComplexType>
+</Schema>

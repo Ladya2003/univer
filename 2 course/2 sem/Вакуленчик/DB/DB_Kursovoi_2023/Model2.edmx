@@ -1,0 +1,787 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Хранилище Model1" Provider="Oracle.ManagedDataAccess.Client" ProviderManifestToken="18.0" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="ACCOUNT">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="IDCLIENT" Type="number" Precision="38" Scale="0" />
+          <Property Name="LOGIN" Type="varchar2" MaxLength="40" />
+          <Property Name="PASSWORD" Type="varchar2" MaxLength="40" />
+        </EntityType>
+        <EntityType Name="CAR">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="IDSUPPLIER" Type="number" Precision="38" Scale="0" />
+          <Property Name="IMGSOURCE" Type="varchar2" MaxLength="40" />
+          <Property Name="BRAND" Type="varchar2" MaxLength="40" />
+          <Property Name="MODEL" Type="varchar2" MaxLength="40" />
+          <Property Name="COLOR" Type="varchar2" MaxLength="40" />
+          <Property Name="WEIGHT" Type="float" Precision="126" Scale="0" />
+          <Property Name="COST" Type="float" Precision="126" Scale="0" />
+          <Property Name="CARRATING" Type="number" Precision="38" Scale="0" />
+        </EntityType>
+        <EntityType Name="CLIENT">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="NAME" Type="varchar2" MaxLength="40" />
+          <Property Name="SURNAME" Type="varchar2" MaxLength="40" />
+          <Property Name="AGE" Type="number" Precision="38" Scale="0" />
+          <Property Name="EMAIL" Type="varchar2" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="EQUIPMENT">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="IDEQUIPMENTLIST" Type="number" Precision="38" Scale="0" />
+          <Property Name="IDCAR" Type="number" Precision="38" Scale="0" />
+        </EntityType>
+        <EntityType Name="EQUIPMENTLIST">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="DESCRIPTION" Type="varchar2" MaxLength="40" />
+        </EntityType>
+        <EntityType Name="ORDERTABLE">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="IDCLIENT" Type="number" Precision="38" Scale="0" />
+          <Property Name="IDCAR" Type="number" Precision="38" Scale="0" />
+          <Property Name="QUANTITY" Type="number" Precision="38" Scale="0" />
+          <Property Name="ISTESTDRIVE" Type="number" Precision="1" Scale="0" />
+        </EntityType>
+        <EntityType Name="SUPPLIER">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="COMPANY_NAME" Type="varchar2" MaxLength="40" />
+          <Property Name="EMAIL" Type="varchar2" MaxLength="40" />
+        </EntityType>
+        <Association Name="FK_EQUIPMENT_CAR">
+          <End Role="CAR" Type="Self.CAR" Multiplicity="0..1" />
+          <End Role="EQUIPMENT" Type="Self.EQUIPMENT" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CAR">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="EQUIPMENT">
+              <PropertyRef Name="IDCAR" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C007999">
+          <End Role="CLIENT" Type="Self.CLIENT" Multiplicity="0..1" />
+          <End Role="ACCOUNT" Type="Self.ACCOUNT" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CLIENT">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="ACCOUNT">
+              <PropertyRef Name="IDCLIENT" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C008011">
+          <End Role="EQUIPMENTLIST" Type="Self.EQUIPMENTLIST" Multiplicity="0..1" />
+          <End Role="EQUIPMENT" Type="Self.EQUIPMENT" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EQUIPMENTLIST">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="EQUIPMENT">
+              <PropertyRef Name="IDEQUIPMENTLIST" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C008025">
+          <End Role="SUPPLIER" Type="Self.SUPPLIER" Multiplicity="0..1" />
+          <End Role="CAR" Type="Self.CAR" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SUPPLIER">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="CAR">
+              <PropertyRef Name="IDSUPPLIER" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C008036">
+          <End Role="CLIENT" Type="Self.CLIENT" Multiplicity="0..1" />
+          <End Role="ORDERTABLE" Type="Self.ORDERTABLE" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CLIENT">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="ORDERTABLE">
+              <PropertyRef Name="IDCLIENT" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C008037">
+          <End Role="CAR" Type="Self.CAR" Multiplicity="0..1" />
+          <End Role="ORDERTABLE" Type="Self.ORDERTABLE" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CAR">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="ORDERTABLE">
+              <PropertyRef Name="IDCAR" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Function Name="ADDNEWORDER" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE">
+          <Parameter Name="P_ID" Type="number" Mode="In" />
+          <Parameter Name="P_IDCLIENT" Type="number" Mode="In" />
+          <Parameter Name="P_IDCAR" Type="number" Mode="In" />
+          <Parameter Name="P_QUANTITY" Type="number" Mode="In" />
+          <Parameter Name="P_ISTESTDRIVE" Type="number" Mode="In" />
+        </Function>
+        <Function Name="DELETECAR" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE">
+          <Parameter Name="P_ID" Type="number" Mode="In" />
+        </Function>
+        <Function Name="DELETECLIENT" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE">
+          <Parameter Name="P_ID" Type="number" Mode="In" />
+        </Function>
+        <Function Name="DELETEORDER" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE">
+          <Parameter Name="P_ID" Type="number" Mode="In" />
+        </Function>
+        <Function Name="GETALLCARINFO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE" />
+        <Function Name="GETALLORDERINFO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE" />
+        <Function Name="GETALLSUPPLIERINFO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE" />
+        <Function Name="GETCLIENTS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE" />
+        <Function Name="GETCLIENTS2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE" />
+        <Function Name="INSERTCAR" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE">
+          <Parameter Name="INSERTBRAND" Type="varchar2" Mode="In" />
+          <Parameter Name="INSERTMODEL" Type="varchar2" Mode="In" />
+          <Parameter Name="INSERTCOLOR" Type="varchar2" Mode="In" />
+          <Parameter Name="INSERTWEIGHT" Type="float" Mode="In" />
+          <Parameter Name="INSERTCOST" Type="float" Mode="In" />
+          <Parameter Name="INSERTIMGSOURCE" Type="varchar2" Mode="In" />
+          <Parameter Name="INSERTCOMPANYNAME" Type="number" Mode="In" />
+          <Parameter Name="INSERTRATINGCAR" Type="number" Mode="In" />
+        </Function>
+        <Function Name="INSERTEQUIPMENT" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE">
+          <Parameter Name="INSERTEQUIPMENTLISTID" Type="number" Mode="In" />
+          <Parameter Name="INSERTCARID" Type="number" Mode="In" />
+        </Function>
+        <Function Name="INSERTUSER" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE">
+          <Parameter Name="INSERTLOGIN" Type="varchar2" Mode="In" />
+          <Parameter Name="INSERTPASSWORD" Type="varchar2" Mode="In" />
+          <Parameter Name="INSERTNAME" Type="varchar2" Mode="In" />
+          <Parameter Name="INSERTSURNAME" Type="varchar2" Mode="In" />
+          <Parameter Name="INSERTAGE" Type="number" Mode="In" />
+          <Parameter Name="INSERTEMAIL" Type="varchar2" Mode="In" />
+        </Function>
+        <Function Name="UPDATECAR" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE">
+          <Parameter Name="P_ID" Type="number" Mode="In" />
+          <Parameter Name="INSERTBRAND" Type="varchar2" Mode="In" />
+          <Parameter Name="INSERTMODEL" Type="varchar2" Mode="In" />
+          <Parameter Name="INSERTCOLOR" Type="varchar2" Mode="In" />
+          <Parameter Name="INSERTWEIGHT" Type="float" Mode="In" />
+          <Parameter Name="INSERTCOST" Type="float" Mode="In" />
+          <Parameter Name="INSERTDESCRIPTION" Type="number" Mode="In" />
+          <Parameter Name="INSERTCOMPANYNAME" Type="number" Mode="In" />
+          <Parameter Name="INSERTRATINGCAR" Type="number" Mode="In" />
+        </Function>
+        <Function Name="UPDATECLIENT" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE">
+          <Parameter Name="P_ID" Type="number" Mode="In" />
+          <Parameter Name="INSERTLOGIN" Type="varchar2" Mode="In" />
+          <Parameter Name="INSERTPASSWORD" Type="varchar2" Mode="In" />
+          <Parameter Name="INSERTNAME" Type="varchar2" Mode="In" />
+          <Parameter Name="INSERTSURNAME" Type="varchar2" Mode="In" />
+          <Parameter Name="INSERTAGE" Type="number" Mode="In" />
+          <Parameter Name="INSERTEMAIL" Type="varchar2" Mode="In" />
+        </Function>
+        <Function Name="UPDATEISTESTDRIVE" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE">
+          <Parameter Name="ORDERID" Type="number" Mode="In" />
+        </Function>
+        <Function Name="UPDATEISTESTDRIVETOZERO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE">
+          <Parameter Name="ORDERID" Type="number" Mode="In" />
+        </Function>
+        <Function Name="UPDATEORDER" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE">
+          <Parameter Name="P_ID" Type="number" Mode="In" />
+          <Parameter Name="P_IDCLIENT" Type="number" Mode="In" />
+          <Parameter Name="P_IDCAR" Type="number" Mode="In" />
+          <Parameter Name="P_QUANTITY" Type="number" Mode="In" />
+          <Parameter Name="P_ISTESTDRIVE" Type="number" Mode="In" />
+        </Function>
+        <Function Name="UPDATEQUANTITY" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE">
+          <Parameter Name="ORDERID" Type="number" Mode="In" />
+        </Function>
+        <Function Name="UPDATEQUANTITYDECREMENT" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE">
+          <Parameter Name="ORDERID" Type="number" Mode="In" />
+        </Function>
+        <Function Name="UPDATESUPPLIER" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="ADMINCORE">
+          <Parameter Name="P_ID" Type="number" Mode="In" />
+          <Parameter Name="INSERTCOMPANYNAME" Type="varchar2" Mode="In" />
+          <Parameter Name="INSERTEMAIL" Type="varchar2" Mode="In" />
+        </Function>
+        <EntityContainer Name="Хранилище Model1Container">
+          <EntitySet Name="ACCOUNT" EntityType="Self.ACCOUNT" Schema="ADMINCORE" store:Type="Tables" />
+          <EntitySet Name="CAR" EntityType="Self.CAR" Schema="ADMINCORE" store:Type="Tables" />
+          <EntitySet Name="CLIENT" EntityType="Self.CLIENT" Schema="ADMINCORE" store:Type="Tables" />
+          <EntitySet Name="EQUIPMENT" EntityType="Self.EQUIPMENT" Schema="ADMINCORE" store:Type="Tables" />
+          <EntitySet Name="EQUIPMENTLIST" EntityType="Self.EQUIPMENTLIST" Schema="ADMINCORE" store:Type="Tables" />
+          <EntitySet Name="ORDERTABLE" EntityType="Self.ORDERTABLE" Schema="ADMINCORE" store:Type="Tables" />
+          <EntitySet Name="SUPPLIER" EntityType="Self.SUPPLIER" Schema="ADMINCORE" store:Type="Tables" />
+          <AssociationSet Name="FK_EQUIPMENT_CAR" Association="Self.FK_EQUIPMENT_CAR">
+            <End Role="CAR" EntitySet="CAR" />
+            <End Role="EQUIPMENT" EntitySet="EQUIPMENT" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C007999" Association="Self.SYS_C007999">
+            <End Role="CLIENT" EntitySet="CLIENT" />
+            <End Role="ACCOUNT" EntitySet="ACCOUNT" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C008011" Association="Self.SYS_C008011">
+            <End Role="EQUIPMENTLIST" EntitySet="EQUIPMENTLIST" />
+            <End Role="EQUIPMENT" EntitySet="EQUIPMENT" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C008025" Association="Self.SYS_C008025">
+            <End Role="SUPPLIER" EntitySet="SUPPLIER" />
+            <End Role="CAR" EntitySet="CAR" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C008036" Association="Self.SYS_C008036">
+            <End Role="CLIENT" EntitySet="CLIENT" />
+            <End Role="ORDERTABLE" EntitySet="ORDERTABLE" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C008037" Association="Self.SYS_C008037">
+            <End Role="CAR" EntitySet="CAR" />
+            <End Role="ORDERTABLE" EntitySet="ORDERTABLE" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Model1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="ACCOUNT">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="IDCLIENT" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="LOGIN" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="PASSWORD" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="CLIENT" Relationship="Self.SYS_C007999" FromRole="ACCOUNT" ToRole="CLIENT" />
+        </EntityType>
+        <EntityType Name="CAR">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="IDSUPPLIER" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="IMGSOURCE" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="BRAND" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="MODEL" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="COLOR" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="WEIGHT" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="COST" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="CARRATING" Type="Decimal" Precision="38" Scale="0" />
+          <NavigationProperty Name="EQUIPMENT" Relationship="Self.FK_EQUIPMENT_CAR" FromRole="CAR" ToRole="EQUIPMENT" />
+          <NavigationProperty Name="SUPPLIER" Relationship="Self.SYS_C008025" FromRole="CAR" ToRole="SUPPLIER" />
+          <NavigationProperty Name="ORDERTABLE" Relationship="Self.SYS_C008037" FromRole="CAR" ToRole="ORDERTABLE" />
+        </EntityType>
+        <EntityType Name="CLIENT">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="NAME" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="SURNAME" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="AGE" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="EMAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="ACCOUNT" Relationship="Self.SYS_C007999" FromRole="CLIENT" ToRole="ACCOUNT" />
+          <NavigationProperty Name="ORDERTABLE" Relationship="Self.SYS_C008036" FromRole="CLIENT" ToRole="ORDERTABLE" />
+        </EntityType>
+        <EntityType Name="EQUIPMENT">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="IDEQUIPMENTLIST" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="IDCAR" Type="Decimal" Precision="38" Scale="0" />
+          <NavigationProperty Name="CAR" Relationship="Self.FK_EQUIPMENT_CAR" FromRole="EQUIPMENT" ToRole="CAR" />
+          <NavigationProperty Name="EQUIPMENTLIST" Relationship="Self.SYS_C008011" FromRole="EQUIPMENT" ToRole="EQUIPMENTLIST" />
+        </EntityType>
+        <EntityType Name="EQUIPMENTLIST">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="DESCRIPTION" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="EQUIPMENT" Relationship="Self.SYS_C008011" FromRole="EQUIPMENTLIST" ToRole="EQUIPMENT" />
+        </EntityType>
+        <EntityType Name="ORDERTABLE">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="IDCLIENT" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="IDCAR" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="QUANTITY" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="ISTESTDRIVE" Type="Boolean" />
+          <NavigationProperty Name="CAR" Relationship="Self.SYS_C008037" FromRole="ORDERTABLE" ToRole="CAR" />
+          <NavigationProperty Name="CLIENT" Relationship="Self.SYS_C008036" FromRole="ORDERTABLE" ToRole="CLIENT" />
+        </EntityType>
+        <EntityType Name="SUPPLIER">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="COMPANY_NAME" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="EMAIL" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="CAR" Relationship="Self.SYS_C008025" FromRole="SUPPLIER" ToRole="CAR" />
+        </EntityType>
+        <Association Name="SYS_C007999">
+          <End Role="CLIENT" Type="Self.CLIENT" Multiplicity="0..1" />
+          <End Role="ACCOUNT" Type="Self.ACCOUNT" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CLIENT">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="ACCOUNT">
+              <PropertyRef Name="IDCLIENT" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EQUIPMENT_CAR">
+          <End Role="CAR" Type="Self.CAR" Multiplicity="0..1" />
+          <End Role="EQUIPMENT" Type="Self.EQUIPMENT" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CAR">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="EQUIPMENT">
+              <PropertyRef Name="IDCAR" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C008025">
+          <End Role="SUPPLIER" Type="Self.SUPPLIER" Multiplicity="0..1" />
+          <End Role="CAR" Type="Self.CAR" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SUPPLIER">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="CAR">
+              <PropertyRef Name="IDSUPPLIER" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C008037">
+          <End Role="CAR" Type="Self.CAR" Multiplicity="0..1" />
+          <End Role="ORDERTABLE" Type="Self.ORDERTABLE" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CAR">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="ORDERTABLE">
+              <PropertyRef Name="IDCAR" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C008036">
+          <End Role="CLIENT" Type="Self.CLIENT" Multiplicity="0..1" />
+          <End Role="ORDERTABLE" Type="Self.ORDERTABLE" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="CLIENT">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="ORDERTABLE">
+              <PropertyRef Name="IDCLIENT" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C008011">
+          <End Role="EQUIPMENTLIST" Type="Self.EQUIPMENTLIST" Multiplicity="0..1" />
+          <End Role="EQUIPMENT" Type="Self.EQUIPMENT" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EQUIPMENTLIST">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="EQUIPMENT">
+              <PropertyRef Name="IDEQUIPMENTLIST" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Entities2" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="ACCOUNT" EntityType="Self.ACCOUNT" />
+          <EntitySet Name="CAR" EntityType="Self.CAR" />
+          <EntitySet Name="CLIENT" EntityType="Self.CLIENT" />
+          <EntitySet Name="EQUIPMENT" EntityType="Self.EQUIPMENT" />
+          <EntitySet Name="EQUIPMENTLIST" EntityType="Self.EQUIPMENTLIST" />
+          <EntitySet Name="ORDERTABLE" EntityType="Self.ORDERTABLE" />
+          <EntitySet Name="SUPPLIER" EntityType="Self.SUPPLIER" />
+          <AssociationSet Name="SYS_C007999" Association="Self.SYS_C007999">
+            <End Role="CLIENT" EntitySet="CLIENT" />
+            <End Role="ACCOUNT" EntitySet="ACCOUNT" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EQUIPMENT_CAR" Association="Self.FK_EQUIPMENT_CAR">
+            <End Role="CAR" EntitySet="CAR" />
+            <End Role="EQUIPMENT" EntitySet="EQUIPMENT" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C008025" Association="Self.SYS_C008025">
+            <End Role="SUPPLIER" EntitySet="SUPPLIER" />
+            <End Role="CAR" EntitySet="CAR" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C008037" Association="Self.SYS_C008037">
+            <End Role="CAR" EntitySet="CAR" />
+            <End Role="ORDERTABLE" EntitySet="ORDERTABLE" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C008036" Association="Self.SYS_C008036">
+            <End Role="CLIENT" EntitySet="CLIENT" />
+            <End Role="ORDERTABLE" EntitySet="ORDERTABLE" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C008011" Association="Self.SYS_C008011">
+            <End Role="EQUIPMENTLIST" EntitySet="EQUIPMENTLIST" />
+            <End Role="EQUIPMENT" EntitySet="EQUIPMENT" />
+          </AssociationSet>
+          <FunctionImport Name="ADDNEWORDER">
+            <Parameter Name="P_ID" Mode="In" Type="Decimal" />
+            <Parameter Name="P_IDCLIENT" Mode="In" Type="Decimal" />
+            <Parameter Name="P_IDCAR" Mode="In" Type="Decimal" />
+            <Parameter Name="P_QUANTITY" Mode="In" Type="Decimal" />
+            <Parameter Name="P_ISTESTDRIVE" Mode="In" Type="Decimal" />
+          </FunctionImport>
+          <FunctionImport Name="DELETECAR">
+          <Parameter Name="P_ID" Mode="In" Type="Decimal" />
+          </FunctionImport>
+          <FunctionImport Name="DELETECLIENT">
+          <Parameter Name="P_ID" Mode="In" Type="Decimal" />
+          </FunctionImport>
+          <FunctionImport Name="DELETEORDER">
+          <Parameter Name="P_ID" Mode="In" Type="Decimal" />
+          </FunctionImport>
+          <FunctionImport Name="GETALLCARINFO" ReturnType="Collection(Model1.GETALLCARINFO_Result)" />
+          <FunctionImport Name="GETALLORDERINFO" ReturnType="Collection(Model1.GETALLORDERINFO_Result2)" />
+          <FunctionImport Name="GETALLSUPPLIERINFO" ReturnType="Collection(Model1.GETALLSUPPLIERINFO_Result)" />
+          <FunctionImport Name="GETCLIENTS" ReturnType="Collection(Model1.GETCLIENTS_Result)" />
+          <FunctionImport Name="GETCLIENTS2" />
+          <FunctionImport Name="INSERTCAR">
+            <Parameter Name="INSERTBRAND" Mode="In" Type="String" />
+            <Parameter Name="INSERTMODEL" Mode="In" Type="String" />
+            <Parameter Name="INSERTCOLOR" Mode="In" Type="String" />
+            <Parameter Name="INSERTWEIGHT" Mode="In" Type="Decimal" />
+            <Parameter Name="INSERTCOST" Mode="In" Type="Decimal" />
+            <Parameter Name="INSERTIMGSOURCE" Mode="In" Type="String" />
+            <Parameter Name="INSERTCOMPANYNAME" Mode="In" Type="Decimal" />
+            <Parameter Name="INSERTRATINGCAR" Mode="In" Type="Decimal" />
+          </FunctionImport>
+          <FunctionImport Name="INSERTUSER">
+            <Parameter Name="INSERTLOGIN" Mode="In" Type="String" />
+            <Parameter Name="INSERTPASSWORD" Mode="In" Type="String" />
+            <Parameter Name="INSERTNAME" Mode="In" Type="String" />
+            <Parameter Name="INSERTSURNAME" Mode="In" Type="String" />
+            <Parameter Name="INSERTAGE" Mode="In" Type="Decimal" />
+            <Parameter Name="INSERTEMAIL" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="UPDATECAR">
+            <Parameter Name="P_ID" Mode="In" Type="Decimal" />
+            <Parameter Name="INSERTBRAND" Mode="In" Type="String" />
+            <Parameter Name="INSERTMODEL" Mode="In" Type="String" />
+            <Parameter Name="INSERTCOLOR" Mode="In" Type="String" />
+            <Parameter Name="INSERTWEIGHT" Mode="In" Type="Decimal" />
+            <Parameter Name="INSERTCOST" Mode="In" Type="Decimal" />
+            <Parameter Name="INSERTDESCRIPTION" Mode="In" Type="Decimal" />
+            <Parameter Name="INSERTCOMPANYNAME" Mode="In" Type="Decimal" />
+            <Parameter Name="INSERTRATINGCAR" Mode="In" Type="Decimal" />
+          </FunctionImport>
+          <FunctionImport Name="UPDATECLIENT">
+            <Parameter Name="P_ID" Mode="In" Type="Decimal" />
+            <Parameter Name="INSERTLOGIN" Mode="In" Type="String" />
+            <Parameter Name="INSERTPASSWORD" Mode="In" Type="String" />
+            <Parameter Name="INSERTNAME" Mode="In" Type="String" />
+            <Parameter Name="INSERTSURNAME" Mode="In" Type="String" />
+            <Parameter Name="INSERTAGE" Mode="In" Type="Decimal" />
+            <Parameter Name="INSERTEMAIL" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="UPDATEISTESTDRIVE">
+          <Parameter Name="ORDERID" Mode="In" Type="Decimal" />
+          </FunctionImport>
+          <FunctionImport Name="UPDATEISTESTDRIVETOZERO">
+          <Parameter Name="ORDERID" Mode="In" Type="Decimal" />
+          </FunctionImport>
+          <FunctionImport Name="UPDATEORDER">
+            <Parameter Name="P_ID" Mode="In" Type="Decimal" />
+            <Parameter Name="P_IDCLIENT" Mode="In" Type="Decimal" />
+            <Parameter Name="P_IDCAR" Mode="In" Type="Decimal" />
+            <Parameter Name="P_QUANTITY" Mode="In" Type="Decimal" />
+            <Parameter Name="P_ISTESTDRIVE" Mode="In" Type="Decimal" />
+          </FunctionImport>
+          <FunctionImport Name="UPDATESUPPLIER">
+            <Parameter Name="P_ID" Mode="In" Type="Decimal" />
+            <Parameter Name="INSERTCOMPANYNAME" Mode="In" Type="String" />
+            <Parameter Name="INSERTEMAIL" Mode="In" Type="String" />
+          </FunctionImport>
+          <FunctionImport Name="INSERTEQUIPMENT">
+            <Parameter Name="INSERTEQUIPMENTLISTID" Mode="In" Type="Decimal" />
+            <Parameter Name="INSERTCARID" Mode="In" Type="Decimal" />
+          </FunctionImport>
+          <FunctionImport Name="UPDATEQUANTITY">
+          <Parameter Name="ORDERID" Mode="In" Type="Decimal" />
+          </FunctionImport>
+          <FunctionImport Name="UPDATEQUANTITYDECREMENT">
+          <Parameter Name="ORDERID" Mode="In" Type="Decimal" />
+          </FunctionImport>
+        </EntityContainer>
+        <ComplexType Name="GETALLCARINFO_Result">
+          <Property Type="Decimal" Name="ID" Nullable="false" />
+          <Property Type="Decimal" Name="IDSUPPLIER" Nullable="true" />
+          <Property Type="String" Name="IMGSOURCE" Nullable="true" />
+          <Property Type="String" Name="BRAND" Nullable="true" />
+          <Property Type="String" Name="MODEL" Nullable="true" />
+          <Property Type="String" Name="COLOR" Nullable="true" />
+          <Property Type="Decimal" Name="WEIGHT" Nullable="true" />
+          <Property Type="Decimal" Name="COST" Nullable="true" />
+          <Property Type="Decimal" Name="CARRATING" Nullable="true" />
+          <Property Type="Decimal" Name="IDCAR" Nullable="true" />
+          <Property Type="Decimal" Name="IDEQUIPMENTLIST" Nullable="true" />
+          <Property Type="String" Name="DESCRIPTION" Nullable="true" />
+          <Property Type="String" Name="COMPANY_NAME" Nullable="true" />
+          <Property Type="String" Name="EMAIL" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="GETALLORDERINFO_Result">
+          <Property Type="Decimal" Name="ID" Nullable="false" />
+          <Property Type="String" Name="BRAND" Nullable="true" />
+          <Property Type="String" Name="MODEL" Nullable="true" />
+          <Property Type="Decimal" Name="WEIGHT" Nullable="true" />
+          <Property Type="Decimal" Name="COST" Nullable="true" />
+          <Property Type="String" Name="DESCRIPTION" Nullable="true" />
+          <Property Type="String" Name="NAME" Nullable="true" />
+          <Property Type="String" Name="SURNAME" Nullable="true" />
+          <Property Type="Decimal" Name="QUANTITY" Nullable="true" />
+          <Property Type="Decimal" Name="ISTESTDRIVE" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="GETALLSUPPLIERINFO_Result">
+          <Property Type="Decimal" Name="ID" Nullable="false" />
+          <Property Type="String" Name="COMPANY_NAME" Nullable="true" />
+          <Property Type="String" Name="EMAIL" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="GETCLIENTS_Result">
+          <Property Type="Decimal" Name="ID" Nullable="false" />
+          <Property Type="String" Name="NAME" Nullable="true" />
+          <Property Type="String" Name="SURNAME" Nullable="true" />
+          <Property Type="Decimal" Name="AGE" Nullable="true" />
+          <Property Type="String" Name="EMAIL" Nullable="true" />
+          <Property Type="String" Name="LOGIN" Nullable="true" />
+          <Property Type="String" Name="PASSWORD" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="GETALLORDERINFO_Result1">
+          <Property Type="Decimal" Name="ID" Nullable="false" />
+          <Property Type="String" Name="BRAND" Nullable="true" />
+          <Property Type="String" Name="MODEL" Nullable="true" />
+          <Property Type="Decimal" Name="WEIGHT" Nullable="true" />
+          <Property Type="Decimal" Name="COST" Nullable="true" />
+          <Property Type="String" Name="DESCRIPTION" Nullable="true" />
+          <Property Type="String" Name="NAME" Nullable="true" />
+          <Property Type="String" Name="SURNAME" Nullable="true" />
+          <Property Type="Decimal" Name="QUANTITY" Nullable="true" />
+          <Property Type="Decimal" Name="ISTESTDRIVE" Nullable="true" />
+          <Property Type="Decimal" Name="IDCAR" Nullable="true" />
+        </ComplexType>
+        <ComplexType Name="GETALLORDERINFO_Result2">
+          <Property Type="Decimal" Name="ID" Nullable="false" />
+          <Property Type="String" Name="BRAND" Nullable="true" />
+          <Property Type="String" Name="MODEL" Nullable="true" />
+          <Property Type="Decimal" Name="WEIGHT" Nullable="true" />
+          <Property Type="Decimal" Name="COST" Nullable="true" />
+          <Property Type="String" Name="DESCRIPTION" Nullable="true" />
+          <Property Type="String" Name="NAME" Nullable="true" />
+          <Property Type="String" Name="SURNAME" Nullable="true" />
+          <Property Type="Decimal" Name="QUANTITY" Nullable="true" />
+          <Property Type="Decimal" Name="ISTESTDRIVE" Nullable="true" />
+          <Property Type="Decimal" Name="IDCAR" Nullable="true" />
+          <Property Type="Decimal" Name="IDCLIENT" Nullable="true" />
+        </ComplexType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Хранилище Model1Container" CdmEntityContainer="Entities2">
+          <EntitySetMapping Name="ACCOUNT">
+            <EntityTypeMapping TypeName="Model1.ACCOUNT">
+              <MappingFragment StoreEntitySet="ACCOUNT">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="IDCLIENT" ColumnName="IDCLIENT" />
+                <ScalarProperty Name="LOGIN" ColumnName="LOGIN" />
+                <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CAR">
+            <EntityTypeMapping TypeName="Model1.CAR">
+              <MappingFragment StoreEntitySet="CAR">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="IDSUPPLIER" ColumnName="IDSUPPLIER" />
+                <ScalarProperty Name="IMGSOURCE" ColumnName="IMGSOURCE" />
+                <ScalarProperty Name="BRAND" ColumnName="BRAND" />
+                <ScalarProperty Name="MODEL" ColumnName="MODEL" />
+                <ScalarProperty Name="COLOR" ColumnName="COLOR" />
+                <ScalarProperty Name="WEIGHT" ColumnName="WEIGHT" />
+                <ScalarProperty Name="COST" ColumnName="COST" />
+                <ScalarProperty Name="CARRATING" ColumnName="CARRATING" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="CLIENT">
+            <EntityTypeMapping TypeName="Model1.CLIENT">
+              <MappingFragment StoreEntitySet="CLIENT">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="NAME" ColumnName="NAME" />
+                <ScalarProperty Name="SURNAME" ColumnName="SURNAME" />
+                <ScalarProperty Name="AGE" ColumnName="AGE" />
+                <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EQUIPMENT">
+            <EntityTypeMapping TypeName="Model1.EQUIPMENT">
+              <MappingFragment StoreEntitySet="EQUIPMENT">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="IDEQUIPMENTLIST" ColumnName="IDEQUIPMENTLIST" />
+                <ScalarProperty Name="IDCAR" ColumnName="IDCAR" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EQUIPMENTLIST">
+            <EntityTypeMapping TypeName="Model1.EQUIPMENTLIST">
+              <MappingFragment StoreEntitySet="EQUIPMENTLIST">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ORDERTABLE">
+            <EntityTypeMapping TypeName="Model1.ORDERTABLE">
+              <MappingFragment StoreEntitySet="ORDERTABLE">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="IDCLIENT" ColumnName="IDCLIENT" />
+                <ScalarProperty Name="IDCAR" ColumnName="IDCAR" />
+                <ScalarProperty Name="QUANTITY" ColumnName="QUANTITY" />
+                <ScalarProperty Name="ISTESTDRIVE" ColumnName="ISTESTDRIVE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SUPPLIER">
+            <EntityTypeMapping TypeName="Model1.SUPPLIER">
+              <MappingFragment StoreEntitySet="SUPPLIER">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="COMPANY_NAME" ColumnName="COMPANY_NAME" />
+                <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <FunctionImportMapping FunctionImportName="ADDNEWORDER" FunctionName="Хранилище Model1.ADDNEWORDER" />
+          <FunctionImportMapping FunctionImportName="DELETECAR" FunctionName="Хранилище Model1.DELETECAR" />
+          <FunctionImportMapping FunctionImportName="DELETECLIENT" FunctionName="Хранилище Model1.DELETECLIENT" />
+          <FunctionImportMapping FunctionImportName="DELETEORDER" FunctionName="Хранилище Model1.DELETEORDER" />
+          <FunctionImportMapping FunctionImportName="GETALLCARINFO" FunctionName="Хранилище Model1.GETALLCARINFO" >
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="Model1.GETALLCARINFO_Result">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="IDSUPPLIER" ColumnName="IDSUPPLIER" />
+                <ScalarProperty Name="IMGSOURCE" ColumnName="IMGSOURCE" />
+                <ScalarProperty Name="BRAND" ColumnName="BRAND" />
+                <ScalarProperty Name="MODEL" ColumnName="MODEL" />
+                <ScalarProperty Name="COLOR" ColumnName="COLOR" />
+                <ScalarProperty Name="WEIGHT" ColumnName="WEIGHT" />
+                <ScalarProperty Name="COST" ColumnName="COST" />
+                <ScalarProperty Name="CARRATING" ColumnName="CARRATING" />
+                <ScalarProperty Name="IDCAR" ColumnName="IDCAR" />
+                <ScalarProperty Name="IDEQUIPMENTLIST" ColumnName="IDEQUIPMENTLIST" />
+                <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+                <ScalarProperty Name="COMPANY_NAME" ColumnName="COMPANY_NAME" />
+                <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="GETALLORDERINFO" FunctionName="Хранилище Model1.GETALLORDERINFO" >
+          <ResultMapping>
+              <ComplexTypeMapping TypeName="Model1.GETALLORDERINFO_Result2">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="BRAND" ColumnName="BRAND" />
+                <ScalarProperty Name="MODEL" ColumnName="MODEL" />
+                <ScalarProperty Name="WEIGHT" ColumnName="WEIGHT" />
+                <ScalarProperty Name="COST" ColumnName="COST" />
+                <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+                <ScalarProperty Name="NAME" ColumnName="NAME" />
+                <ScalarProperty Name="SURNAME" ColumnName="SURNAME" />
+                <ScalarProperty Name="QUANTITY" ColumnName="QUANTITY" />
+                <ScalarProperty Name="ISTESTDRIVE" ColumnName="ISTESTDRIVE" />
+                <ScalarProperty Name="IDCAR" ColumnName="IDCAR" />
+                <ScalarProperty Name="IDCLIENT" ColumnName="IDCLIENT" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="GETALLSUPPLIERINFO" FunctionName="Хранилище Model1.GETALLSUPPLIERINFO" >
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="Model1.GETALLSUPPLIERINFO_Result">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="COMPANY_NAME" ColumnName="COMPANY_NAME" />
+                <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="GETCLIENTS" FunctionName="Хранилище Model1.GETCLIENTS" >
+            <ResultMapping>
+              <ComplexTypeMapping TypeName="Model1.GETCLIENTS_Result">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="NAME" ColumnName="NAME" />
+                <ScalarProperty Name="SURNAME" ColumnName="SURNAME" />
+                <ScalarProperty Name="AGE" ColumnName="AGE" />
+                <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+                <ScalarProperty Name="LOGIN" ColumnName="LOGIN" />
+                <ScalarProperty Name="PASSWORD" ColumnName="PASSWORD" />
+              </ComplexTypeMapping>
+            </ResultMapping>
+          </FunctionImportMapping>
+          <FunctionImportMapping FunctionImportName="GETCLIENTS2" FunctionName="Хранилище Model1.GETCLIENTS2" />
+          <FunctionImportMapping FunctionImportName="INSERTCAR" FunctionName="Хранилище Model1.INSERTCAR" />
+          <FunctionImportMapping FunctionImportName="INSERTUSER" FunctionName="Хранилище Model1.INSERTUSER" />
+          <FunctionImportMapping FunctionImportName="UPDATECAR" FunctionName="Хранилище Model1.UPDATECAR" />
+          <FunctionImportMapping FunctionImportName="UPDATECLIENT" FunctionName="Хранилище Model1.UPDATECLIENT" />
+          <FunctionImportMapping FunctionImportName="UPDATEISTESTDRIVE" FunctionName="Хранилище Model1.UPDATEISTESTDRIVE" />
+          <FunctionImportMapping FunctionImportName="UPDATEISTESTDRIVETOZERO" FunctionName="Хранилище Model1.UPDATEISTESTDRIVETOZERO" />
+          <FunctionImportMapping FunctionImportName="UPDATEORDER" FunctionName="Хранилище Model1.UPDATEORDER" />
+          <FunctionImportMapping FunctionImportName="UPDATESUPPLIER" FunctionName="Хранилище Model1.UPDATESUPPLIER" />
+          <FunctionImportMapping FunctionImportName="INSERTEQUIPMENT" FunctionName="Хранилище Model1.INSERTEQUIPMENT" />
+          <FunctionImportMapping FunctionImportName="UPDATEQUANTITY" FunctionName="Хранилище Model1.UPDATEQUANTITY" />
+          <FunctionImportMapping FunctionImportName="UPDATEQUANTITYDECREMENT" FunctionName="Хранилище Model1.UPDATEQUANTITYDECREMENT" />
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Нет" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

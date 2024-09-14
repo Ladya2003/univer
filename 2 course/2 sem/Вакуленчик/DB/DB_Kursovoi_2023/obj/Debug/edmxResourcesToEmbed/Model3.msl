@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище ModelContainer" CdmEntityContainer="Entities3">
+    <FunctionImportMapping FunctionImportName="GETALLCARINFO" FunctionName="Хранилище Model.GETALLCARINFO">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="Model.GETALLCARINFO_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IDSUPPLIER" ColumnName="IDSUPPLIER" />
+          <ScalarProperty Name="IMGSOURCE" ColumnName="IMGSOURCE" />
+          <ScalarProperty Name="BRAND" ColumnName="BRAND" />
+          <ScalarProperty Name="MODEL" ColumnName="MODEL" />
+          <ScalarProperty Name="COLOR" ColumnName="COLOR" />
+          <ScalarProperty Name="WEIGHT" ColumnName="WEIGHT" />
+          <ScalarProperty Name="COST" ColumnName="COST" />
+          <ScalarProperty Name="CARRATING" ColumnName="CARRATING" />
+          <ScalarProperty Name="IDCAR" ColumnName="IDCAR" />
+          <ScalarProperty Name="IDEQUIPMENTLIST" ColumnName="IDEQUIPMENTLIST" />
+          <ScalarProperty Name="DESCRIPTION" ColumnName="DESCRIPTION" />
+          <ScalarProperty Name="COMPANY_NAME" ColumnName="COMPANY_NAME" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>
