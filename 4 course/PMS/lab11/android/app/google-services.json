@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "179082997255",
+    "project_id": "lab11-d295f",
+    "storage_bucket": "lab11-d295f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179082997255:android:e5b7f8fdb25dfb027f44a2",
+        "android_client_info": {
+          "package_name": "com.example.lab11_test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA_sE-e-YroFyffVOTDv5m-fGIK-P4-sQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179082997255:android:c53de54e11d47b4d7f44a2",
+        "android_client_info": {
+          "package_name": "com.example.lab11_test1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA_sE-e-YroFyffVOTDv5m-fGIK-P4-sQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

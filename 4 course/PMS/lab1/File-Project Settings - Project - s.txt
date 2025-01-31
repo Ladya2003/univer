@@ -1,0 +1,4 @@
+File-Project Settings - Project -> set path to android sdk
+
+after installing android studio, we neede to install sdk
+set sdk to path and create separate variable with name ANDROID_HOME and path to sdk folder
