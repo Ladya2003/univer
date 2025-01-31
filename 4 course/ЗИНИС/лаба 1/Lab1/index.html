@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приложение для подсчёта НОД и поиска простых чисел</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        .output {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #e7e7e7;
+            border-radius: 5px;
+            min-height: 50px;
+        }
+        button {
+            display: block;
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Приложение для подсчёта НОД и поиска простых чисел</h1>
+    <p>Выберите действие:</p>
+    <button onclick="findNod()">1 - Поиск НОД</button>
+    <button onclick="findSimple()">2 - Поиск простых чисел от 1 до n</button>
+    <button onclick="findSimpleRange()">3 - Поиск простых чисел от m до n</button>
+    <button onclick="exitApp()">0 - Выход</button>
+    <div class="output" id="output"></div>
+</div>
+
+<script>
+    function findNod() {
+        let a = parseInt(prompt("Введите a (>0): "));
+        let b = parseInt(prompt("Введите b (>0): "));
+        if (isNaN(a) || isNaN(b) || a <= 0 || b <= 0) {
+            document.getElementById('output').innerText = "Введите корректные числа.";
+            return;
+        }
+        let result = nod(a, b);
+        document.getElementById('output').innerText = `NOD: ${result}`;
+    }
+
+    function nod(a, b) {
+        return b === 0 ? a : nod(b, a % b);
+    }
+
+    function findSimple() {
+        let n = parseInt(prompt("Введите n: "));
+        if (isNaN(n) || n <= 1) {
+            document.getElementById('output').innerText = "Введите число больше 1.";
+            return;
+        }
+        let primes = simple(n);
+        document.getElementById('output').innerText = `Простые числа от 1 до ${n}: ${primes.join("; ")}\nКоличество простых чисел: ${primes.length}`;
+    }
+
+    function simple(z) {
+        let num = [];
+        for (let i = 2; i <= z; i++) num.push(i);
+
+        for (let i = 0; i < num.length; i++) {
+            for (let j = 2; num[i] * j <= z; j++) {
+                let index = num.indexOf(num[i] * j);
+                if (index !== -1) num.splice(index, 1);
+            }
+        }
+        return num;
+    }
+
+    function findSimpleRange() {
+        let m = parseInt(prompt("Введите m: "));
+        let n = parseInt(prompt("Введите n: "));
+        if (isNaN(m) || isNaN(n) || m < 2 || n <= m) {
+            document.getElementById('output').innerText = "Введите корректные значения для m и n.";
+            return;
+        }
+        let primesInRange = simple(n).filter(w => w >= m);
+        if (primesInRange.length > 0) {
+            document.getElementById('output').innerText = `Простые числа от ${m} до ${n}: ${primesInRange.join("; ")}`;
+        } else {
+            document.getElementById('output').innerText = "Простых чисел в данном диапазоне нет.";
+        }
+    }
+
+    function exitApp() {
+        document.getElementById('output').innerText = "Выход из программы.";
+    }
+</script>
+
+</body>
+</html>

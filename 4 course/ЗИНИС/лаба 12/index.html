@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стеганография LSB</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        input[type="file"] {
+            margin: 10px 0;
+        }
+        canvas {
+            margin: 10px 0;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Метод НЗБ (LSB)</h1>
+        <input type="file" id="uploadImage" accept="image/png">
+        <textarea id="message" placeholder="Введите сообщение для скрытия"></textarea><br>
+        <button id="hideMessage">Скрыть сообщение</button>
+        <button id="revealMessage">Извлечь сообщение</button>
+        <canvas id="canvas"></canvas>
+        <p id="output"></p>
+    </div>
+
+    <script>
+        const uploadImage = document.getElementById('uploadImage');
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        const messageBox = document.getElementById('message');
+        const output = document.getElementById('output');
+
+        let image = new Image();
+
+        // Загрузка изображения
+        uploadImage.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            const reader = new FileReader();
+
+            reader.onload = (event) => {
+                image.src = event.target.result;
+            };
+
+            reader.readAsDataURL(file);
+        });
+
+        // Отрисовка изображения на canvas
+        image.onload = () => {
+            canvas.width = image.width;
+            canvas.height = image.height;
+            ctx.drawImage(image, 0, 0);
+        };
+
+        // Скрытие сообщения в младших битах
+        document.getElementById('hideMessage').addEventListener('click', () => {
+            const message = messageBox.value;
+            if (!message) {
+                alert('Введите сообщение для скрытия');
+                return;
+            }
+
+            const imgData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+            const data = imgData.data;
+
+            // Кодирование сообщения
+            const binaryMessage = message
+                .split('')
+                .map(char => char.charCodeAt(0).toString(2).padStart(8, '0'))
+                .join('') + '00000000'; // Стоп-бит
+
+            let messageIndex = 0;
+            for (let i = 0; i < data.length && messageIndex < binaryMessage.length; i += 4) {
+                const binaryPixel = data[i].toString(2).padStart(8, '0');
+                const newPixel = binaryPixel.slice(0, -1) + binaryMessage[messageIndex];
+                data[i] = parseInt(newPixel, 2);
+                messageIndex++;
+            }
+
+            ctx.putImageData(imgData, 0, 0);
+            alert('Сообщение скрыто в изображении');
+        });
+
+        // Извлечение сообщения
+        document.getElementById('revealMessage').addEventListener('click', () => {
+            const imgData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+            const data = imgData.data;
+
+            let binaryMessage = '';
+            for (let i = 0; i < data.length; i += 4) {
+                const binaryPixel = data[i].toString(2).padStart(8, '0');
+                binaryMessage += binaryPixel.slice(-1);
+            }
+
+            const chars = binaryMessage.match(/.{8}/g);
+            let message = '';
+            for (const char of chars) {
+                const code = parseInt(char, 2);
+                if (code === 0) break; // Стоп-бит
+                message += String.fromCharCode(code);
+            }
+
+            output.textContent = `Извлечённое сообщение: ${message}`;
+        });
+    </script>
+</body>
+</html>

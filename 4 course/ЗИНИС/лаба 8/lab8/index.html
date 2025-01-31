@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RC4 & BSS</title>
+  <link rel="stylesheet" href="assets/utils/bootstrap-5.0.2-dist/css/bootstrap.css" />
+  <style>
+    body {
+      background: linear-gradient(to right, #1e3c72, #2a5298);
+      color: #fff;
+    }
+    header a {
+      transition: background-color 0.3s, color 0.3s;
+    }
+    header a.btn-primary {
+      background-color: #007bff;
+      border-color: #0056b3;
+    }
+    header a.btn-secondary {
+      background-color: #6c757d;
+      border-color: #495057;
+    }
+    header a:hover {
+      color: #fff;
+      background-color: #0056b3 !important;
+    }
+    .form-control {
+      background: #e9ecef;
+      color: #495057;
+      border: 1px solid #ced4da;
+    }
+    .form-control:focus {
+      border-color: #80bdff;
+      box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    }
+    .btn-success {
+      background-color: #28a745;
+      border-color: #218838;
+    }
+    .btn-success:hover {
+      background-color: #218838;
+      border-color: #1e7e34;
+    }
+    .result {
+      background-color: #003865;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .result h2 {
+      border-bottom: 2px solid #fff;
+      padding-bottom: 8px;
+    }
+  </style>
+</head>
+<body class="d-flex flex-column gap-3 p-4 min-vw-100 min-vh-100 justify-content-between">
+<header class="d-flex w-100 justify-content-center gap-4">
+  <a href="#" class="bss-link btn btn-primary">BSS</a>
+  <a href="#" class="rc4-link btn btn-secondary">RC4</a>
+</header>
+
+<main class="d-flex"></main>
+
+<div class="result p-4 rounded-2">
+  <h2 class="h2">Result:</h2>
+  <div class="result-content"></div>
+</div>
+
+<script type="module">
+  import { BBS, RC4 } from "./assets/js/index.js";
+
+  const main = document.querySelector("main");
+  const resultContent = document.querySelector(".result-content");
+  const rc4Link = document.querySelector(".rc4-link");
+  const bssLink = document.querySelector(".bss-link");
+
+  viewBBS();
+
+  rc4Link.addEventListener("click", (e) => {
+    e.preventDefault();
+    viewRC4();
+  });
+
+  bssLink.addEventListener("click", (e) => {
+    e.preventDefault();
+    viewBBS();
+  });
+
+  function viewBBS() {
+    bssLink.classList.replace("btn-secondary", "btn-primary");
+    rc4Link.classList.replace("btn-primary", "btn-secondary");
+
+    main.innerHTML = `
+      <form class="form-bbs form-control container rounded-1 border-1 d-flex flex-column gap-2 p-3 shadow">
+        <input type="number" placeholder="N" name="n-value" class="form-control" value="256">
+        <input type="number" placeholder="P" name="p-value" class="p-param form-control" value="67">
+        <input type="number" placeholder="Q" name="q-value" class="q-param form-control" value="71">
+        <input type="number" placeholder="Start" name="start-value" class="form-control" value="1">
+        <input type="number" placeholder="Length" name="length-value" class="form-control" value="10">
+        <button class="btn btn-success" type="submit">Generate</button>
+      </form>
+    `;
+
+    const form = document.querySelector(".form-bbs");
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const n = Number(form.querySelector('input[name="n-value"]').value);
+      const p = Number(form.querySelector('input[name="p-value"]').value);
+      const q = Number(form.querySelector('input[name="q-value"]').value);
+      const start = Number(form.querySelector('input[name="start-value"]').value);
+      const length = Number(form.querySelector('input[name="length-value"]').value);
+
+      try {
+        const bbs = new BBS({ n, p, q, start });
+        const result = bbs.generateSequence(length);
+        viewResult(result);
+      } catch (error) {
+        viewResult(error.message);
+      }
+    });
+  }
+
+  function viewRC4() {
+    rc4Link.classList.replace("btn-secondary", "btn-primary");
+    bssLink.classList.replace("btn-primary", "btn-secondary");
+
+    main.innerHTML = `
+      <form class="form-rc4 form-control container rounded-1 border-1 d-flex flex-column gap-2 p-3 shadow">
+        <input type="number" placeholder="N" class="n-value form-control" value="8">
+        <input type="text" placeholder="Text" class="text-value form-control" value="Hello world">
+        <button class="btn btn-success" type="submit">Encrypt/Decrypt</button>
+      </form>
+    `;
+
+    const form = document.querySelector(".form-rc4");
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const n = Number(form.querySelector(".n-value").value);
+      const text = form.querySelector(".text-value").value;
+
+      try {
+        const rc4 = new RC4(n, []);
+        const encrypted = rc4.encrypt(text);
+        const decrypted = rc4.decrypt(encrypted);
+        viewResult(`
+          <p>Encrypted: ${encrypted}</p>
+          <p>Decrypted: ${decrypted}</p>
+        `);
+      } catch (error) {
+        viewResult(error.message);
+      }
+    });
+  }
+
+  function viewResult(result) {
+    resultContent.innerHTML = `<p>${result}</p>`;
+  }
+</script>
+</body>
+</html>

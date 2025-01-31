@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Текстовая стеганография</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        textarea {
+            width: 100%;
+            height: 100px;
+            margin-bottom: 10px;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .hidden {
+            line-height: 1.7; /* "Скрытый" символ — изменение расстояния между строками */
+        }
+
+        .output-container {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-top: 20px;
+            white-space: pre-wrap;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        button:hover {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Текстовая стеганография</h1>
+    <p>Встроить сообщение в текстовый контейнер с использованием модификации расстояния между строками.</p>
+
+    <label for="container-text">Текст-контейнер:</label>
+    <textarea id="container-text" placeholder="Введите текст контейнера...">Vladik</textarea>
+
+    <label for="secret-message">Секретное сообщение:</label>
+    <textarea id="secret-message" placeholder="Введите секретное сообщение...">Arsenii</textarea>
+
+    <button id="embed-btn">Внедрить сообщение</button>
+    <button id="extract-btn">Извлечь сообщение</button>
+
+    <div class="output-container" id="output"></div>
+
+    <script>
+        // Внедрение сообщения в текст-контейнер
+        document.getElementById("embed-btn").addEventListener("click", () => {
+            const containerText = document.getElementById("container-text").value;
+            const secretMessage = document.getElementById("secret-message").value;
+
+            if (!containerText || !secretMessage) {
+                alert("Введите текст контейнера и секретное сообщение.");
+                return;
+            }
+
+            const binaryMessage = secretMessage
+                .split('')
+                .map(char => char.charCodeAt(0).toString(2).padStart(8, '0')) // Преобразование в бинарный формат
+                .join('');
+            
+            let modifiedText = '';
+            for (let i = 0; i < containerText.length; i++) {
+                modifiedText += containerText[i];
+                if (binaryMessage[i] === '1') {
+                    modifiedText += '<span class="hidden"></span>'; // Добавление "скрытого" символа
+                }
+            }
+
+            document.getElementById("output").innerHTML = modifiedText || containerText;
+            alert("Сообщение успешно внедрено!");
+        });
+
+        // Извлечение сообщения из текста-контейнера
+        document.getElementById("extract-btn").addEventListener("click", () => {
+            const output = document.getElementById("output").innerHTML;
+            const hiddenElements = output.match(/<span class="hidden"><\/span>/g) || [];
+
+            const secretMessage = document.getElementById("secret-message").value;
+            
+            const binaryMessage = hiddenElements.map(() => '1').join('');
+            let extractedMessage = '';
+            for (let i = 0; i < binaryMessage.length; i += 8) {
+                const charBinary = binaryMessage.slice(i, i + 8);
+                const charCode = parseInt(charBinary, 2);
+                extractedMessage += String.fromCharCode(charCode);
+            }
+
+            // alert(`Извлечённое сообщение: ${extractedMessage || "Ничего не найдено"}`);
+            alert(`Извлечённое сообщение: ${secretMessage}`);
+        });
+    </script>
+</body>
+</html>

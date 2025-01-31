@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "bip-schnorr": "^0.6.7",
+    "crypto": "^1.0.1",
+    "elgamal": "^0.3.0",
+    "node-rsa": "^1.1.1",
+    "safe-buffer": "^5.2.1"
+  }
+}

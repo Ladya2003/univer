@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DES Encryption</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</head>
+<body>
+  <h1>DES Encryption and Avalanche Effect Analysis</h1>
+
+  <div class="container">
+    <label for="inputText">Input Text:</label>
+    <textarea id="inputText" rows="4" placeholder="Enter text"></textarea>
+
+    <label for="key">Key:</label>
+    <input type="text" id="key" value="Vakulench" maxlength="8">
+
+    <button id="encryptBtn">Encrypt</button>
+    <button id="decryptBtn">Decrypt</button>
+
+    <h3>Result:</h3>
+    <p id="result"></p>
+
+    <h3>Avalanche Effect Analysis:</h3>
+    <p id="avalancheEffect"></p>
+
+    <h3>Encryption Speed:</h3>
+    <p id="speed"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
