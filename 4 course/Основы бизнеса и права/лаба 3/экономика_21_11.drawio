@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
+  <diagram name="Страница — 1" id="A2jE2dpHgXN8ur2PZzlt">
+    <mxGraphModel dx="1313" dy="695" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sv8NosiqSswmohA4p70H-1" value="" style="endArrow=block;html=1;rounded=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="240" as="sourcePoint" />
+            <mxPoint x="560" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sv8NosiqSswmohA4p70H-2" value="" style="endArrow=block;html=1;rounded=0;endFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="240" as="sourcePoint" />
+            <mxPoint x="360" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sv8NosiqSswmohA4p70H-3" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="120" as="sourcePoint" />
+            <mxPoint x="560" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sv8NosiqSswmohA4p70H-4" value="Выпуск" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="238" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sv8NosiqSswmohA4p70H-5" value="Затраты" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="18" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sv8NosiqSswmohA4p70H-6" value="Постоянные" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="100" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sv8NosiqSswmohA4p70H-8" value="T =&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="616" y="108" width="39" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sv8NosiqSswmohA4p70H-9" value="" style="endArrow=none;html=1;rounded=0;entryX=0.995;entryY=0.521;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="sv8NosiqSswmohA4p70H-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="728" y="122" as="sourcePoint" />
+            <mxPoint x="662" y="131" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sv8NosiqSswmohA4p70H-10" value="И" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="680" y="97" width="27" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sv8NosiqSswmohA4p70H-11" value="Эффект в год" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="643" y="123" width="95" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sv8NosiqSswmohA4p70H-12" value="Э год = Э упр - дельта АО = 5000 * 0.12" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="616" y="162" width="236" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sv8NosiqSswmohA4p70H-13" value="5000" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="673" y="71" width="45" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sv8NosiqSswmohA4p70H-14" value="Продукции в год = 10 * 22 * (365 -65) = 66 000" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="616" y="201" width="271" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sv8NosiqSswmohA4p70H-20" value="Эупр = (20000 / 66000 - 20000 / 84000) * 84000" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="616" y="281" width="276" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sv8NosiqSswmohA4p70H-21" value="Спрогнозированая Продукции в год = 10 * 28 * (365 -65) = 84 000" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="616" y="240" width="379" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sv8NosiqSswmohA4p70H-22" value="= 1.03" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="732" y="108" width="52" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sv8NosiqSswmohA4p70H-23" value="T = И / Эгод" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="285" y="368" width="84" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sv8NosiqSswmohA4p70H-24" value="Эгод = Ээн - дельта ЗП * 1.35 - доп Ремонт (41800) - доп АО (73800) = 1.7" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="410" width="428" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sv8NosiqSswmohA4p70H-25" value="// ЗП + ЗП * 0.35" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="732" y="410" width="108" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sv8NosiqSswmohA4p70H-26" value="№3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="283" y="535" width="38" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sv8NosiqSswmohA4p70H-27" value="№2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="291" y="334" width="38" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sv8NosiqSswmohA4p70H-28" value="прибыль до (25 - 20) * 50 000 = 250 000&lt;div&gt;новая себестоимость = себсетосиоить старая - (-850 * 12 * 1.35 - 145800 * 0.03 - 145800 * 0.11) / 50 000 = 20.13 руб/изд&lt;br&gt;&lt;div&gt;(27 - 20.13) * 50 000 = 343 000 руб&lt;/div&gt;&lt;/div&gt;&lt;div&gt;(343 500 - 250 000) = 935 000 руб&lt;/div&gt;&lt;div&gt;Ответ 148 000 / 935 000 = 1.56 год&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="578" width="681" height="84" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
