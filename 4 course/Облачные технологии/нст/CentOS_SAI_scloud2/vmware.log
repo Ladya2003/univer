@@ -1,0 +1,1470 @@
+2024-10-23T13:10:38.697+03:00| vmx| I005: Log for VMware Workstation pid=36944 version=15.5.6 build=build-16341506 option=Release
+2024-10-23T13:10:38.697+03:00| vmx| I005: The process is 64-bit.
+2024-10-23T13:10:38.697+03:00| vmx| I005: Host codepage=windows-1251 encoding=windows-1251
+2024-10-23T13:10:38.697+03:00| vmx| I005: Host is Windows 10, 64-bit  (Build 22631.4317)
+2024-10-23T13:10:38.671+03:00| vmx| I005: VTHREAD 36948 "vmx"
+2024-10-23T13:10:38.674+03:00| vmx| I005: DictionaryLoad: Cannot open file "C:\ProgramData\VMware\vCenterServer\cfg\vsphereFeatures\techPreview.cfg": The system cannot find the path specified.
+2024-10-23T13:10:38.674+03:00| vmx| I005: [msg.dictionary.load.openFailed] Cannot open file "C:\ProgramData\VMware\vCenterServer\cfg\vsphereFeatures\techPreview.cfg": The system cannot find the path specified.
+2024-10-23T13:10:38.674+03:00| vmx| I005: FeatureStateLib: Error while loading tech preview config file: C:\ProgramData\VMware\vCenterServer\cfg\vsphereFeatures\techPreview.cfg, using default (disabled) for all Tech Preview features.
+2024-10-23T13:10:38.678+03:00| vmx| I005: LOCALE windows-1251 -> NULL User=419 System=419
+2024-10-23T13:10:38.678+03:00| vmx| I005: Msg_SetLocaleEx: HostLocale=windows-1251 UserLocale=NULL
+2024-10-23T13:10:38.682+03:00| vmx| I005: DictionaryLoad: Cannot open file "C:\Users\user\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2024-10-23T13:10:38.682+03:00| vmx| I005: Msg_Reset:
+2024-10-23T13:10:38.682+03:00| vmx| I005: [msg.dictionary.load.openFailed] Cannot open file "C:\Users\user\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2024-10-23T13:10:38.682+03:00| vmx| I005: ----------------------------------------
+2024-10-23T13:10:38.682+03:00| vmx| I005: ConfigDB: Failed to load C:\Users\user\AppData\Roaming\VMware\config.ini
+2024-10-23T13:10:38.682+03:00| vmx| I005: Win32U_GetFileAttributes: GetFileAttributesExW("D:\Универ\7 семестр\Облачные технологии\нст\CentOS_SAI_scloud2\CentOS_SAI_scloud2.vmpl", ...) failed, error: 2
+2024-10-23T13:10:38.682+03:00| vmx| I005: OBJLIB-LIB: Objlib initialized.
+2024-10-23T13:10:38.686+03:00| vmx| I005: DictionaryLoad: Cannot open file "C:\Users\user\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2024-10-23T13:10:38.686+03:00| vmx| I005: [msg.dictionary.load.openFailed] Cannot open file "C:\Users\user\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2024-10-23T13:10:38.686+03:00| vmx| I005: PREF Optional preferences file not found at C:\Users\user\AppData\Roaming\VMware\config.ini. Using default values.
+2024-10-23T13:10:38.686+03:00| vmx| I005: UUID: SMBIOS UUID is reported as 'fe f8 24 06 b9 ee ec 11-80 f2 6c 24 08 c5 52 d9'.
+2024-10-23T13:10:38.686+03:00| vmx| I005: lib/ssl: OpenSSL using FIPS_drbg for RAND
+2024-10-23T13:10:38.686+03:00| vmx| I005: lib/ssl: protocol list tls1.2
+2024-10-23T13:10:38.686+03:00| vmx| I005: lib/ssl: protocol list tls1.2 (openssl flags 0x17000000)
+2024-10-23T13:10:38.686+03:00| vmx| I005: lib/ssl: cipher list ECDHE+AESGCM:RSA+AESGCM:ECDHE+AES:RSA+AES
+2024-10-23T13:10:38.686+03:00| vmx| I005: lib/ssl: curves list prime256v1:secp384r1:secp521r1
+2024-10-23T13:10:38.697+03:00| vmx| I005: Hostname=legion
+2024-10-23T13:10:38.702+03:00| vmx| I005: IP=26.245.89.29
+2024-10-23T13:10:38.702+03:00| vmx| I005: IP=100.64.100.6
+2024-10-23T13:10:38.702+03:00| vmx| I005: IP=192.168.17.1
+2024-10-23T13:10:38.702+03:00| vmx| I005: IP=192.168.193.1
+2024-10-23T13:10:38.702+03:00| vmx| I005: IP=192.168.254.184
+2024-10-23T13:10:38.702+03:00| vmx| I005: IP=fe80::2dc7:2d1e:edd:2cc4%12
+2024-10-23T13:10:38.702+03:00| vmx| I005: IP=fe80::74b1:3288:e913:1c63%19
+2024-10-23T13:10:38.702+03:00| vmx| I005: IP=fe80::bbf7:765a:ec42:a419%9
+2024-10-23T13:10:38.702+03:00| vmx| I005: IP=fe80::a1ee:a1ff:993a:c170%3
+2024-10-23T13:10:38.702+03:00| vmx| I005: IP=fe80::184d:151b:aa34:f049%22
+2024-10-23T13:10:38.702+03:00| vmx| I005: IP=fdfd::1af5:591d
+2024-10-23T13:10:38.726+03:00| vmx| I005: System uptime 46318453281 us
+2024-10-23T13:10:38.726+03:00| vmx| I005: Command line: "D:\App\VMWareExe\x64\vmware-vmx.exe" "-T" "querytoken" "-s" "vmx.stdio.keep=TRUE" "-#" "product=1;name=VMware Workstation;version=15.5.6;buildnumber=16341506;licensename=VMware Workstation;licenseversion=15.0;" "-@" "pipe=\\.\pipe\vmx24eee876c1d72726;msgs=ui" "D:\Универ\7 семестр\Облачные технологии\нст\CentOS_SAI_scloud2\CentOS_SAI_scloud2.vmx"
+2024-10-23T13:10:38.726+03:00| vmx| I005: Msg_SetLocaleEx: HostLocale=windows-1251 UserLocale=NULL
+2024-10-23T13:10:38.751+03:00| vmx| I005: WQPoolAllocPoll : pollIx = 1, signalHandle = 832
+2024-10-23T13:10:38.751+03:00| vmx| I005: WQPoolAllocPoll : pollIx = 2, signalHandle = 824
+2024-10-23T13:10:38.751+03:00| vmx| I005: VigorTransport listening on fd 892
+2024-10-23T13:10:38.751+03:00| vmx| I005: Vigor_Init 1
+2024-10-23T13:10:38.751+03:00| vmx| I005: Connecting 'ui' to pipe '\\.\pipe\vmx24eee876c1d72726' with user '(null)'
+2024-10-23T13:10:38.751+03:00| vmx| I005: VMXVmdb: Local connection timeout: 60000 ms.
+2024-10-23T13:10:38.759+03:00| vmx| I005: VmdbAddConnection: cnxPath=/db/connection/#1/, cnxIx=1
+2024-10-23T13:10:38.759+03:00| vmx| I005: Vix: [mainDispatch.c:486]: VMAutomation: Initializing VMAutomation.
+2024-10-23T13:10:38.759+03:00| vmx| I005: Vix: [mainDispatch.c:738]: VMAutomationOpenListenerSocket() listening
+2024-10-23T13:10:38.759+03:00| vmx| I005: Vix: [mainDispatch.c:4200]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1 additionalError=0
+2024-10-23T13:10:38.759+03:00| vmx| I005: Transitioned vmx/execState/val to poweredOff
+2024-10-23T13:10:38.759+03:00| vmx| I005: Vix: [mainDispatch.c:4200]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2024-10-23T13:10:38.759+03:00| vmx| I005: Vix: [mainDispatch.c:4200]: VMAutomation_ReportPowerOpFinished: statevar=2, newAppState=1877, success=1 additionalError=0
+2024-10-23T13:10:38.759+03:00| vmx| I005: Vix: [mainDispatch.c:4200]: VMAutomation_ReportPowerOpFinished: statevar=3, newAppState=1881, success=1 additionalError=0
+2024-10-23T13:10:38.759+03:00| vmx| I005: IOPL_Init: Hyper-V detected by CPUID
+2024-10-23T13:10:38.767+03:00| vmx| I005: IOCTL_VMX86_SET_MEMORY_PARAMS already set
+2024-10-23T13:10:38.767+03:00| vmx| I005: FeatureCompat: No EVC masks.
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID vendor: AuthenticAMD
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID family: 0x19 model: 0x50 stepping: 0x0
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID codename: Zen3
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID name: AMD Ryzen 7 5800H with Radeon Graphics         
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 00000000, 0: 0x0000000d 0x68747541 0x444d4163 0x69746e65
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 00000001, 0: 0x00a50f00 0x00100800 0xfed8320b 0x178bfbff
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 00000002, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 00000004, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x00000011
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 00000006, 0: 0x00000000 0x00000000 0x00000001 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 00000007, 0: 0x00000000 0x219c97a9 0x00400684 0x00000010
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 00000008, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 0000000a, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 0000000b, 0: 0x00000001 0x00000002 0x00000100 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 0000000b, 1: 0x00000004 0x00000010 0x00000201 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 0000000b, 2: 0x00000000 0x00000000 0x00000002 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 0000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 0000000d, 0: 0x00000007 0x00000340 0x00000340 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 0000000d, 1: 0x0000000f 0x00000350 0x00001800 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 0000000d, 2: 0x00000100 0x00000240 0x00000000 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 0000000d, 3: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 0000000d, 4: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 0000000d, 5: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 0000000d, 6: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 0000000d, 7: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 0000000d, 8: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 0000000d, 9: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 0000000d, a: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 0000000d, b: 0x00000010 0x00000000 0x00000001 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 0000000d, c: 0x00000018 0x00000000 0x00000001 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 40000000, 0: 0x4000000c 0x7263694d 0x666f736f 0x76482074
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 40000001, 0: 0x31237648 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 40000002, 0: 0x0000585d 0x000a0000 0x00000004 0x000010dd
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 40000003, 0: 0x0000bfff 0x002bb9ff 0x00000062 0x73fffbf6
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 40000004, 0: 0x00040d1c 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 40000005, 0: 0x00000400 0x00000400 0x00000ba0 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 40000006, 0: 0x021e00ae 0x00000030 0x00000000 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 40000007, 0: 0x80000007 0x0000000b 0x00000000 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 40000008, 0: 0x00100003 0x00000001 0x00010000 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 40000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 4000000a, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 4000000b, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 4000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 80000000, 0: 0x80000023 0x68747541 0x444d4163 0x69746e65
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 80000001, 0: 0x00a50f00 0x00000000 0x20c023f3 0x2fd3fbff
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 80000002, 0: 0x20444d41 0x657a7952 0x2037206e 0x30303835
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 80000003, 0: 0x69772048 0x52206874 0x6f656461 0x7247206e
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 80000004, 0: 0x69687061 0x20207363 0x20202020 0x00202020
+2024-10-23T13:10:38.852+03:00| vmx| I005: hostCPUID level 80000005, 0: 0xff40ff40 0xff40ff40 0x20080140 0x20080140
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 80000006, 0: 0x48002200 0x68004200 0x02006140 0x00809140
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 80000007, 0: 0x00000000 0x0000001b 0x00000000 0x00004789
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 80000008, 0: 0x00003030 0x3900d215 0x0000400f 0x00010000
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 80000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 8000000a, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 8000000b, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 8000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 8000000d, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 8000000e, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 8000000f, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 80000010, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 80000011, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 80000012, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 80000013, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 80000014, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 80000015, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 80000016, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 80000017, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 80000018, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 80000019, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 8000001a, 0: 0x00000006 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 8000001b, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 8000001c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 8000001d, 0: 0x00004121 0x01c0003f 0x0000003f 0x00000000
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 8000001d, 1: 0x00004122 0x01c0003f 0x0000003f 0x00000000
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 8000001d, 2: 0x00004143 0x01c0003f 0x000003ff 0x00000002
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 8000001d, 3: 0x0003c163 0x03c0003f 0x00003fff 0x00000001
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 8000001d, 4: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 8000001e, 0: 0x00000000 0x00000100 0x00000000 0x00000000
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 8000001f, 0: 0x0000000f 0x00000000 0x00000000 0x00000001
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 80000020, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 80000020, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 80000021, 0: 0x00000001 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 80000022, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.853+03:00| vmx| I005: hostCPUID level 80000023, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:38.853+03:00| vmx| I005: CPUID differences from hostCPUID.
+2024-10-23T13:10:38.854+03:00| vmx| I005: Physical APIC IDs: 0-15
+2024-10-23T13:10:38.854+03:00| vmx| I005: Physical Extended APIC IDs: 0-15
+2024-10-23T13:10:38.854+03:00| vmx| I005: Physical Compute Unit IDs: 0(x2),1(x2),2(x2),3(x2),4(x2),5(x2),6(x2),7(x2)
+2024-10-23T13:10:38.854+03:00| vmx| I005: Physical Node IDs: 0(x16)
+2024-10-23T13:10:38.854+03:00| vmx| I005: CPUID Maximum Physical Address Bits supported across all CPUs: 48
+2024-10-23T13:10:38.854+03:00| vmx| I005: Common: MSR       0x3a =                  0
+2024-10-23T13:10:38.854+03:00| vmx| I005: Common: MSR      0x480 =                  0
+2024-10-23T13:10:38.854+03:00| vmx| I005: Common: MSR      0x481 =                  0
+2024-10-23T13:10:38.854+03:00| vmx| I005: Common: MSR      0x482 =                  0
+2024-10-23T13:10:38.854+03:00| vmx| I005: Common: MSR      0x483 =                  0
+2024-10-23T13:10:38.854+03:00| vmx| I005: Common: MSR      0x484 =                  0
+2024-10-23T13:10:38.854+03:00| vmx| I005: Common: MSR      0x485 =                  0
+2024-10-23T13:10:38.854+03:00| vmx| I005: Common: MSR      0x486 =                  0
+2024-10-23T13:10:38.854+03:00| vmx| I005: Common: MSR      0x487 =                  0
+2024-10-23T13:10:38.854+03:00| vmx| I005: Common: MSR      0x488 =                  0
+2024-10-23T13:10:38.854+03:00| vmx| I005: Common: MSR      0x489 =                  0
+2024-10-23T13:10:38.854+03:00| vmx| I005: Common: MSR      0x48a =                  0
+2024-10-23T13:10:38.854+03:00| vmx| I005: Common: MSR      0x48b =                  0
+2024-10-23T13:10:38.854+03:00| vmx| I005: Common: MSR      0x48c =                  0
+2024-10-23T13:10:38.854+03:00| vmx| I005: Common: MSR      0x48d =                  0
+2024-10-23T13:10:38.854+03:00| vmx| I005: Common: MSR      0x48e =                  0
+2024-10-23T13:10:38.854+03:00| vmx| I005: Common: MSR      0x48f =                  0
+2024-10-23T13:10:38.854+03:00| vmx| I005: Common: MSR      0x490 =                  0
+2024-10-23T13:10:38.854+03:00| vmx| I005: Common: MSR      0x491 =                  0
+2024-10-23T13:10:38.854+03:00| vmx| I005: Common: MSR 0xc0010114 =                  0
+2024-10-23T13:10:38.854+03:00| vmx| I005: Common: MSR       0xce =                  0
+2024-10-23T13:10:38.854+03:00| vmx| I005: Common: MSR      0x10a =                  0
+2024-10-23T13:10:38.854+03:00| vmx| I005: PTSC: RefClockToPTSC 0 @ 10000000Hz -> 0 @ 3193914262Hz
+2024-10-23T13:10:38.854+03:00| vmx| I005: PTSC: RefClockToPTSC ((x * 2679249473) >> 23) + -55509089321049
+2024-10-23T13:10:38.854+03:00| vmx| I005: PTSC: tscOffset 0
+2024-10-23T13:10:38.854+03:00| vmx| I005: PTSC: using reference clock
+2024-10-23T13:10:38.854+03:00| vmx| I005: PTSC: hardware TSCs are synchronized.
+2024-10-23T13:10:38.854+03:00| vmx| I005: PTSC: hardware TSCs may have been adjusted by the host.
+2024-10-23T13:10:38.854+03:00| vmx| I005: PTSC: current PTSC=192913
+2024-10-23T13:10:38.854+03:00| vmx| I005: WQPoolAllocPoll : pollIx = 3, signalHandle = 992
+2024-10-23T13:10:38.897+03:00| vmx| I005: ConfigCheck: No rules file found. Checks are disabled.
+2024-10-23T13:10:38.897+03:00| vmx| I005: changing directory to D:\Универ\7 семестр\Облачные технологии\нст\CentOS_SAI_scloud2\.
+2024-10-23T13:10:38.897+03:00| vmx| I005: Config file: D:\Универ\7 семестр\Облачные технологии\нст\CentOS_SAI_scloud2\CentOS_SAI_scloud2.vmx
+2024-10-23T13:10:38.897+03:00| vmx| I005: Vix: [mainDispatch.c:4200]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2024-10-23T13:10:38.897+03:00| vmx| I005: Vix: [mainDispatch.c:4200]: VMAutomation_ReportPowerOpFinished: statevar=2, newAppState=1878, success=1 additionalError=0
+2024-10-23T13:10:38.932+03:00| vmx| W003: PowerOn
+2024-10-23T13:10:38.932+03:00| vmx| I005: VMX_PowerOn: VMX build 16341506, UI build 16341506
+2024-10-23T13:10:38.932+03:00| vmx| I005: HostWin32: WIN32 NUMA node 0, CPU mask 0x000000000000ffff
+2024-10-23T13:10:38.939+03:00| vmx| I005: Vix: [mainDispatch.c:4200]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1871, success=1 additionalError=0
+2024-10-23T13:10:38.939+03:00| vmx| I005: HOST Windows version 10.0, build 22631, platform 2, ""
+2024-10-23T13:10:38.939+03:00| vmx| I005: DICT --- GLOBAL SETTINGS C:\ProgramData\VMware\VMware Workstation\settings.ini
+2024-10-23T13:10:38.939+03:00| vmx| I005: DICT          printers.enabled = "FALSE"
+2024-10-23T13:10:38.939+03:00| vmx| I005: DICT --- NON PERSISTENT (null)
+2024-10-23T13:10:38.939+03:00| vmx| I005: DICT --- USER PREFERENCES C:\Users\user\AppData\Roaming\VMware\preferences.ini
+2024-10-23T13:10:38.939+03:00| vmx| I005: DICT pref.keyboardAndMouse.vmHotKey.enabled = "FALSE"
+2024-10-23T13:10:38.939+03:00| vmx| I005: DICT pref.keyboardAndMouse.vmHotKey.count = "0"
+2024-10-23T13:10:38.939+03:00| vmx| I005: DICT pref.ws.session.window.count = "1"
+2024-10-23T13:10:38.939+03:00| vmx| I005: DICT pref.ws.session.window0.tab.count = "4"
+2024-10-23T13:10:38.939+03:00| vmx| I005: DICT pref.ws.session.window0.tab0.dest = ""
+2024-10-23T13:10:38.939+03:00| vmx| I005: DICT pref.ws.session.window0.tab0.file = ""
+2024-10-23T13:10:38.939+03:00| vmx| I005: DICT pref.ws.session.window0.tab0.type = "home"
+2024-10-23T13:10:38.939+03:00| vmx| I005: DICT pref.ws.session.window0.tab0.cnxType = "vmdb"
+2024-10-23T13:10:38.939+03:00| vmx| I005: DICT pref.ws.session.window0.tab0.focused = "FALSE"
+2024-10-23T13:10:38.939+03:00| vmx| I005: DICT pref.ws.session.window0.tab1.cnxType = "vmdb"
+2024-10-23T13:10:38.939+03:00| vmx| I005: DICT pref.ws.session.window0.sidebar = "TRUE"
+2024-10-23T13:10:38.939+03:00| vmx| I005: DICT pref.ws.session.window0.sidebar.width = "294"
+2024-10-23T13:10:38.939+03:00| vmx| I005: DICT pref.ws.session.window0.statusBar = "TRUE"
+2024-10-23T13:10:38.939+03:00| vmx| I005: DICT pref.ws.session.window0.tabs = "TRUE"
+2024-10-23T13:10:38.939+03:00| vmx| I005: DICT pref.ws.session.window0.thumbnailBar = "FALSE"
+2024-10-23T13:10:38.939+03:00| vmx| I005: DICT pref.ws.session.window0.thumbnailBar.size = "100"
+2024-10-23T13:10:38.939+03:00| vmx| I005: DICT pref.ws.session.window0.thumbnailBar.view = "opened-vms"
+2024-10-23T13:10:38.939+03:00| vmx| I005: DICT pref.ws.session.window0.placement.left = "250"
+2024-10-23T13:10:38.939+03:00| vmx| I005: DICT pref.ws.session.window0.placement.top = "85"
+2024-10-23T13:10:38.939+03:00| vmx| I005: DICT pref.ws.session.window0.placement.right = "1364"
+2024-10-23T13:10:38.939+03:00| vmx| I005: DICT pref.ws.session.window0.placement.bottom = "845"
+2024-10-23T13:10:38.939+03:00| vmx| I005: DICT pref.ws.session.window0.maximized = "FALSE"
+2024-10-23T13:10:38.939+03:00| vmx| I005: DICT   hint.vmui.poweroff.soft = "FALSE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT             hints.hideAll = "FALSE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT         vmWizard.guestKey = "centos7-64"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT vmWizard.installMediaType = "iso"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT vmWizard.isoLocationMRU.count = "2"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT vmWizard.isoLocationMRU0.location = "D:\App\CentOS\CentOS-7-x86_64-DVD-1708.iso"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT        pref.hostMRU.count = "1"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT        pref.hostMRU0.name = "localhost"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT        pref.hostMRU0.type = "vim"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT    pref.hostMRU0.viewtype = "vmView"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT vmWizard.isoLocationMRU1.location = "D:\App\CentOs02\CentOS-7-x86_64-DVD-2207-02.iso"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT pref.ws.session.window0.tab1.dest = ""
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT pref.ws.session.window0.tab1.file = "D:\App\CentOS7\lab1Clone\Clone of CentOS7_VVS_scloud.vmx"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT pref.ws.session.window0.tab1.type = "vm"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT pref.ws.session.window0.tab1.focused = "FALSE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT pref.ws.session.window0.tab2.cnxType = "vmdb"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT pref.ws.session.window0.tab2.dest = ""
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT pref.ws.session.window0.tab2.file = "D:\test1\CentOS7_VVS_scloud.vmx"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT pref.ws.session.window0.tab2.type = "vm"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT pref.ws.session.window0.tab2.focused = "TRUE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT pref.ws.session.window0.tab3.dest = ""
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT pref.ws.session.window0.tab3.file = "D:\adminki2\laba1\serv1\Windows Server 2019.vmx"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT pref.ws.session.window0.tab3.type = "vm"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT pref.ws.session.window0.tab3.cnxType = "vmdb"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT pref.ws.session.window0.tab3.focused = "FALSE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT pref.snapshotManager.left = "221"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT  pref.snapshotManager.top = "85"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT pref.snapshotManager.right = "1018"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT pref.snapshotManager.bottom = "727"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT --- USER DEFAULTS C:\Users\user\AppData\Roaming\VMware\config.ini
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT --- HOST DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT         authd.client.port = "902"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT installerDefaults.autoSoftwareUpdateEnabled = "no"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "9798"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT installerDefaults.componentDownloadEnabled = "yes"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT installerDefaults.dataCollectionEnabled = "no"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT installerDefaults.dataCollectionEnabled.epoch = "9798"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT --- SITE DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT         authd.client.port = "902"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT installerDefaults.autoSoftwareUpdateEnabled = "no"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "9798"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT installerDefaults.componentDownloadEnabled = "yes"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT installerDefaults.dataCollectionEnabled = "no"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT installerDefaults.dataCollectionEnabled.epoch = "9798"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT --- NONPERSISTENT
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT            vmx.stdio.keep = "TRUE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT             gui.available = "TRUE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT --- COMMAND LINE
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT            vmx.stdio.keep = "TRUE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT             gui.available = "TRUE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT --- RECORDING
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT            vmx.stdio.keep = "TRUE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT             gui.available = "TRUE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT --- CONFIGURATION D:\Универ\7 семестр\Облачные технологии\нст\CentOS_SAI_scloud2\CentOS_SAI_scloud2.vmx 
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT            config.version = "8"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT         virtualHW.version = "16"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT        pciBridge0.present = "TRUE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT        pciBridge4.present = "TRUE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT     pciBridge4.virtualDev = "pcieRootPort"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT      pciBridge4.functions = "8"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT        pciBridge5.present = "TRUE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT     pciBridge5.virtualDev = "pcieRootPort"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT      pciBridge5.functions = "8"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT        pciBridge6.present = "TRUE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT     pciBridge6.virtualDev = "pcieRootPort"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT      pciBridge6.functions = "8"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT        pciBridge7.present = "TRUE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT     pciBridge7.virtualDev = "pcieRootPort"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT      pciBridge7.functions = "8"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT             vmci0.present = "TRUE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT             hpet0.present = "TRUE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT                     nvram = "CentOS_SAI_scloud2.nvram"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT virtualHW.productCompatibility = "hosted"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT        powerType.powerOff = "soft"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT         powerType.powerOn = "soft"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT         powerType.suspend = "soft"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT           powerType.reset = "soft"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT               displayName = "Clone of CentOS_VVS_scloud"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT usb.vbluetooth.startConnected = "TRUE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT                   guestOS = "centos7-64"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT            tools.syncTime = "TRUE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT          sound.autoDetect = "TRUE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT            sound.fileName = "-1"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT             sound.present = "TRUE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT               vcpu.hotadd = "TRUE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT                   memsize = "1024"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT                mem.hotadd = "TRUE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT          scsi0.virtualDev = "lsilogic"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT             scsi0.present = "TRUE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT          scsi0:0.fileName = "CentOS_SAI_scloud-cl1.vmdk"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT           scsi0:0.present = "TRUE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT         ide1:0.deviceType = "cdrom-image"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT           ide1:0.fileName = "C:\Users\SUS.CUSTOM\Downloads\CentOS-7-x86_64-DVD-2207-02.iso"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT            ide1:0.present = "TRUE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT               usb.present = "TRUE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT              ehci.present = "TRUE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT  ethernet0.connectionType = "nat"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT     ethernet0.addressType = "generated"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT      ethernet0.virtualDev = "e1000"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT          serial0.fileType = "thinprint"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT          serial0.fileName = "thinprint"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT         ethernet0.present = "TRUE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT           serial0.present = "TRUE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT        extendedConfigFile = "CentOS_SAI_scloud2.vmxf"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT           floppy0.present = "FALSE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT      tools.upgrade.policy = "manual"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT                 uuid.bios = "56 4d f5 3f b7 8b 1b ce-a6 b2 bf 23 51 93 df 89"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT             uuid.location = "56 4d f5 3f b7 8b 1b ce-a6 b2 bf 23 51 93 df 89"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT              scsi0:0.redo = ""
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT  pciBridge0.pciSlotNumber = "17"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT  pciBridge4.pciSlotNumber = "21"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT  pciBridge5.pciSlotNumber = "22"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT  pciBridge6.pciSlotNumber = "23"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT  pciBridge7.pciSlotNumber = "24"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT       scsi0.pciSlotNumber = "16"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT         usb.pciSlotNumber = "32"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT   ethernet0.pciSlotNumber = "33"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT       sound.pciSlotNumber = "34"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT        ehci.pciSlotNumber = "35"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT       vmci0.pciSlotNumber = "36"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT             svga.vramSize = "268435456"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT  vmotion.checkpointFBSize = "4194304"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT vmotion.checkpointSVGAPrimarySize = "268435456"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT ethernet0.generatedAddress = "00:0c:29:93:df:89"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT ethernet0.generatedAddressOffset = "0"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT                  vmci0.id = "-1925276107"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT    monitor.phys_bits_used = "43"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT             cleanShutdown = "TRUE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT              softPowerOff = "TRUE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT               usb:1.speed = "2"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT             usb:1.present = "TRUE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT          usb:1.deviceType = "hub"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT                usb:1.port = "1"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT              usb:1.parent = "-1"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT svga.guestBackedPrimaryAware = "TRUE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT     guestOS.detailed.data = "bitness='64' distroName='CentOS Linux' distroVersion='7' familyName='Linux' kernelVersion='3.10.0-1160.119.1.el7.x86_64' prettyName='CentOS Linux 7 (Core)'"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT                   vc.uuid = ""
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT          policy.vm.mvmtid = ""
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT        checkpoint.vmState = ""
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT             usb:0.present = "TRUE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT          usb:0.deviceType = "hid"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT                usb:0.port = "0"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT              usb:0.parent = "-1"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT --- USER DEFAULTS C:\Users\user\AppData\Roaming\VMware\config.ini 
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT --- HOST DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT         authd.client.port = "902"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT installerDefaults.autoSoftwareUpdateEnabled = "no"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "9798"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT installerDefaults.componentDownloadEnabled = "yes"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT installerDefaults.dataCollectionEnabled = "no"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT installerDefaults.dataCollectionEnabled.epoch = "9798"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT --- SITE DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT         authd.client.port = "902"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT installerDefaults.autoSoftwareUpdateEnabled = "no"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "9798"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT installerDefaults.componentDownloadEnabled = "yes"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT installerDefaults.dataCollectionEnabled = "no"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT installerDefaults.dataCollectionEnabled.epoch = "9798"
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT --- GLOBAL SETTINGS C:\ProgramData\VMware\VMware Workstation\settings.ini 
+2024-10-23T13:10:38.946+03:00| vmx| I005: DICT          printers.enabled = "FALSE"
+2024-10-23T13:10:38.946+03:00| vmx| I005: ToolsISO: open of D:\App\VMWareExe\isoimages_manifest.txt.sig failed: Could not find the file
+2024-10-23T13:10:38.946+03:00| vmx| I005: ToolsISO: Unable to read signature file 'D:\App\VMWareExe\isoimages_manifest.txt.sig', ignoring.
+2024-10-23T13:10:38.946+03:00| vmx| I005: ToolsISO: Updated cached value for imageName to 'linux.iso'.
+2024-10-23T13:10:38.946+03:00| vmx| I005: ToolsISO: Selected Tools ISO 'linux.iso' for 'centos7-64' guest.
+2024-10-23T13:10:38.946+03:00| vmx| I005: Vix: [mainDispatch.c:4200]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2024-10-23T13:10:38.946+03:00| vmx| I005: Monitor Mode: ULM
+2024-10-23T13:10:38.964+03:00| vmx| I005: OvhdMem_PowerOn: initial admission: paged   508188 nonpaged     3115 anonymous     3800
+2024-10-23T13:10:38.964+03:00| vmx| I005: VMMEM: Initial Reservation: 2012MB (MainMem=1024MB)
+2024-10-23T13:10:38.964+03:00| vmx| I005: MemSched_PowerOn: balloon minGuestSize 104857 (80% of min required size 131072)
+2024-10-23T13:10:38.964+03:00| vmx| I005: MemSched: reserved mem (in MB) min 128 max 11971 recommended 11971
+2024-10-23T13:10:38.964+03:00| vmx| I005: MemSched: pg 508188 np 3115 anon 3800 mem 262144
+2024-10-23T13:10:39.009+03:00| vmx| I005: MemSched: numvm 2 locked pages: num 0 max 2742865
+2024-10-23T13:10:39.009+03:00| vmx| I005: MemSched: locked Page Limit: host 3062966 config 3064576 dynam 2759249
+2024-10-23T13:10:39.009+03:00| vmx| I005: MemSched: minmempct 50 minalloc 137315 admitted 1
+2024-10-23T13:10:39.009+03:00| vmx| I005: numa: Hot add is enabled and vNUMA hot add is disabled, forcing UMA.
+2024-10-23T13:10:39.009+03:00| WinNotifyThread| I005: VTHREAD 17600 "WinNotifyThread"
+2024-10-23T13:10:39.009+03:00| WinNotifyThread| I005: WinNotify thread is alive
+2024-10-23T13:10:39.010+03:00| vmx| I005: LICENSE using: 'HKEY_LOCAL_MACHINE\SOFTWARE\VMware, Inc.\VMware Workstation\Dormant\License.ws.15.0.e2.201804' 
+2024-10-23T13:10:39.011+03:00| vthread-32036| I005: VTHREAD 32036 "vthread-32036"
+2024-10-23T13:10:39.011+03:00| vmx| I005: Win32U_GetFileAttributes: GetFileAttributesExW("D:\Универ\7 семестр\Облачные технологии\нст\CentOS_SAI_scloud2\CentOS_SAI_scloud2.vmpl", ...) failed, error: 2
+2024-10-23T13:10:39.011+03:00| vmx| I005: PolicyVMXFindPolicyKey: policy file does not exist.
+2024-10-23T13:10:39.013+03:00| vmx| I005: Win32U_GetFileAttributes: GetFileAttributesExW("D:\Универ\7 семестр\Облачные технологии\нст\CentOS_SAI_scloud2\CentOS_SAI_scloud2.vmpl", ...) failed, error: 2
+2024-10-23T13:10:39.013+03:00| vmx| I005: PolicyVMXFindPolicyKey: policy file does not exist.
+2024-10-23T13:10:39.014+03:00| vmx| I005: ToolsISO: Refreshing imageName for 'centos7-64' (refreshCount=1, lastCount=1).
+2024-10-23T13:10:39.014+03:00| vmx| I005: ToolsISO: open of D:\App\VMWareExe\isoimages_manifest.txt.sig failed: Could not find the file
+2024-10-23T13:10:39.014+03:00| vmx| I005: ToolsISO: Unable to read signature file 'D:\App\VMWareExe\isoimages_manifest.txt.sig', ignoring.
+2024-10-23T13:10:39.016+03:00| vmx| I005: ToolsISO: Updated cached value for imageName to 'linux.iso'.
+2024-10-23T13:10:39.016+03:00| vmx| I005: ToolsISO: Selected Tools ISO 'linux.iso' for 'centos7-64' guest.
+2024-10-23T13:10:39.016+03:00| deviceThread| I005: VTHREAD 35868 "deviceThread"
+2024-10-23T13:10:39.016+03:00| deviceThread| I005: Device thread is alive
+2024-10-23T13:10:39.016+03:00| vmx| I005: KHZEstimate 3193914
+2024-10-23T13:10:39.016+03:00| vmx| I005: MHZEstimate 3194
+2024-10-23T13:10:39.016+03:00| vmx| I005: NumVCPUs 1
+2024-10-23T13:10:39.016+03:00| vmx| I005: MonTimer: host does not have high resolution timers.
+2024-10-23T13:10:39.020+03:00| vmx| I005: AIOGNRC: numThreads=18 ide=0, scsi=1, passthru=1
+2024-10-23T13:10:39.020+03:00| vmx| I005: WORKER: Creating new group with maxThreads=18 (18)
+2024-10-23T13:10:39.024+03:00| vmx| I005: WORKER: Creating new group with maxThreads=1 (19)
+2024-10-23T13:10:39.024+03:00| vmx| I005: MainMem: CPT Host WZ=0 PF=1024 D=0
+2024-10-23T13:10:39.024+03:00| vmx| I005: MainMem: CPT PLS=1 PLR=1 BS=1 BlkP=32 Mult=4 W=50
+2024-10-23T13:10:39.030+03:00| vmx| I005: MainMem: Opened paging file, 'D:\Универ\7 семестр\Облачные технологии\нст\CentOS_SAI_scloud2\564df53f-b78b-1bce-a6b2-bf235193df89.vmem'.
+2024-10-23T13:10:39.034+03:00| vmx| I005: MStat: Creating Stat vm.uptime
+2024-10-23T13:10:39.034+03:00| vmx| I005: MStat: Creating Stat vm.suspendTime
+2024-10-23T13:10:39.034+03:00| vmx| I005: MStat: Creating Stat vm.powerOnTimeStamp
+2024-10-23T13:10:39.034+03:00| aioCompletion| I005: VTHREAD 4280 "aioCompletion"
+2024-10-23T13:10:39.034+03:00| vmx| I005: VMXAIOMGR: Using: simple=Compl
+2024-10-23T13:10:39.037+03:00| vmx| I005: WORKER: Creating new group with maxThreads=1 (20)
+2024-10-23T13:10:39.041+03:00| vmx| I005: WORKER: Creating new group with maxThreads=16 (36)
+2024-10-23T13:10:39.044+03:00| vmx| I005: FeatureCompat: No VM masks.
+2024-10-23T13:10:39.044+03:00| vmx| I005: TimeTracker host to guest rate conversion 608192819 @ 3193914262Hz -> 0 @ 3193914262Hz
+2024-10-23T13:10:39.044+03:00| vmx| I005: TimeTracker host to guest rate conversion ((x * 2147483648) >> 31) + -608192819
+2024-10-23T13:10:39.044+03:00| vmx| I005: Disabling TSC scaling since host does not support it.
+2024-10-23T13:10:39.044+03:00| vmx| I005: TSC offsetting enabled.
+2024-10-23T13:10:39.044+03:00| vmx| I005: timeTracker.globalProgressMaxAllowanceMS: 2000
+2024-10-23T13:10:39.044+03:00| vmx| I005: timeTracker.globalProgressToAllowanceNS: 1000
+2024-10-23T13:10:39.044+03:00| vmx| I005: MKS PowerOn
+2024-10-23T13:10:39.044+03:00| mks| I005: VTHREAD 5448 "mks"
+2024-10-23T13:10:39.044+03:00| mks| I005: MKS thread is alive
+2024-10-23T13:10:39.050+03:00| mouse| I005: VTHREAD 11908 "mouse"
+2024-10-23T13:10:39.050+03:00| mks| I005: MKS-HookKeyboard: RegQueryValueEx(LowLevelHooksTimeout) failed: The system cannot find the file specified (2)
+2024-10-23T13:10:39.050+03:00| kbh| I005: VTHREAD 36000 "kbh"
+2024-10-23T13:10:39.061+03:00| mks| I005: MKS Win32: Registering top level window (0x126ae) to receive session change notification.
+2024-10-23T13:10:39.065+03:00| mks| I005: Current Display Settings:
+2024-10-23T13:10:39.065+03:00| mks| I005:    Display: 0 size: 1920x1080  position: (0, 0) name: \\.\DISPLAY1  
+2024-10-23T13:10:39.065+03:00| mks| I005: MKS Win32: MIL: 0x4000
+2024-10-23T13:10:39.065+03:00| mks| I005: MKS-RenderMain: PowerOn allowed MKSBasicOps 
+2024-10-23T13:10:39.065+03:00| mks| I005: MKS-RenderMain: Collecting RenderOps caps from MKSBasicOps
+2024-10-23T13:10:39.065+03:00| mks| I005: MKS-RenderMain: Started MKSBasicOps
+2024-10-23T13:10:39.065+03:00| mks| I005: MKS-RenderMain: Found Full Renderer: MKSBasicOps
+2024-10-23T13:10:39.065+03:00| mks| I005: MKS-RenderMain: MinimalCaps: maxTextureSize=32768
+2024-10-23T13:10:39.068+03:00| mks| I005: KHBKL: Unable to parse keystring at: ''
+2024-10-23T13:10:39.068+03:00| mks| I005: MKSRemoteMgr: Set default display name: Clone of CentOS_VVS_scloud
+2024-10-23T13:10:39.068+03:00| mks| I005: MKSRemoteMgr: Loading VNC Configuration from VM config file
+2024-10-23T13:10:39.068+03:00| vmx| I005: VLANCE: send cluster threshold is 80, size = 2 recalcInterval is 20000 us
+2024-10-23T13:10:39.068+03:00| vmx| I005: VMXNET: send cluster threshold is 80, size = 2 recalcInterval is 20000 ticks, dontClusterSize is 128
+2024-10-23T13:10:39.068+03:00| vmx| I005: Chipset version: 0x17
+2024-10-23T13:10:39.072+03:00| vmx| I005: SOUNDLIB: Creating the Wave sound backend.
+2024-10-23T13:10:39.073+03:00| vmx| I005: MigrateBusMemPrealloc: BusMem preallocation begins.
+2024-10-23T13:10:39.073+03:00| vmx| I005: MigrateBusMemPrealloc: BusMem preallocation completes.
+2024-10-23T13:10:39.073+03:00| vmx| A000: ConfigDB: Setting scsi0:0.redo = ""
+2024-10-23T13:10:39.073+03:00| vmx| I005: DISK: OPEN scsi0:0 'D:\Универ\7 семестр\Облачные технологии\нст\CentOS_SAI_scloud2\CentOS_SAI_scloud-cl1.vmdk' persistent R[]
+2024-10-23T13:10:39.085+03:00| vmx| I005: DISKLIB-DSCPTR: Opened [0]: "CentOS_SAI_scloud-cl1.vmdk" (0xa)
+2024-10-23T13:10:39.085+03:00| vmx| I005: DISKLIB-LINK  : Opened 'D:\Универ\7 семестр\Облачные технологии\нст\CentOS_SAI_scloud2\CentOS_SAI_scloud-cl1.vmdk' (0xa): monolithicSparse, 41943040 sectors / 20 GB.
+2024-10-23T13:10:39.085+03:00| vmx| I005: DISKLIB-LIB   : Opened "D:\Универ\7 семестр\Облачные технологии\нст\CentOS_SAI_scloud2\CentOS_SAI_scloud-cl1.vmdk" (flags 0xa, type monolithicSparse).
+2024-10-23T13:10:39.085+03:00| vmx| I005: DISKLIB-LIB_MISC   : DiskLib_GetStorageBlockSizes: Failed to get storage block sizes, The virtual disk requires a feature not supported by this program.
+2024-10-23T13:10:39.085+03:00| vmx| I005: DiskGetGeometry: Reading of disk partition table
+2024-10-23T13:10:39.085+03:00| vmx| I005: DISK: Disk 'D:\Универ\7 семестр\Облачные технологии\нст\CentOS_SAI_scloud2\CentOS_SAI_scloud-cl1.vmdk' has UUID '60 00 c2 9c 63 23 ae 4f-b4 5c a4 ac ab 32 cd 21'
+2024-10-23T13:10:39.085+03:00| vmx| I005: DISK: OPEN 'D:\Универ\7 семестр\Облачные технологии\нст\CentOS_SAI_scloud2\CentOS_SAI_scloud-cl1.vmdk' Geo (2610/255/63) BIOS Geo (2610/255/63)
+2024-10-23T13:10:39.093+03:00| vmx| I005: DISKUTILWIN32: DiskUtilW32IsATASSDDevice: Failed to send ATA IDENTIFY command to the target device.
+2024-10-23T13:10:39.093+03:00| vmx| I005: DISKUTILWIN32: DiskUtilW32IsScsiSSDDevice: Reported rotation rate = 1
+2024-10-23T13:10:39.093+03:00| vmx| I005: DISK: DiskConfigureVirtualSSD:  Disk 'scsi0:0' identified as Virtual SSD device.
+2024-10-23T13:10:39.093+03:00| vmx| I005: DISK: Opening disks took 23 ms.
+2024-10-23T13:10:39.097+03:00| vmx| I005: USB: Initializing 'Virtual Hub' backend
+2024-10-23T13:10:39.097+03:00| vmx| I005: USB: Initializing 'Generic' backend
+2024-10-23T13:10:39.097+03:00| vmx| I005: USB: Initializing 'Virtual HID' backend
+2024-10-23T13:10:39.097+03:00| sensorThread| I005: VTHREAD 36468 "sensorThread"
+2024-10-23T13:10:39.097+03:00| vmx| I005: USB: Initializing 'Remote Device' backend
+2024-10-23T13:10:39.097+03:00| vmx| I005: RemoteUSBVMX: Retrieved hostId [fe f8 24 06 b9 ee ec 11-80 f2 6c 24 08 c5 52 d9]
+2024-10-23T13:10:39.097+03:00| vmx| I005: RemoteUSBVMX: Protocol version min:15 current:17
+2024-10-23T13:10:39.097+03:00| vmx| I005: RemoteUSBVMX: no delay setting is TRUE.
+2024-10-23T13:10:39.097+03:00| vmx| I005: USB: Initializing 'Virtual Mass Storage' backend
+2024-10-23T13:10:39.097+03:00| vmx| I005: USB: Initializing 'Virtual RNG' backend
+2024-10-23T13:10:39.097+03:00| vmx| I005: USB: Initializing 'Virtual CCID' backend
+2024-10-23T13:10:39.097+03:00| vmx| I005: USB-CCID: Could not establish context: SCARD_E_NO_SERVICE(0x8010001d).
+2024-10-23T13:10:39.100+03:00| vmx| I005: USB-CCID: Could not establish context: SCARD_E_NO_SERVICE(0x8010001d).
+2024-10-23T13:10:39.100+03:00| usbCCIDEnumCards| I005: VTHREAD 37000 "usbCCIDEnumCards"
+2024-10-23T13:10:39.100+03:00| usbCCIDEnumCards| I005: USB-CCID: Card enum thread created.
+2024-10-23T13:10:39.100+03:00| vmx| I005: USB: Initializing 'Virtual Bluetooth' backend
+2024-10-23T13:10:39.100+03:00| vmx| I005: USB: Initializing 'Virtual Audio' backend
+2024-10-23T13:10:39.100+03:00| vmx| I005: USB: Initializing 'Virtual Video' backend
+2024-10-23T13:10:39.113+03:00| vmx| I005: USBGW: Skipping disk backing for file (D:\Универ\7 семестр\Облачные технологии\нст\CentOS_SAI_scloud2\CentOS_SAI_scloud2.vmx).
+2024-10-23T13:10:39.117+03:00| vmx| I005: USBGW: Skipping disk backing for file (D:\Универ\7 семестр\Облачные технологии\нст\CentOS_SAI_scloud2\CentOS_SAI_scloud-cl1.vmdk).
+2024-10-23T13:10:39.117+03:00| vmx| I005: USBGW: Skipping disk backing for file (D:\Универ\7 семестр\Облачные технологии\нст\CentOS_SAI_scloud2\CentOS_SAI_scloud2.vmsd).
+2024-10-23T13:10:39.117+03:00| vmx| I005: USBGW: Skipping disk backing for file (D:\Универ\7 семестр\Облачные технологии\нст\CentOS_SAI_scloud2\CentOS_SAI_scloud2.nvram).
+2024-10-23T13:10:39.117+03:00| usbCCIDEnumCards| I005: USB-CCID: Could not establish context: SCARD_E_NO_SERVICE(0x8010001d).
+2024-10-23T13:10:39.123+03:00| vmx| A000: ConfigDB: Setting pciBridge4.pciSlotNumber = "-1"
+2024-10-23T13:10:39.123+03:00| vmx| A000: ConfigDB: Setting pciBridge5.pciSlotNumber = "-1"
+2024-10-23T13:10:39.123+03:00| vmx| A000: ConfigDB: Setting pciBridge6.pciSlotNumber = "-1"
+2024-10-23T13:10:39.123+03:00| vmx| A000: ConfigDB: Setting pciBridge7.pciSlotNumber = "-1"
+2024-10-23T13:10:39.123+03:00| vmx| A000: ConfigDB: Setting pciBridge4.pciSlotNumber = "21"
+2024-10-23T13:10:39.123+03:00| vmx| A000: ConfigDB: Setting pciBridge5.pciSlotNumber = "22"
+2024-10-23T13:10:39.123+03:00| vmx| A000: ConfigDB: Setting pciBridge6.pciSlotNumber = "23"
+2024-10-23T13:10:39.123+03:00| vmx| A000: ConfigDB: Setting pciBridge7.pciSlotNumber = "24"
+2024-10-23T13:10:39.133+03:00| vmx| I005: SCSI DEVICE (ide1:0): Computed value of ide1:0.useBounceBuffers: default
+2024-10-23T13:10:39.133+03:00| vmx| I005: DISKUTIL: ide1:0 : capacity=0 logical sector size=2048
+2024-10-23T13:10:39.133+03:00| vmx| I005: DISKUTIL: ide1:0 : geometry=0/0/0
+2024-10-23T13:10:39.133+03:00| vmx| I005: SCSI: scsi0: intr coalescing: on period=50msec cifTh=4 iopsTh=2000 hlt=0
+2024-10-23T13:10:39.133+03:00| vmx| I005: SCSI0: UNTAGGED commands will be converted to ORDER tags.
+2024-10-23T13:10:39.133+03:00| vmx| I005: SCSI DEVICE (scsi0:0): Computed value of scsi0:0.useBounceBuffers: default
+2024-10-23T13:10:39.133+03:00| vmx| I005: DISKUTIL: scsi0:0 : capacity=41943040 logical sector size=512
+2024-10-23T13:10:39.133+03:00| vmx| I005: DISKUTIL: scsi0:0 : geometry=2610/255/63
+2024-10-23T13:10:39.141+03:00| vmx| I005: SVGA-GFB: Config settings: autodetect=1, numDisplays=1, maxWidth=2560, maxHeight=1600
+2024-10-23T13:10:39.141+03:00| vmx| I005: SVGA-GFB: Desired maximum display topology: wh(6688, 5016)
+2024-10-23T13:10:39.141+03:00| vmx| I005: SVGA-GFB: Autodetected target gfbSize = 268435456
+2024-10-23T13:10:39.141+03:00| vmx| I005: SVGA-GFB: Using Initial       gfbSize = 4194304
+2024-10-23T13:10:39.141+03:00| vmx| I005: SVGA-GFB: MaxPrimaryMem      register = 268435456
+2024-10-23T13:10:39.141+03:00| vmx| I005: SVGA-GFB: Truncated maximum resolution for register modes to VRAM size: VRAM=4194304 bytes, max wh(1176, 885)
+2024-10-23T13:10:39.141+03:00| vmx| I005: SVGA-GFB: Max wh(1176, 885), number of displays: 10
+2024-10-23T13:10:39.141+03:00| vmx| I005: SVGA-GFB: Allocated gfbSize=4194304
+2024-10-23T13:10:39.141+03:00| vmx| A000: ConfigDB: Setting vmotion.checkpointFBSize = "4194304"
+2024-10-23T13:10:39.141+03:00| vmx| A000: ConfigDB: Setting vmotion.checkpointSVGAPrimarySize = "268435456"
+2024-10-23T13:10:39.141+03:00| vmx| I005: SVGACaps: Device       caps : 0xfdff83e2
+2024-10-23T13:10:39.141+03:00| vmx| I005: SVGACaps: Device       caps2: 0x00000007
+2024-10-23T13:10:39.141+03:00| vmx| I005: SVGA: mobMaxSize=134217728
+2024-10-23T13:10:39.141+03:00| vmx| I005: SVGA: graphicsMemoryKB=262144
+2024-10-23T13:10:39.141+03:00| vmx| I005: SVGA: FIFO capabilities 0x0000077f
+2024-10-23T13:10:39.141+03:00| vmx| I005: SVGA3dClamp: Renderer Provides     BC67Level:     0 (    0,     0)
+2024-10-23T13:10:39.141+03:00| vmx| I005: SVGA3dClamp: Renderer Provides BaseCapsLevel:     0 (    0,     0)
+2024-10-23T13:10:39.141+03:00| vmx| I005: SVGA3dClamp: Renderer Provides    ClampLevel:     0 (    0,     0)
+2024-10-23T13:10:39.141+03:00| vmx| I005: SVGA3dCaps: host, at power on: 3d disabled
+2024-10-23T13:10:39.141+03:00| vmx| I005:   cap[ 19]: 0x00002000 (MAX_TEXTURE_WIDTH)
+2024-10-23T13:10:39.141+03:00| vmx| I005:   cap[ 20]: 0x00002000 (MAX_TEXTURE_HEIGHT)
+2024-10-23T13:10:39.141+03:00| vmx| I005:   cap[ 93]: 0x00000001 (TS_COLOR_KEY)
+2024-10-23T13:10:39.141+03:00| vmx| I005: SVGA3dClamp:     Host Provides     BC67Level:     0 (    0,     0)
+2024-10-23T13:10:39.141+03:00| vmx| I005: SVGA3dClamp:     Host Provides BaseCapsLevel:     0 (    0,     4)
+2024-10-23T13:10:39.141+03:00| vmx| I005: SVGA3dClamp:     Host Provides    ClampLevel:     0 (    0,     0)
+2024-10-23T13:10:39.141+03:00| vmx| I005: SVGA3dCaps: guest, compatibility level: 8
+2024-10-23T13:10:39.141+03:00| vmx| I005:   cap[ 19]: 0x00002000 (MAX_TEXTURE_WIDTH)
+2024-10-23T13:10:39.141+03:00| vmx| I005:   cap[ 20]: 0x00002000 (MAX_TEXTURE_HEIGHT)
+2024-10-23T13:10:39.141+03:00| vmx| I005: SVGA3dClamp:    Guest Requires     BC67Level:     0 (    0,     0)
+2024-10-23T13:10:39.141+03:00| vmx| I005: SVGA3dClamp:    Guest Requires BaseCapsLevel:     0 (    0,     0)
+2024-10-23T13:10:39.141+03:00| vmx| I005: SVGA3dClamp:    Guest Requires    ClampLevel:     0 (    0,     0)
+2024-10-23T13:10:39.141+03:00| svga| I005: VTHREAD 36764 "svga"
+2024-10-23T13:10:39.141+03:00| vmx| I005: USB: Initializing 'UHCI' host controller
+2024-10-23T13:10:39.141+03:00| vmx| A000: ConfigDB: Setting usb:0.present = "TRUE"
+2024-10-23T13:10:39.141+03:00| vmx| A000: ConfigDB: Setting usb:0.deviceType = "hid"
+2024-10-23T13:10:39.141+03:00| vmx| A000: ConfigDB: Setting usb:0.port = "0"
+2024-10-23T13:10:39.141+03:00| vmx| A000: ConfigDB: Setting usb:0.parent = "-1"
+2024-10-23T13:10:39.150+03:00| vmx| A000: ConfigDB: Setting usb:1.speed = "2"
+2024-10-23T13:10:39.150+03:00| vmx| I005: Ethernet0 MAC Address: 00:0c:29:93:df:89
+2024-10-23T13:10:39.150+03:00| vmx| I005: USB: Initializing 'EHCI' host controller
+2024-10-23T13:10:39.150+03:00| vmx| A000: ConfigDB: Setting vmci0.id = "-1925276107"
+2024-10-23T13:10:39.165+03:00| vmx| I005: WORKER: Creating new group with maxThreads=1 (37)
+2024-10-23T13:10:39.165+03:00| vmx| I005: DISKUTIL: scsi0:0 : max toolsVersion = 11269, type = 4
+2024-10-23T13:10:39.165+03:00| vmx| I005: TOOLS setting legacy tools version to '11269' type 4, manifest status is 9
+2024-10-23T13:10:39.166+03:00| worker-32036| I005: ToolsVersionGetStatusWorkerThread: Tools status 8 derived from environment
+2024-10-23T13:10:39.166+03:00| vmx| I005: Tools: sending 'OS_PowerOn' (state = 3) state change request
+2024-10-23T13:10:39.166+03:00| vmx| I005: Tools: Delaying state change request to state 3.
+2024-10-23T13:10:39.166+03:00| vmx| I005: TOOLS INSTALL initializing state to IDLE on power on.
+2024-10-23T13:10:39.166+03:00| vmx| I005: P9FS_PowerOn: 9PFS server is not enabled.
+2024-10-23T13:10:39.166+03:00| vmx| I005: HgfsServerManagerVigorInit: Initialize: dev api
+2024-10-23T13:10:39.166+03:00| vmx| I005: DEPLOYPKG: No pending deploy package name set
+2024-10-23T13:10:39.168+03:00| vmx| I005: DEPLOYPKG: ToolsDeployPkgPublishState: state=0, code=0, message=(null)
+2024-10-23T13:10:39.173+03:00| vmx| A000: ConfigDB: Setting monitor.phys_bits_used = "43"
+2024-10-23T13:10:39.175+03:00| vmx| I005: Full guest CPUID with differences from hostCPUID highlighted.
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID guest vendor: AuthenticAMD
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID guest family: 0x19 model: 0x50 stepping: 0x0
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID guest codename: Zen3
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID guest name: AMD Ryzen 7 5800H with Radeon Graphics         
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID       level eaxIn, ecxIn:        eax        ebx        ecx        edx
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID guest level 00000000,  0: 0x0000000d 0x68747541 0x444d4163 0x69746e65
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID guest level 00000001,  0: 0x00a50f00 0x00000800 0xf6f83203 0x078bfbff
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID *host level 00000001,  0: 0x00a50f00 0x00100800 0xfed8320b 0x178bfbff
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID guest level 00000006,  0: 0x00000004 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID *host level 00000006,  0: 0x00000000 0x00000000 0x00000001 0x00000000
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID guest level 00000007,  0: 0x00000000 0x219c07a9 0x00000000 0x00000000
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID *host level 00000007,  0: 0x00000000 0x219c97a9 0x00400684 0x00000010
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID guest level 0000000b,  0: 0x00000000 0x00000001 0x00000100 0x00000000
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID *host level 0000000b,  0: 0x00000001 0x00000002 0x00000100 0x00000000
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID guest level 0000000b,  1: 0x00000000 0x00000001 0x00000201 0x00000000
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID *host level 0000000b,  1: 0x00000004 0x00000010 0x00000201 0x00000000
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID guest level 0000000d,  0: 0x00000007 0x00000340 0x00000340 0x00000000
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID guest level 0000000d,  1: 0x0000000b 0x00000350 0x00000000 0x00000000
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID *host level 0000000d,  1: 0x0000000f 0x00000350 0x00001800 0x00000000
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID guest level 0000000d,  2: 0x00000100 0x00000240 0x00000000 0x00000000
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID guest level 40000000,  0: 0x40000010 0x61774d56 0x4d566572 0x65726177
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID *host level 40000000,  0: 0x4000000c 0x7263694d 0x666f736f 0x76482074
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID guest level 40000010,  0: 0x0030bc3a 0x000101d0 0x00000000 0x00000000
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID guest level 80000000,  0: 0x80000023 0x68747541 0x444d4163 0x69746e65
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID guest level 80000001,  0: 0x00a50f00 0x00000000 0x000003f1 0x2fd3fbff
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID *host level 80000001,  0: 0x00a50f00 0x00000000 0x20c023f3 0x2fd3fbff
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID guest level 80000002,  0: 0x20444d41 0x657a7952 0x2037206e 0x30303835
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID guest level 80000003,  0: 0x69772048 0x52206874 0x6f656461 0x7247206e
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID guest level 80000004,  0: 0x69687061 0x20207363 0x20202020 0x00202020
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID guest level 80000005,  0: 0xff40ff40 0xff40ff40 0x20080140 0x20080140
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID guest level 80000006,  0: 0x48002200 0x68004200 0x02006140 0x00809140
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID guest level 80000007,  0: 0x00000000 0x00000003 0x00000000 0x00000100
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID *host level 80000007,  0: 0x00000000 0x0000001b 0x00000000 0x00004789
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID guest level 80000008,  0: 0x0000302b 0x01001001 0x00000000 0x00000000
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID *host level 80000008,  0: 0x00003030 0x3900d215 0x0000400f 0x00010000
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID guest level 8000001a,  0: 0x00000006 0x00000000 0x00000000 0x00000000
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID guest level 8000001d,  0: 0x00004121 0x01c0003f 0x0000003f 0x00000000
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID guest level 8000001d,  1: 0x00004122 0x01c0003f 0x0000003f 0x00000000
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID guest level 8000001d,  2: 0x00004143 0x01c0003f 0x000003ff 0x00000002
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID guest level 8000001d,  3: 0x0003c163 0x03c0003f 0x00003fff 0x00000001
+2024-10-23T13:10:39.175+03:00| vmx| I005: guest vs. host CPUID guest level 8000001e,  0: 0x00000000 0x00000100 0x00000000 0x00000000
+2024-10-23T13:10:39.175+03:00| vmx| I005: Minimum ucode level: 0x00000000
+2024-10-23T13:10:39.175+03:00| vmx| I005: VPMC: events will use hybrid freeze.
+2024-10-23T13:10:39.175+03:00| vmx| I005: VPMC: gen counters: num 4 mask 0xffffffffffff
+2024-10-23T13:10:39.175+03:00| vmx| I005: VPMC: hardware counters: 0
+2024-10-23T13:10:39.175+03:00| vmx| I005: SVGA-PCI: BAR gfbSize=134217728, fifoSize=8388608
+2024-10-23T13:10:39.175+03:00| vmx| I005: SVGA: SVGA_REG_MEMORY_SIZE=4194304
+2024-10-23T13:10:39.175+03:00| vmx| I005: SVGA: SVGA_REG_VRAM_SIZE=4194304
+2024-10-23T13:10:39.175+03:00| vmx| I005: FeatureCompat: Capabilities:
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.sse3 = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.pclmulqdq = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.mwait = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.ssse3 = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.fma = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.cmpxchg16b = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.sse41 = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.sse42 = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.movbe = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.popcnt = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.aes = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.xsave = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.avx = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.f16c = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.rdrand = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.fsgsbase = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.bmi1 = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.avx2 = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.smep = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.bmi2 = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.enfstrg = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.invpcid = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.rdseed = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.adx = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.smap = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.clflushopt = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.clwb = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.sha = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.umip = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.vaes = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.vpclmulqdq = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.rdpid = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.xcr0_master_sse = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.xcr0_master_ymm_h = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.xsaveopt = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.xsavec = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.xgetbv_ecx1 = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.xsaves = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.lahf64 = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.cr8avail = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.abm = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.sse4a = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.misaligned_sse = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.3dnprefetch = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.nx = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.mmxext = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.ffxsr = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.pdpe1gb = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.rdtscp = 1
+2024-10-23T13:10:39.175+03:00| vmx| I005: Capability Found: cpuid.lm = 1
+2024-10-23T13:10:39.178+03:00| vmx| I005: Capability Found: cpuid.clzero = 1
+2024-10-23T13:10:39.178+03:00| vmx| I005: Capability Found: cpuid.wbnoinvd = 1
+2024-10-23T13:10:39.178+03:00| vmx| I005: Capability Found: cpuid.sev = 1
+2024-10-23T13:10:39.178+03:00| vmx| I005: Capability Found: cpuid.sev_es = 1
+2024-10-23T13:10:39.178+03:00| vmx| I005: Capability Found: cpuid.amd = 1
+2024-10-23T13:10:39.178+03:00| vmx| I005: Capability Found: cpuid.ibpb = 1
+2024-10-23T13:10:39.178+03:00| vmx| I005: FeatureCompat: Requirements:
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.sse3 - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.pclmulqdq - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.ssse3 - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.fma - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.cmpxchg16b - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.sse41 - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.sse42 - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.movbe - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.popcnt - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.aes - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.xsave - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.avx - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.f16c - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.rdrand - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.fsgsbase - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.bmi1 - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.avx2 - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.smep - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.bmi2 - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.enfstrg - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.invpcid - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.rdseed - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.adx - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.smap - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.clflushopt - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.clwb - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.sha - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.xcr0_master_sse - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.xcr0_master_ymm_h - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.xsaveopt - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.xsavec - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.xsaves - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.lahf64 - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.cr8avail - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.abm - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.sse4a - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.misaligned_sse - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.3dnprefetch - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.nx - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.mmxext - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.ffxsr - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.pdpe1gb - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.rdtscp - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.lm - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.clzero - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.amd - Bool:Min:1
+2024-10-23T13:10:39.178+03:00| vmx| I005: VM Features Required: cpuid.ibpb - Bool:Min:1
+2024-10-23T13:10:39.182+03:00| vmx| I005: TOOLS received request in VMX to set option 'enableDnD' -> '1'
+2024-10-23T13:10:39.230+03:00| vmx| I005: 
+2024-10-23T13:10:39.230+03:00| vmx| I005+ OvhdMem: Static (Power On) Overheads
+2024-10-23T13:10:39.230+03:00| vmx| I005:                                                       reserved      |          used
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem excluded                                  cur    max    avg |    cur    max    avg
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_MainMem                    :  262144 262144      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_VmxText                    :    7168   7168      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_VmxTextLibs                :   15360  15360      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem Total excluded                      :  284672 284672      - |      -      -      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem Actual maximum                      :         284672        |             -
+2024-10-23T13:10:39.230+03:00| vmx| I005+ 
+2024-10-23T13:10:39.230+03:00| vmx| I005:                                                       reserved      |          used
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem paged                                     cur    max    avg |    cur    max    avg
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_STATS_vmm                  :       2      2      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_STATS_device               :       1      1      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_SvgaMobFallback            :   32768  32768      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_DiskLibMemUsed             :    3075   3075      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_SvgaSurfaceTable           :       6      6      - |      1      1      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_SvgaBESurfaceTable         :      22     22      - |      6      6      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_SvgaSDirtyCache            :      96     96      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_SvgaCursor                 :      10     10      - |     10     10      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_VmxGlobals                 :   10240  10240      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_VmxGlobalsLibs             :    3584   3584      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_VmxHeap                    :    8704   8704      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_VmxMks                     :      33     33      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_VmxMksRenderOps            :     552    552      - |    552    552      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_VmxMks3d                   :  131072 131072      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_VmxMksScreenTemp           :   69890  69890      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_VmxMksVnc                  :   74936  74936      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_VmxMksScreen               :  131075 131075      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_VmxMksSVGAVO               :    4096   4096      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_VmxMksSwbCursor            :    2560   2560      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_VmxPhysMemErrPages         :      10     10      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_VmxSLEntryBuf              :     128    128      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_VmxThreads                 :   35328  35328      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem Total paged                         :  508188 508188      - |    569    569      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem Actual maximum                      :         508188        |           569
+2024-10-23T13:10:39.230+03:00| vmx| I005+ 
+2024-10-23T13:10:39.230+03:00| vmx| I005:                                                       reserved      |          used
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem nonpaged                                  cur    max    avg |    cur    max    avg
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_SharedArea                 :       8      8      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_BusMemTraceBitmap          :      11     11      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_PFrame                     :     981   1196      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_VIDE_KSEG                  :      16     16      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_VGA                        :      64     64      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_BalloonMPN                 :       1      1      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_P2MUpdateBuffer            :       3      3      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_ServicesMPN                :       3      3      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_LocalApic                  :       2      2      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_BusError                   :       1      1      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_VBIOS                      :       8      8      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_LSIBIOS                    :       4      4      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_LSIRings                   :       4      4      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_SAS1068BIOS                :       4      4      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_SBIOS                      :      16     16      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_FlashRam                   :     128    128      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_SMM                        :      63     63      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_SVGAFB                     :    1024   1024      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_SVGAMEM                    :      64    512      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_HDAudioReg                 :       3      3      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_EHCIRegister               :       1      1      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_XhciRegister               :       1      1      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_HyperV                     :       2      2      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_ExtCfg                     :       4      4      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_vhvCachedVMCS              :       1      1      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_vhvNestedAPIC              :       1      1      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_MonWired                   :      33     33      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdUser_NVDC                       :       1      1      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem Total nonpaged                      :    2452   3115      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem Actual maximum                      :           3115        |             0
+2024-10-23T13:10:39.230+03:00| vmx| I005+ 
+2024-10-23T13:10:39.230+03:00| vmx| I005:                                                       reserved      |          used
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem anonymous                                 cur    max    avg |    cur    max    avg
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdMon_Alloc                       :      97     97      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdMon_BusMemFrame                 :     322    331      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdMon_BusMem2MInfo                :       4      4      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdMon_BusMem1GInfo                :       1      1      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdMon_BusMemZapListMPN            :       1      1      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdMon_MonAS                       :       1      1      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdMon_GuestMem                    :      24     24      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdMon_TC                          :     513    513      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdMon_BusMemMonAS                 :       4      4      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdMon_PlatformMonAS               :       5      5      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdMon_HVNuma                      :       2      2      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdMon_HV                          :       3      3      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdMon_HVMSRBitmap                 :       2      2      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdMon_VHVGuestMSRBitmap           :       2      2      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdMon_VHV                         :       3      3      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdMon_SVMIDT                      :       1      1      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdMon_Numa                        :      24     24      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdMon_BaseWired                   :      29     29      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdMon_Bootstrap                   :    1700   1700      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdMon_GPhysHWMMU                  :     678    678      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdMon_GPhysNoTrace                :     264    264      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdMon_PhysMemGart                 :     104    104      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdMon_PhysMemErr                  :       6      6      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem OvhdMon_VProbe                      :       1      1      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem Total anonymous                     :    3791   3800      - |      0      0      -
+2024-10-23T13:10:39.230+03:00| vmx| I005: OvhdMem Actual maximum                      :           3800        |             0
+2024-10-23T13:10:39.230+03:00| vmx| I005+ 
+2024-10-23T13:10:39.230+03:00| vmx| I005: VMMEM: Precise Reservation: 2009MB (MainMem=1024MB)
+2024-10-23T13:10:39.230+03:00| vmx| I005: Vix: [mainDispatch.c:1050]: VMAutomation_PowerOn. Powering on.
+2024-10-23T13:10:39.230+03:00| vmx| I005: VMX_PowerOn: ModuleTable_PowerOn = 1
+2024-10-23T13:10:39.230+03:00| vmx| A000: ConfigDB: Setting cleanShutdown = "FALSE"
+2024-10-23T13:10:39.230+03:00| vmx| A000: ConfigDB: Setting softPowerOff = "FALSE"
+2024-10-23T13:10:39.255+03:00| vcpu-0| I005: VTHREAD 12076 "vcpu-0"
+2024-10-23T13:10:39.255+03:00| vcpu-0| I005: ULM_InitVCPU: 0 0x0
+2024-10-23T13:10:39.255+03:00| vmx| I005: ToolsISO: Refreshing imageName for 'centos7-64' (refreshCount=1, lastCount=1).
+2024-10-23T13:10:39.255+03:00| vmx| I005: ToolsISO: open of D:\App\VMWareExe\isoimages_manifest.txt.sig failed: Could not find the file
+2024-10-23T13:10:39.255+03:00| vmx| I005: ToolsISO: Unable to read signature file 'D:\App\VMWareExe\isoimages_manifest.txt.sig', ignoring.
+2024-10-23T13:10:39.257+03:00| vmx| I005: ToolsISO: Updated cached value for imageName to 'linux.iso'.
+2024-10-23T13:10:39.257+03:00| vmx| I005: ToolsISO: Selected Tools ISO 'linux.iso' for 'centos7-64' guest.
+2024-10-23T13:10:39.257+03:00| vmx| I005: TOOLS updated cached value for isoImageExists to 1.
+2024-10-23T13:10:39.257+03:00| vmx| I005: VMXVmdb_SetToolsVersionStatus: status value set to 'unmanaged', 'unmanaged', install possible
+2024-10-23T13:10:39.257+03:00| svga| I005: SVGA thread is alive
+2024-10-23T13:10:39.257+03:00| vcpu-0| I005: CPU reset: hard (mode Interp)
+2024-10-23T13:10:39.257+03:00| vcpu-0| I005: GuestRpc: Successfully created RPCI listening socket.
+2024-10-23T13:10:39.257+03:00| vcpu-0| I005: GuestRpc: Using vsocket for TCLO messaging is disabled.
+2024-10-23T13:10:39.257+03:00| vcpu-0| A000: ConfigDB: Unsetting all entries with prefix "usb:0."
+2024-10-23T13:10:39.282+03:00| vcpu-0| I005: USB: Disconnecting device 0x2000000400000000
+2024-10-23T13:10:39.282+03:00| vcpu-0| I005: USB: Connecting device desc:name:VMware\ Virtual\ USB\ Mouse vid:0e0f pid:0003 speed:full family:hid deviceType:virtual-hid info:0000005 version:3 id:0x200000050e0f0003
+2024-10-23T13:10:39.282+03:00| vcpu-0| I005: Policy_GetUSBDevAccess: allowConnect = YES
+2024-10-23T13:10:39.282+03:00| vcpu-0| A000: ConfigDB: Setting usb:0.present = "TRUE"
+2024-10-23T13:10:39.282+03:00| vcpu-0| A000: ConfigDB: Setting usb:0.deviceType = "hid"
+2024-10-23T13:10:39.282+03:00| vcpu-0| A000: ConfigDB: Setting usb:0.port = "0"
+2024-10-23T13:10:39.282+03:00| vcpu-0| A000: ConfigDB: Setting usb:0.parent = "-1"
+2024-10-23T13:10:39.296+03:00| vcpu-0| I005: memoryHotplug: Node 0: Present: 1023 MB (100 %) Size:3071 MB (100 %)
+2024-10-23T13:10:39.296+03:00| vcpu-0| I005: PIIX4: PM Resuming from suspend type 0x0, chipset.onlineStandby 0
+2024-10-23T13:10:39.405+03:00| vcpu-0| I005: SOUND 320.555685 ES1371Win32GetMixerCtl mixerGetLineInfo error 1024
+2024-10-23T13:10:39.405+03:00| vcpu-0| I005: VNET: 'ethernet0' enable link state propagation, lsp.state = 5
+2024-10-23T13:10:39.405+03:00| vcpu-0| I005: VNET: MACVNetConnectToNetwork 'ethernet0' lsp.state = 4
+2024-10-23T13:10:39.405+03:00| vcpu-0| I005: VNET: MACVNetConnectToNetwork 'Ethernet0' notify available.
+2024-10-23T13:10:39.407+03:00| vcpu-0| I005: Msg_Post: Warning
+2024-10-23T13:10:39.407+03:00| vcpu-0| I005: [msg.serial.thinprint.disabled] The virtual printing feature is globally disabled on this system, and will not be enabled for this virtual machine.
+2024-10-23T13:10:39.407+03:00| vcpu-0| I005: [msg.device.startdisconnected] Virtual device 'serial0' will start disconnected.
+2024-10-23T13:10:39.407+03:00| vcpu-0| I005: ----------------------------------------
+2024-10-23T13:10:39.455+03:00| vcpu-0| I005: CDROM: Connecting ide1:0 to 'C:\Users\SUS.CUSTOM\Downloads\CentOS-7-x86_64-DVD-2207-02.iso'. type=2 remote=0
+2024-10-23T13:10:39.455+03:00| vcpu-0| I005: AIOWIN32C: Failed to open 'C:\Users\SUS.CUSTOM\Downloads\CentOS-7-x86_64-DVD-2207-02.iso' : Could not find the file (393219).
+2024-10-23T13:10:39.455+03:00| vcpu-0| I005: CDROM-IMG:  image open for 'C:\Users\SUS.CUSTOM\Downloads\CentOS-7-x86_64-DVD-2207-02.iso' failed: Could not find the file (60003).
+2024-10-23T13:10:39.455+03:00| vcpu-0| I005: CDROM-IMG: Failed to connect 'C:\Users\SUS.CUSTOM\Downloads\CentOS-7-x86_64-DVD-2207-02.iso'.
+2024-10-23T13:10:39.455+03:00| vcpu-0| I005: CDROM: Failed to connect CDROM device 'C:\Users\SUS.CUSTOM\Downloads\CentOS-7-x86_64-DVD-2207-02.iso'.
+2024-10-23T13:10:39.455+03:00| vcpu-0| I005: Msg_Post: Warning
+2024-10-23T13:10:39.455+03:00| vcpu-0| I005: [msg.cdromImage.cantOpen] Cannot connect file "C:\Users\SUS.CUSTOM\Downloads\CentOS-7-x86_64-DVD-2207-02.iso" as a CD-ROM image: Could not find the file
+2024-10-23T13:10:39.455+03:00| vcpu-0| I005: [msg.device.startdisconnected] Virtual device 'ide1:0' will start disconnected.
+2024-10-23T13:10:39.455+03:00| vcpu-0| I005: ----------------------------------------
+2024-10-23T13:10:39.503+03:00| vcpu-0| I005: HGFSPublish: publishing 0 shares
+2024-10-23T13:10:39.508+03:00| vcpu-0| I005: Win32U_GetFileAttributes: GetFileAttributesExW("D:\Универ\7 семестр\Облачные технологии\нст\CentOS_SAI_scloud2\CentOS_SAI_scloud2.vmpl", ...) failed, error: 2
+2024-10-23T13:10:39.508+03:00| vcpu-0| I005: PolicyVMXFindPolicyKey: policy file does not exist.
+2024-10-23T13:10:39.512+03:00| vcpu-0| I005: Vix: [mainDispatch.c:4200]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1872, success=1 additionalError=0
+2024-10-23T13:10:39.512+03:00| vcpu-0| I005: Vix: [mainDispatch.c:4117]: VMAutomationReportPowerStateChange: Reporting power state change (opcode=0, err=0).
+2024-10-23T13:10:39.512+03:00| vcpu-0| I005: Vix: [mainDispatch.c:4117]: VMAutomationReportPowerStateChange: Reporting power state change (opcode=2, err=0).
+2024-10-23T13:10:39.512+03:00| vcpu-0| I005: Transitioned vmx/execState/val to poweredOn
+2024-10-23T13:10:39.512+03:00| vcpu-0| I005: Tools: Adding Tools inactivity timer.
+2024-10-23T13:10:39.512+03:00| vmx| I005: VUsbUpdateVigorFieldsAndAutoconnect: New set of 1 USB devices
+2024-10-23T13:10:39.512+03:00| vmx| I005: USB: Found device [name:Virtual\ Bluetooth\ Adapter vid:0e0f pid:0008 speed:full family:wireless,bluetooth deviceType:virtual-bluetooth info:0000001 version:3]
+2024-10-23T13:10:39.512+03:00| vmx| I005: USB: Connecting device desc:name:Virtual\ Bluetooth\ Adapter vid:0e0f pid:0008 speed:full family:wireless,bluetooth deviceType:virtual-bluetooth info:0000001 version:3 id:0x700000010e0f0008
+2024-10-23T13:10:39.512+03:00| vmx| I005: Policy_GetUSBDevAccess: checking usb devices at policy path: /vm/#_VMX/mvm/policyState/val/policySet/usbDevices/#
+2024-10-23T13:10:39.512+03:00| vmx| I005: Policy_GetUSBDevAccess: allowConnect = YES
+2024-10-23T13:10:39.517+03:00| vmx| W003: Bluetooth-Win32: ERROR retrieving local radio info: No more data is available
+2024-10-23T13:10:39.517+03:00| vmx| W003: Bluetooth host backend not available.
+2024-10-23T13:10:39.518+03:00| vmx| I005: VNET: MACVNetLinkStateEventHandler: event, up:1, adapter:0
+2024-10-23T13:10:39.518+03:00| vmx| I005: VNET: MACVNetLinkStateEventHandler: 'ethernet0' state from 4 to 6.
+2024-10-23T13:10:39.573+03:00| vcpu-0| I005: Syncing WHP TSCs took 106 us. Threshold is 1000 us.
+2024-10-23T13:10:39.606+03:00| mks| I005: MKSControlMgr: connected
+2024-10-23T13:10:39.632+03:00| mks| I005: MKS-VMDB: VMDB requested a screenshot
+2024-10-23T13:10:39.634+03:00| svga| I005: MKSScreenShotMgr: Taking a screenshot
+2024-10-23T13:10:39.688+03:00| mks| I005: SWBWindow: Number of MKSWindows changed: 0 rendering MKSWindow(s) of total 1.
+2024-10-23T13:10:39.688+03:00| mks| I005: GDI-Backend: successfully started by HWinMux to do window composition.
+2024-10-23T13:10:39.690+03:00| vmx| I005: VNET: MACVNetLinkStateTimerHandler: 'ethernet0' state from 6 to 1.
+2024-10-23T13:10:39.695+03:00| mks| I005: MKS-HWinMux: Started GDI presentation backend
+2024-10-23T13:10:39.729+03:00| mks| I005: SWBWindow: Number of MKSWindows changed: 1 rendering MKSWindow(s) of total 2.
+2024-10-23T13:10:39.845+03:00| vcpu-0| I005: UHCI: HCReset
+2024-10-23T13:10:40.022+03:00| vmx| I005: USB: Connecting device desc:name:Virtual\ Bluetooth\ Adapter vid:0e0f pid:0008 speed:full family:wireless,bluetooth deviceType:virtual-bluetooth info:0000001 version:3 id:0x700000010e0f0008
+2024-10-23T13:10:40.022+03:00| vmx| I005: Policy_GetUSBDevAccess: checking usb devices at policy path: /vm/#_VMX/mvm/policyState/val/policySet/usbDevices/#
+2024-10-23T13:10:40.022+03:00| vmx| I005: Policy_GetUSBDevAccess: allowConnect = YES
+2024-10-23T13:10:40.022+03:00| vmx| W003: Bluetooth-Win32: ERROR retrieving local radio info: No more data is available
+2024-10-23T13:10:40.022+03:00| vmx| W003: Bluetooth host backend not available.
+2024-10-23T13:10:40.114+03:00| vmx| I005: VUsbUpdateVigorFieldsAndAutoconnect: New set of 1 USB devices
+2024-10-23T13:10:40.114+03:00| vmx| I005: USB: Found device [name:Virtual\ Bluetooth\ Adapter vid:0e0f pid:0008 speed:full family:wireless,bluetooth deviceType:virtual-bluetooth info:0000001 version:3]
+2024-10-23T13:10:40.354+03:00| vcpu-0| I005: SVGA: Registering MemSpace at 0xe8000000(0) and 0xfe000000(0)
+2024-10-23T13:10:40.354+03:00| vcpu-0| I005: SVGA: FIFO is already mapped
+2024-10-23T13:10:40.363+03:00| vcpu-0| I005: SVGA: Unregistering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2024-10-23T13:10:40.363+03:00| vcpu-0| I005: SVGA: FIFO is already mapped
+2024-10-23T13:10:40.918+03:00| vcpu-0| I005: SVGA: Registering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2024-10-23T13:10:40.918+03:00| vcpu-0| I005: SVGA: FIFO is already mapped
+2024-10-23T13:10:40.934+03:00| vcpu-0| I005: SVGA: Unregistering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2024-10-23T13:10:40.934+03:00| vcpu-0| I005: SVGA: FIFO is already mapped
+2024-10-23T13:10:40.934+03:00| vcpu-0| I005: SVGA: Registering IOSpace at 0x1070
+2024-10-23T13:10:40.934+03:00| vcpu-0| I005: SVGA: Registering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2024-10-23T13:10:40.934+03:00| vcpu-0| I005: SVGA: FIFO is already mapped
+2024-10-23T13:10:40.958+03:00| vcpu-0| I005: PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:40.960+03:00| vcpu-0| I005: pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:40.967+03:00| vcpu-0| I005: pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:40.967+03:00| vcpu-0| I005: pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:40.977+03:00| vcpu-0| I005: pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:40.984+03:00| vcpu-0| I005: pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:40.986+03:00| vcpu-0| I005: pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:40.992+03:00| vcpu-0| I005: pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:40.994+03:00| vcpu-0| I005: PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.000+03:00| vcpu-0| I005: pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.008+03:00| vcpu-0| I005: pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.012+03:00| vcpu-0| I005: pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.019+03:00| vcpu-0| I005: pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.020+03:00| vcpu-0| I005: pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.025+03:00| vmx| I005: USB: Connecting device desc:name:Virtual\ Bluetooth\ Adapter vid:0e0f pid:0008 speed:full family:wireless,bluetooth deviceType:virtual-bluetooth info:0000001 version:3 id:0x700000010e0f0008
+2024-10-23T13:10:41.025+03:00| vmx| I005: Policy_GetUSBDevAccess: checking usb devices at policy path: /vm/#_VMX/mvm/policyState/val/policySet/usbDevices/#
+2024-10-23T13:10:41.025+03:00| vmx| I005: Policy_GetUSBDevAccess: allowConnect = YES
+2024-10-23T13:10:41.025+03:00| vmx| W003: Bluetooth-Win32: ERROR retrieving local radio info: No more data is available
+2024-10-23T13:10:41.025+03:00| vmx| W003: Bluetooth host backend not available.
+2024-10-23T13:10:41.027+03:00| vcpu-0| I005: pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.033+03:00| vcpu-0| I005: pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.037+03:00| vcpu-0| I005: PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.043+03:00| vcpu-0| I005: pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.049+03:00| vcpu-0| I005: pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.049+03:00| vcpu-0| I005: pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.060+03:00| vcpu-0| I005: pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.060+03:00| vcpu-0| I005: pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.065+03:00| vcpu-0| I005: pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.075+03:00| vcpu-0| I005: pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.080+03:00| vcpu-0| I005: PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.081+03:00| vcpu-0| I005: pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.090+03:00| vcpu-0| I005: pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.092+03:00| vcpu-0| I005: pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.098+03:00| vcpu-0| I005: pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.098+03:00| vcpu-0| I005: pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.106+03:00| vcpu-0| I005: pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.114+03:00| vcpu-0| I005: pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.162+03:00| vcpu-0| I005: SVGA: FIFO is already mapped
+2024-10-23T13:10:41.203+03:00| vcpu-0| I005: SVGA: FIFO is already mapped
+2024-10-23T13:10:41.610+03:00| vcpu-0| I005: PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.610+03:00| vcpu-0| I005: pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.618+03:00| vcpu-0| I005: pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.627+03:00| vcpu-0| I005: pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.628+03:00| vcpu-0| I005: pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.638+03:00| vcpu-0| I005: pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.643+03:00| vcpu-0| I005: pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.648+03:00| vcpu-0| I005: pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.652+03:00| vcpu-0| I005: PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.655+03:00| vcpu-0| I005: pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.660+03:00| vcpu-0| I005: pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.670+03:00| vcpu-0| I005: pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.674+03:00| vcpu-0| I005: pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.681+03:00| vcpu-0| I005: pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.686+03:00| vcpu-0| I005: pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.691+03:00| vcpu-0| I005: pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.693+03:00| vcpu-0| I005: PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.701+03:00| vcpu-0| I005: pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.701+03:00| vcpu-0| I005: pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.709+03:00| vcpu-0| I005: pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.713+03:00| vcpu-0| I005: pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.717+03:00| vcpu-0| I005: pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.725+03:00| vcpu-0| I005: pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.727+03:00| vcpu-0| I005: pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.734+03:00| vcpu-0| I005: PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.742+03:00| vcpu-0| I005: pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.742+03:00| vcpu-0| I005: pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.750+03:00| vcpu-0| I005: pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.758+03:00| vcpu-0| I005: pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.764+03:00| vcpu-0| I005: pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.770+03:00| vcpu-0| I005: pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.776+03:00| vcpu-0| I005: pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:41.791+03:00| vcpu-0| I005: DISKUTIL: scsi0:0 : geometry=2610/255/63
+2024-10-23T13:10:41.791+03:00| vcpu-0| I005: DISKUTIL: scsi0:0 : capacity=41943040 logical sector size=512
+2024-10-23T13:10:43.007+03:00| vcpu-0| I005: BIOS-UUID is 56 4d f5 3f b7 8b 1b ce-a6 b2 bf 23 51 93 df 89
+2024-10-23T13:10:43.031+03:00| vmx| I005: USB: Connecting device desc:name:Virtual\ Bluetooth\ Adapter vid:0e0f pid:0008 speed:full family:wireless,bluetooth deviceType:virtual-bluetooth info:0000001 version:3 id:0x700000010e0f0008
+2024-10-23T13:10:43.031+03:00| vmx| I005: Policy_GetUSBDevAccess: checking usb devices at policy path: /vm/#_VMX/mvm/policyState/val/policySet/usbDevices/#
+2024-10-23T13:10:43.031+03:00| vmx| I005: Policy_GetUSBDevAccess: allowConnect = YES
+2024-10-23T13:10:43.031+03:00| vmx| W003: Bluetooth-Win32: ERROR retrieving local radio info: No more data is available
+2024-10-23T13:10:43.031+03:00| vmx| W003: Bluetooth host backend not available.
+2024-10-23T13:10:45.575+03:00| vmx| I005: VNET: MACVNetLinkStateTimerHandler: 'ethernet0' state from 1 to 5.
+2024-10-23T13:10:51.863+03:00| vcpu-0| I005: Guest MSR write (0xc0011029: 0x2)
+2024-10-23T13:10:53.031+03:00| vmx| I005: USB: Connecting device desc:name:Virtual\ Bluetooth\ Adapter vid:0e0f pid:0008 speed:full family:wireless,bluetooth deviceType:virtual-bluetooth info:0000001 version:3 id:0x700000010e0f0008
+2024-10-23T13:10:53.031+03:00| vmx| I005: Policy_GetUSBDevAccess: checking usb devices at policy path: /vm/#_VMX/mvm/policyState/val/policySet/usbDevices/#
+2024-10-23T13:10:53.031+03:00| vmx| I005: Policy_GetUSBDevAccess: allowConnect = YES
+2024-10-23T13:10:53.031+03:00| vmx| W003: Bluetooth-Win32: ERROR retrieving local radio info: No more data is available
+2024-10-23T13:10:53.031+03:00| vmx| W003: Bluetooth host backend not available.
+2024-10-23T13:10:54.143+03:00| vcpu-0| I005: SVGA: Unregistering IOSpace at 0x1070
+2024-10-23T13:10:54.143+03:00| vcpu-0| I005: SVGA: Unregistering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2024-10-23T13:10:54.143+03:00| vcpu-0| I005: SVGA: FIFO is already mapped
+2024-10-23T13:10:54.144+03:00| vcpu-0| I005: SVGA: Registering IOSpace at 0x1070
+2024-10-23T13:10:54.144+03:00| vcpu-0| I005: SVGA: Registering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2024-10-23T13:10:54.144+03:00| vcpu-0| I005: SVGA: FIFO is already mapped
+2024-10-23T13:10:54.144+03:00| vcpu-0| I005: SVGA: Unregistering IOSpace at 0x1070
+2024-10-23T13:10:54.144+03:00| vcpu-0| I005: SVGA: Unregistering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2024-10-23T13:10:54.144+03:00| vcpu-0| I005: SVGA: FIFO is already mapped
+2024-10-23T13:10:54.145+03:00| vcpu-0| I005: SVGA: Registering IOSpace at 0x1070
+2024-10-23T13:10:54.145+03:00| vcpu-0| I005: SVGA: Registering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2024-10-23T13:10:54.145+03:00| vcpu-0| I005: SVGA: FIFO is already mapped
+2024-10-23T13:10:54.146+03:00| vcpu-0| I005: SVGA: Unregistering IOSpace at 0x1070
+2024-10-23T13:10:54.146+03:00| vcpu-0| I005: SVGA: Unregistering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2024-10-23T13:10:54.146+03:00| vcpu-0| I005: SVGA: FIFO is already mapped
+2024-10-23T13:10:54.146+03:00| vcpu-0| I005: SVGA: Registering IOSpace at 0x1070
+2024-10-23T13:10:54.146+03:00| vcpu-0| I005: SVGA: Registering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2024-10-23T13:10:54.146+03:00| vcpu-0| I005: SVGA: FIFO is already mapped
+2024-10-23T13:10:54.146+03:00| vcpu-0| I005: SVGA: Unregistering IOSpace at 0x1070
+2024-10-23T13:10:54.146+03:00| vcpu-0| I005: SVGA: Unregistering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2024-10-23T13:10:54.146+03:00| vcpu-0| I005: SVGA: FIFO is already mapped
+2024-10-23T13:10:54.147+03:00| vcpu-0| I005: SVGA: Registering IOSpace at 0x1070
+2024-10-23T13:10:54.147+03:00| vcpu-0| I005: SVGA: Registering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2024-10-23T13:10:54.147+03:00| vcpu-0| I005: SVGA: FIFO is already mapped
+2024-10-23T13:10:54.148+03:00| vcpu-0| I005: SVGA: Unregistering IOSpace at 0x1070
+2024-10-23T13:10:54.148+03:00| vcpu-0| I005: SVGA: Unregistering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2024-10-23T13:10:54.148+03:00| vcpu-0| I005: SVGA: FIFO is already mapped
+2024-10-23T13:10:54.148+03:00| vcpu-0| I005: SVGA: Registering IOSpace at 0x1070
+2024-10-23T13:10:54.148+03:00| vcpu-0| I005: SVGA: Registering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2024-10-23T13:10:54.149+03:00| vcpu-0| I005: SVGA: FIFO is already mapped
+2024-10-23T13:10:54.149+03:00| vcpu-0| I005: SVGA: Unregistering IOSpace at 0x1070
+2024-10-23T13:10:54.149+03:00| vcpu-0| I005: SVGA: Unregistering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2024-10-23T13:10:54.149+03:00| vcpu-0| I005: SVGA: FIFO is already mapped
+2024-10-23T13:10:54.149+03:00| vcpu-0| I005: SVGA: Registering IOSpace at 0x1070
+2024-10-23T13:10:54.149+03:00| vcpu-0| I005: SVGA: Registering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2024-10-23T13:10:54.149+03:00| vcpu-0| I005: SVGA: FIFO is already mapped
+2024-10-23T13:10:54.150+03:00| vcpu-0| I005: SVGA: Unregistering IOSpace at 0x1070
+2024-10-23T13:10:54.150+03:00| vcpu-0| I005: SVGA: Unregistering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2024-10-23T13:10:54.150+03:00| vcpu-0| I005: SVGA: FIFO is already mapped
+2024-10-23T13:10:54.150+03:00| vcpu-0| I005: SVGA: Registering IOSpace at 0x1070
+2024-10-23T13:10:54.150+03:00| vcpu-0| I005: SVGA: Registering MemSpace at 0xe8000000(0xe8000000) and 0xfe000000(0xfe000000)
+2024-10-23T13:10:54.150+03:00| vcpu-0| I005: SVGA: FIFO is already mapped
+2024-10-23T13:10:54.292+03:00| vcpu-0| I005: PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.292+03:00| vcpu-0| I005: PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.292+03:00| vcpu-0| I005: pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.294+03:00| vcpu-0| I005: pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.294+03:00| vcpu-0| I005: pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.295+03:00| vcpu-0| I005: pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.295+03:00| vcpu-0| I005: pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.296+03:00| vcpu-0| I005: pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.296+03:00| vcpu-0| I005: pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.297+03:00| vcpu-0| I005: pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.297+03:00| vcpu-0| I005: pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.299+03:00| vcpu-0| I005: pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.299+03:00| vcpu-0| I005: pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.300+03:00| vcpu-0| I005: pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.300+03:00| vcpu-0| I005: pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.301+03:00| vcpu-0| I005: pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.301+03:00| vcpu-0| I005: PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.302+03:00| vcpu-0| I005: PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.302+03:00| vcpu-0| I005: pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.304+03:00| vcpu-0| I005: pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.304+03:00| vcpu-0| I005: pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.304+03:00| vcpu-0| I005: pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.304+03:00| vcpu-0| I005: pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.306+03:00| vcpu-0| I005: pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.306+03:00| vcpu-0| I005: pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.307+03:00| vcpu-0| I005: pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.307+03:00| vcpu-0| I005: pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.309+03:00| vcpu-0| I005: pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.309+03:00| vcpu-0| I005: pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.309+03:00| vcpu-0| I005: pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.309+03:00| vcpu-0| I005: pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.310+03:00| vcpu-0| I005: pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.310+03:00| vcpu-0| I005: PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.311+03:00| vcpu-0| I005: PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.312+03:00| vcpu-0| I005: pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.313+03:00| vcpu-0| I005: pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.313+03:00| vcpu-0| I005: pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.314+03:00| vcpu-0| I005: pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.314+03:00| vcpu-0| I005: pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.315+03:00| vcpu-0| I005: pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.316+03:00| vcpu-0| I005: pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.316+03:00| vcpu-0| I005: pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.317+03:00| vcpu-0| I005: pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.318+03:00| vcpu-0| I005: pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.318+03:00| vcpu-0| I005: pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.319+03:00| vcpu-0| I005: pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.319+03:00| vcpu-0| I005: pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.320+03:00| vcpu-0| I005: pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.320+03:00| vcpu-0| I005: PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.322+03:00| vcpu-0| I005: PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.322+03:00| vcpu-0| I005: pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.323+03:00| vcpu-0| I005: pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.323+03:00| vcpu-0| I005: pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.323+03:00| vcpu-0| I005: pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.324+03:00| vcpu-0| I005: pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.325+03:00| vcpu-0| I005: pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.325+03:00| vcpu-0| I005: pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.326+03:00| vcpu-0| I005: pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.326+03:00| vcpu-0| I005: pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.328+03:00| vcpu-0| I005: pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.328+03:00| vcpu-0| I005: pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.330+03:00| vcpu-0| I005: pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.330+03:00| vcpu-0| I005: pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.330+03:00| vcpu-0| I005: pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.331+03:00| vcpu-0| I005: PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.331+03:00| vcpu-0| I005: PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.331+03:00| vcpu-0| I005: pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.331+03:00| vcpu-0| I005: pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.331+03:00| vcpu-0| I005: pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.331+03:00| vcpu-0| I005: pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.331+03:00| vcpu-0| I005: pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.331+03:00| vcpu-0| I005: pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.331+03:00| vcpu-0| I005: pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.331+03:00| vcpu-0| I005: pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.332+03:00| vcpu-0| I005: pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.332+03:00| vcpu-0| I005: pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.332+03:00| vcpu-0| I005: pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.332+03:00| vcpu-0| I005: pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.332+03:00| vcpu-0| I005: pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.332+03:00| vcpu-0| I005: pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.333+03:00| vcpu-0| I005: PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.333+03:00| vcpu-0| I005: PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.333+03:00| vcpu-0| I005: pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.333+03:00| vcpu-0| I005: pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.333+03:00| vcpu-0| I005: pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.333+03:00| vcpu-0| I005: pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.334+03:00| vcpu-0| I005: pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.334+03:00| vcpu-0| I005: pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.334+03:00| vcpu-0| I005: pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.334+03:00| vcpu-0| I005: pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.334+03:00| vcpu-0| I005: pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.334+03:00| vcpu-0| I005: pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.334+03:00| vcpu-0| I005: pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.334+03:00| vcpu-0| I005: pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.334+03:00| vcpu-0| I005: pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.334+03:00| vcpu-0| I005: pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.334+03:00| vcpu-0| I005: PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.335+03:00| vcpu-0| I005: PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.335+03:00| vcpu-0| I005: pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.335+03:00| vcpu-0| I005: pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.335+03:00| vcpu-0| I005: pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.335+03:00| vcpu-0| I005: pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.335+03:00| vcpu-0| I005: pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.335+03:00| vcpu-0| I005: pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.335+03:00| vcpu-0| I005: pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.335+03:00| vcpu-0| I005: pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.335+03:00| vcpu-0| I005: pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.335+03:00| vcpu-0| I005: pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.336+03:00| vcpu-0| I005: pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.336+03:00| vcpu-0| I005: pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.336+03:00| vcpu-0| I005: pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.336+03:00| vcpu-0| I005: pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.336+03:00| vcpu-0| I005: PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.336+03:00| vcpu-0| I005: PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.336+03:00| vcpu-0| I005: pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.336+03:00| vcpu-0| I005: pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.336+03:00| vcpu-0| I005: pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.336+03:00| vcpu-0| I005: pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.336+03:00| vcpu-0| I005: pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.337+03:00| vcpu-0| I005: pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.337+03:00| vcpu-0| I005: pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.337+03:00| vcpu-0| I005: pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.337+03:00| vcpu-0| I005: pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.337+03:00| vcpu-0| I005: pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.337+03:00| vcpu-0| I005: pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.337+03:00| vcpu-0| I005: pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.337+03:00| vcpu-0| I005: pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.337+03:00| vcpu-0| I005: pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.539+03:00| vcpu-0| I005: PCIBridge4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.539+03:00| vcpu-0| I005: pciBridge4:1: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.539+03:00| vcpu-0| I005: pciBridge4:2: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.540+03:00| vcpu-0| I005: pciBridge4:3: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.540+03:00| vcpu-0| I005: pciBridge4:4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.540+03:00| vcpu-0| I005: pciBridge4:5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.540+03:00| vcpu-0| I005: pciBridge4:6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.541+03:00| vcpu-0| I005: pciBridge4:7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.541+03:00| vcpu-0| I005: PCIBridge5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.541+03:00| vcpu-0| I005: pciBridge5:1: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.542+03:00| vcpu-0| I005: pciBridge5:2: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.542+03:00| vcpu-0| I005: pciBridge5:3: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.542+03:00| vcpu-0| I005: pciBridge5:4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.543+03:00| vcpu-0| I005: pciBridge5:5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.544+03:00| vcpu-0| I005: pciBridge5:6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.544+03:00| vcpu-0| I005: pciBridge5:7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.544+03:00| vcpu-0| I005: PCIBridge6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.544+03:00| vcpu-0| I005: pciBridge6:1: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.544+03:00| vcpu-0| I005: pciBridge6:2: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.545+03:00| vcpu-0| I005: pciBridge6:3: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.545+03:00| vcpu-0| I005: pciBridge6:4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.546+03:00| vcpu-0| I005: pciBridge6:5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.546+03:00| vcpu-0| I005: pciBridge6:6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.547+03:00| vcpu-0| I005: pciBridge6:7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.547+03:00| vcpu-0| I005: PCIBridge7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.547+03:00| vcpu-0| I005: pciBridge7:1: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.547+03:00| vcpu-0| I005: pciBridge7:2: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.548+03:00| vcpu-0| I005: pciBridge7:3: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.548+03:00| vcpu-0| I005: pciBridge7:4: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.548+03:00| vcpu-0| I005: pciBridge7:5: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.549+03:00| vcpu-0| I005: pciBridge7:6: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.549+03:00| vcpu-0| I005: pciBridge7:7: ISA/VGA decoding enabled (ctrl 0004)
+2024-10-23T13:10:54.560+03:00| vcpu-0| I005: UHCI: HCReset
+2024-10-23T13:10:55.863+03:00| vcpu-0| I005: UHCI: HCReset
+2024-10-23T13:10:55.900+03:00| vcpu-0| I005: VMMouse: CMD Read ID
+2024-10-23T13:10:57.287+03:00| vcpu-0| I005: SCSI0: RESET BUS
+2024-10-23T13:10:57.857+03:00| vcpu-0| I005: SCSI0: RESET BUS
+2024-10-23T13:10:58.041+03:00| vcpu-0| I005: SVGA: FIFO is already mapped
+2024-10-23T13:10:58.083+03:00| svga| I005: SVGA hiding SVGA
+2024-10-23T13:10:58.101+03:00| vcpu-0| I005: Guest: vmwgfx: In Tree-Unknown
+2024-10-23T13:10:58.102+03:00| vcpu-0| I005: Guest: vmwgfx: Module Version: 2.15.0
+2024-10-23T13:10:58.102+03:00| svga| I005: SVGA enabling SVGA
+2024-10-23T13:10:58.103+03:00| svga| I005: SVGA-ScreenMgr: Screen type changed to RegisterMode
+2024-10-23T13:10:58.156+03:00| svga| I005: SVGA-ScreenMgr: Screen type changed to ScreenTarget
+2024-10-23T13:10:58.224+03:00| vcpu-0| I005: DISKUTIL: scsi0:0 : capacity=41943040 logical sector size=512
+2024-10-23T13:10:58.224+03:00| vcpu-0| I005: SCSI DEVICE (scsi0:0): MODE SENSE(6) for unsupported page 0x8
+2024-10-23T13:10:58.226+03:00| vcpu-0| I005: DISKUTIL: scsi0:0 : capacity=41943040 logical sector size=512
+2024-10-23T13:10:58.226+03:00| vcpu-0| I005: SCSI DEVICE (scsi0:0): MODE SENSE(6) for unsupported page 0x8
+2024-10-23T13:10:58.227+03:00| vcpu-0| I005: DISKUTIL: scsi0:0 : capacity=41943040 logical sector size=512
+2024-10-23T13:10:58.230+03:00| vcpu-0| I005: SCSI DEVICE (scsi0:0): MODE SENSE(6) for unsupported page 0x8
+2024-10-23T13:10:58.855+03:00| vcpu-0| I005: Tools: Running status rpc handler: 0 => 1.
+2024-10-23T13:10:58.855+03:00| vcpu-0| I005: Tools: Changing running status: 0 => 1.
+2024-10-23T13:10:58.855+03:00| vcpu-0| I005: Tools: [RunningStatus] Last heartbeat value 1 (last received 0s ago)
+2024-10-23T13:10:58.855+03:00| vcpu-0| I005: Tools: Removing Tools inactivity timer.
+2024-10-23T13:10:58.973+03:00| vcpu-0| I005: DDB: "longContentID" = "1941e1d629d80e4e851f52461ca4810b" (was "616af3922c42c63299764dd34d69c81f")
+2024-10-23T13:11:01.831+03:00| vcpu-0| I005: CDROM: Emulate GET CONFIGURATION RT 0 starting feature 0
+2024-10-23T13:11:01.833+03:00| vcpu-0| I005: CDROM: Emulate GET CONFIGURATION RT 0 starting feature 0
+2024-10-23T13:11:03.409+03:00| vcpu-0| I005: SOUND 344.559546 ES1371Win32GetMixerCtl mixerGetLineInfo error 1024
+2024-10-23T13:11:05.488+03:00| vcpu-0| I005: DISKUTIL: scsi0:0 : capacity=41943040 logical sector size=512
+2024-10-23T13:11:05.496+03:00| vcpu-0| I005: SCSI DEVICE (scsi0:0): MODE SENSE(6) for unsupported page 0x1c
+2024-10-23T13:11:06.231+03:00| vmx| I005: GuestRpc: Got RPCI vsocket connection 6, assigned to channel 0.
+2024-10-23T13:11:06.232+03:00| vmx| I005: GuestRpc: Got error for channel 0 connection 6: Remote disconnected
+2024-10-23T13:11:06.232+03:00| vmx| I005: GuestRpc: GuestRpcResetVsockChannel: channel 0
+2024-10-23T13:11:06.232+03:00| vmx| I005: GuestRpc: Closing channel 0 connection 6
+2024-10-23T13:11:06.259+03:00| vmx| I005: GuestRpc: Got RPCI vsocket connection 7, assigned to channel 0.
+2024-10-23T13:11:06.486+03:00| vmx| I005: GuestRpc: Got RPCI vsocket connection 8, assigned to channel 1.
+2024-10-23T13:11:06.495+03:00| vmx| I005: GuestRpc: Got error for channel 1 connection 8: Remote disconnected
+2024-10-23T13:11:06.495+03:00| vmx| I005: GuestRpc: GuestRpcResetVsockChannel: channel 1
+2024-10-23T13:11:06.495+03:00| vmx| I005: GuestRpc: Closing channel 1 connection 8
+2024-10-23T13:11:06.510+03:00| vmx| I005: Guest: toolbox: Version: 11.0.5.17716 (build-15389592)
+2024-10-23T13:11:06.510+03:00| vcpu-0| W003: GuestRpc: application toolbox, changing channel 65535 -> 0
+2024-10-23T13:11:06.510+03:00| vcpu-0| I005: GuestRpc: Channel 0, guest application toolbox.
+2024-10-23T13:11:06.510+03:00| vcpu-0| I005: DEPLOYPKG: ToolsDeployPkg_Begin: state=0 err=0, msg=null
+2024-10-23T13:11:06.510+03:00| vcpu-0| I005: Tools: [AppStatus] Last heartbeat value 1 (last received 7s ago)
+2024-10-23T13:11:06.510+03:00| vcpu-0| I005: TOOLS: appName=toolbox, oldStatus=0, status=1, guestInitiated=0.
+2024-10-23T13:11:06.633+03:00| vmx| I005: Tools: Changing running status: 1 => 2.
+2024-10-23T13:11:06.633+03:00| vmx| I005: Tools: [RunningStatus] Last heartbeat value 1 (last received 7s ago)
+2024-10-23T13:11:06.647+03:00| vmx| I005: TOOLS Received tools.set.versiontype rpc call, version = 11269, type = 4
+2024-10-23T13:11:06.647+03:00| vmx| I005: TOOLS Setting toolsVersionStatus = TOOLS_STATUS_UNMANAGED
+2024-10-23T13:11:06.647+03:00| vmx| I005: Tools_SetVersionAndType did nothing; new tools version (11269) and type (4) match old Tools version and type
+2024-10-23T13:11:06.665+03:00| vcpu-0| I005: Tools: State change '3' progress: last event 0, event 1, success 1.
+2024-10-23T13:11:07.218+03:00| vmx| I005: TOOLS state change 3 returned status 1
+2024-10-23T13:11:07.218+03:00| vmx| I005: Tools: State change '3' progress: last event 1, event 2, success 1.
+2024-10-23T13:11:07.218+03:00| vmx| I005: Tools: State change '3' progress: last event 1, event 4, success 1.
+2024-10-23T13:11:07.218+03:00| vmx| I005: Vix: [mainDispatch.c:4117]: VMAutomationReportPowerStateChange: Reporting power state change (opcode=2, err=0).
+2024-10-23T13:11:07.218+03:00| vmx| I005: Tools: Changing running status: 2 => 1.
+2024-10-23T13:11:07.218+03:00| vmx| I005: Tools: [RunningStatus] Last heartbeat value 2 (last received 0s ago)
+2024-10-23T13:11:18.241+03:00| mks| I005: MKS-VMDB: VMDB requested a screenshot
+2024-10-23T13:11:18.241+03:00| svga| I005: MKSScreenShotMgr: Taking a screenshot
+2024-10-23T13:11:18.293+03:00| mks| I005: SWBWindow: Number of MKSWindows changed: 0 rendering MKSWindow(s) of total 2.
+2024-10-23T13:11:18.310+03:00| mks| I005: SWBWindow: Window #0 validation failed: no valid host window or host surface.
+2024-10-23T13:11:18.310+03:00| mks| I005: SWBVmdb: Destroy SWB Window Id #0 because an invalid MKSWindow definition is received from UI over VMDB.
+2024-10-23T13:11:18.312+03:00| mks| I005: SWBWindow: Number of MKSWindows changed: 0 rendering MKSWindow(s) of total 1.
+2024-10-23T13:11:18.312+03:00| mks| I005: SWBWindow: Window #1 validation failed: no valid host window or host surface.
+2024-10-23T13:11:18.313+03:00| mks| I005: SWBVmdb: Destroy SWB Window Id #1 because an invalid MKSWindow definition is received from UI over VMDB.
+2024-10-23T13:11:18.314+03:00| mks| I005: GDI-Backend: stopped by HWinMux to do window composition.
+2024-10-23T13:11:18.314+03:00| mks| I005: SWBWindow: Number of MKSWindows changed: 0 rendering MKSWindow(s) of total 0.
+2024-10-23T13:11:19.221+03:00| mks| I005: SWBWindow: Number of MKSWindows changed: 1 rendering MKSWindow(s) of total 1.
+2024-10-23T13:11:19.221+03:00| mks| I005: GDI-Backend: successfully started by HWinMux to do window composition.
+2024-10-23T13:11:19.236+03:00| mks| I005: MKS-HWinMux: Started GDI presentation backend
+2024-10-23T13:11:19.236+03:00| mks| I005: SWBWindow: Number of MKSWindows changed: 1 rendering MKSWindow(s) of total 2.
+2024-10-23T13:11:23.032+03:00| vmx| I005: USB: Connecting device desc:name:Virtual\ Bluetooth\ Adapter vid:0e0f pid:0008 speed:full family:wireless,bluetooth deviceType:virtual-bluetooth info:0000001 version:3 id:0x700000010e0f0008
+2024-10-23T13:11:23.032+03:00| vmx| I005: Policy_GetUSBDevAccess: checking usb devices at policy path: /vm/#_VMX/mvm/policyState/val/policySet/usbDevices/#
+2024-10-23T13:11:23.032+03:00| vmx| I005: Policy_GetUSBDevAccess: allowConnect = YES
+2024-10-23T13:11:23.032+03:00| vmx| W003: Bluetooth-Win32: ERROR retrieving local radio info: No more data is available
+2024-10-23T13:11:23.032+03:00| vmx| W003: Bluetooth host backend not available.
+2024-10-23T13:11:36.436+03:00| vmx| I005: GuestInfo: HostinfoDetailedDataHeader version: 1
+2024-10-23T13:11:36.436+03:00| vmx| A000: ConfigDB: Setting guestOS.detailed.data = "bitness='64' distroName='CentOS Linux' distroVersion='7' familyName='Linux' kernelVersion='3.10.0-1160.119.1.el7.x86_64' prettyName='CentOS Linux 7 (Core)'"
+2024-10-23T13:11:39.518+03:00| vmx| I005: GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2024-10-23T13:12:36.447+03:00| vmx| I005: GuestRpcSendTimedOut: message to toolbox-dnd timed out.
+2024-10-23T13:28:53.617+03:00| vmx| I005: Tools: sending 'OS_Halt' (state = 1) state change request
+2024-10-23T13:28:53.617+03:00| vmx| I005: Tools: Changing running status: 1 => 2.
+2024-10-23T13:28:53.617+03:00| vmx| I005: Tools: [RunningStatus] Last heartbeat value 1068 (last received 0s ago)
+2024-10-23T13:28:53.618+03:00| vmx| I005: Vix: [vmxCommands.c:536]: VMAutomation_InitiatePowerOff. Tried to soft halt. Success = 1
+2024-10-23T13:28:53.667+03:00| vcpu-0| I005: Tools: State change '1' progress: last event 0, event 1, success 1.
+2024-10-23T13:28:53.728+03:00| vmx| I005: TOOLS state change 1 returned status 1
+2024-10-23T13:28:53.728+03:00| vmx| I005: Tools: State change '1' progress: last event 1, event 2, success 1.
+2024-10-23T13:28:53.728+03:00| vmx| I005: Tools: State change '1' progress: last event 1, event 4, success 1.
+2024-10-23T13:28:53.728+03:00| vmx| I005: Tools: Changing running status: 2 => 1.
+2024-10-23T13:28:53.728+03:00| vmx| I005: Tools: [RunningStatus] Last heartbeat value 1068 (last received 0s ago)
+2024-10-23T13:28:53.903+03:00| vcpu-0| I005: GuestRpc: Reinitializing Channel 0(toolbox)
+2024-10-23T13:28:53.903+03:00| vcpu-0| I005: Tools: [AppStatus] Last heartbeat value 1069 (last received 0s ago)
+2024-10-23T13:28:53.903+03:00| vcpu-0| I005: TOOLS: appName=toolbox, oldStatus=1, status=0, guestInitiated=1.
+2024-10-23T13:28:53.909+03:00| vmx| I005: GuestRpc: Got error for channel 0 connection 7: Remote disconnected
+2024-10-23T13:28:53.909+03:00| vmx| I005: GuestRpc: GuestRpcResetVsockChannel: channel 0
+2024-10-23T13:28:53.909+03:00| vmx| I005: GuestRpc: Closing channel 0 connection 7
+2024-10-23T13:28:54.231+03:00| vmx| I005: GuestRpc: Got RPCI vsocket connection 9, assigned to channel 0.
+2024-10-23T13:28:54.251+03:00| vmx| I005: GuestRpc: Got error for channel 0 connection 9: Remote disconnected
+2024-10-23T13:28:54.251+03:00| vmx| I005: GuestRpc: GuestRpcResetVsockChannel: channel 0
+2024-10-23T13:28:54.251+03:00| vmx| I005: GuestRpc: Closing channel 0 connection 9
+2024-10-23T13:28:58.027+03:00| vcpu-0| I005: VMMouse: Disabling VMMouse mode
+2024-10-23T13:28:58.095+03:00| vcpu-0| I005: UHCI: HCReset
+2024-10-23T13:28:58.101+03:00| vcpu-0| I005: PIIX4: PM Soft Off.  Good-bye.
+2024-10-23T13:28:58.101+03:00| vcpu-0| I005: Chipset: The guest has requested that the virtual machine be powered off.
+2024-10-23T13:28:58.101+03:00| vcpu-0| A000: ConfigDB: Setting softPowerOff = "TRUE"
+2024-10-23T13:28:58.117+03:00| vcpu-0| I005: VMX: Issuing power-off request...
+2024-10-23T13:28:58.117+03:00| vmx| I005: Stopping VCPU threads...
+2024-10-23T13:28:58.120+03:00| svga| I005: SVGA thread is exiting
+2024-10-23T13:28:58.133+03:00| mks| I005: SWBWindow: Number of MKSWindows changed: 0 rendering MKSWindow(s) of total 1.
+2024-10-23T13:28:58.136+03:00| mks| I005: GDI-Backend: stopped by HWinMux to do window composition.
+2024-10-23T13:28:58.136+03:00| mks| I005: SWBWindow: Number of MKSWindows changed: 0 rendering MKSWindow(s) of total 0.
+2024-10-23T13:28:58.136+03:00| vmx| I005: MKS thread is stopped
+2024-10-23T13:28:58.136+03:00| vmx| I005: USB: Disconnecting device 0x200000050e0f0003
+2024-10-23T13:28:58.137+03:00| vmx| I005: 
+2024-10-23T13:28:58.137+03:00| vmx| I005+ OvhdMem: Final (Power Off) Overheads
+2024-10-23T13:28:58.137+03:00| vmx| I005:                                                       reserved      |          used
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem excluded                                  cur    max    avg |    cur    max    avg
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_MainMem                    :  262144 262144      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_VmxText                    :    7168   7168      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_VmxTextLibs                :   15360  15360      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem Total excluded                      :  284672 284672      - |      -      -      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem Actual maximum                      :         284672        |             -
+2024-10-23T13:28:58.137+03:00| vmx| I005+ 
+2024-10-23T13:28:58.137+03:00| vmx| I005:                                                       reserved      |          used
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem paged                                     cur    max    avg |    cur    max    avg
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_STATS_vmm                  :       2      2      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_STATS_device               :       1      1      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_SvgaMobFallback            :   32768  32768      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_DiskLibMemUsed             :    3075   3075      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_SvgaSurfaceTable           :       6      6      - |      1      1      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_SvgaBESurfaceTable         :      22     22      - |      6      6      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_SvgaSDirtyCache            :      96     96      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_SvgaCursor                 :      10     10      - |     10     10      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_VmxGlobals                 :   10240  10240      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_VmxGlobalsLibs             :    3584   3584      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_VmxHeap                    :    8704   8704      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_VmxMks                     :      33     33      - |      1      1      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_VmxMksRenderOps            :     552    552      - |    552    552      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_VmxMks3d                   :  131072 131072      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_VmxMksScreenTemp           :   69890  69890      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_VmxMksVnc                  :   74936  74936      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_VmxMksScreen               :  131075 131075      - |      0    469      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_VmxMksSVGAVO               :    4096   4096      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_VmxMksSwbCursor            :    2560   2560      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_VmxPhysMemErrPages         :      10     10      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_VmxSLEntryBuf              :     128    128      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_VmxThreads                 :   35328  35328      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem Total paged                         :  508188 508188      - |    570   1039      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem Actual maximum                      :         508188        |          1039
+2024-10-23T13:28:58.137+03:00| vmx| I005+ 
+2024-10-23T13:28:58.137+03:00| vmx| I005:                                                       reserved      |          used
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem nonpaged                                  cur    max    avg |    cur    max    avg
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_SharedArea                 :       8      8      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_BusMemTraceBitmap          :      11     11      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_PFrame                     :     981   1196      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_VIDE_KSEG                  :      16     16      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_VGA                        :      64     64      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_BalloonMPN                 :       1      1      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_P2MUpdateBuffer            :       3      3      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_ServicesMPN                :       3      3      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_LocalApic                  :       2      2      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_BusError                   :       1      1      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_VBIOS                      :       8      8      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_LSIBIOS                    :       4      4      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_LSIRings                   :       4      4      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_SAS1068BIOS                :       4      4      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_SBIOS                      :      16     16      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_FlashRam                   :     128    128      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_SMM                        :      63     63      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_SVGAFB                     :    1024   1024      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_SVGAMEM                    :      64    512      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_HDAudioReg                 :       3      3      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_EHCIRegister               :       1      1      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_XhciRegister               :       1      1      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_HyperV                     :       2      2      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_ExtCfg                     :       4      4      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_vhvCachedVMCS              :       1      1      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_vhvNestedAPIC              :       1      1      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_MonWired                   :      33     33      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdUser_NVDC                       :       1      1      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem Total nonpaged                      :    2452   3115      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem Actual maximum                      :           3115        |             0
+2024-10-23T13:28:58.137+03:00| vmx| I005+ 
+2024-10-23T13:28:58.137+03:00| vmx| I005:                                                       reserved      |          used
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem anonymous                                 cur    max    avg |    cur    max    avg
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdMon_Alloc                       :      97     97      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdMon_BusMemFrame                 :     322    331      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdMon_BusMem2MInfo                :       4      4      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdMon_BusMem1GInfo                :       1      1      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdMon_BusMemZapListMPN            :       1      1      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdMon_MonAS                       :       1      1      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdMon_GuestMem                    :      24     24      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdMon_TC                          :     513    513      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdMon_BusMemMonAS                 :       4      4      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdMon_PlatformMonAS               :       5      5      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdMon_HVNuma                      :       2      2      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdMon_HV                          :       3      3      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdMon_HVMSRBitmap                 :       2      2      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdMon_VHVGuestMSRBitmap           :       2      2      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdMon_VHV                         :       3      3      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdMon_SVMIDT                      :       1      1      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdMon_Numa                        :      24     24      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdMon_BaseWired                   :      29     29      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdMon_Bootstrap                   :    1700   1700      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdMon_GPhysHWMMU                  :     678    678      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdMon_GPhysNoTrace                :     264    264      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdMon_PhysMemGart                 :     104    104      - |      0      0      -
+2024-10-23T13:28:58.137+03:00| vmx| I005: OvhdMem OvhdMon_PhysMemErr                  :       6      6      - |      0      0      -
+2024-10-23T13:28:58.138+03:00| vmx| I005: OvhdMem OvhdMon_VProbe                      :       1      1      - |      0      0      -
+2024-10-23T13:28:58.138+03:00| vmx| I005: OvhdMem Total anonymous                     :    3791   3800      - |      0      0      -
+2024-10-23T13:28:58.138+03:00| vmx| I005: OvhdMem Actual maximum                      :           3800        |             0
+2024-10-23T13:28:58.138+03:00| vmx| I005+ 
+2024-10-23T13:28:58.138+03:00| vmx| I005: VMMEM: Maximum Reservation: 2012MB (MainMem=1024MB)
+2024-10-23T13:28:58.169+03:00| vmx| I005: MemSched: BALLOON HIST [0, 262144]: 0 0 0 0 0 0 0 0 0 0 0 0
+2024-10-23T13:28:58.169+03:00| vmx| I005: MemSched: BALLOON P50 1 P70 1 P90 1 MIN 262144 MAX 0
+2024-10-23T13:28:58.169+03:00| vmx| I005: MemSched: SWAP HIST [0, 262144]: 0 0 0 0 0 0 0 0 0 0 0 0
+2024-10-23T13:28:58.169+03:00| vmx| I005: MemSched: SWAP P50 1 P70 1 P90 1 MIN 262144 MAX 0
+2024-10-23T13:28:58.169+03:00| vmx| I005: MemSched: LOCK HIST [0, 262144]: 0 0 0 0 0 0 0 0 0 0 0 0
+2024-10-23T13:28:58.169+03:00| vmx| I005: MemSched: LOCK P50 1 P70 1 P90 1 MIN 262144 MAX 0
+2024-10-23T13:28:58.169+03:00| vmx| I005: MemSched: LOCK_TARGET HIST [0, 262144]: 0 0 0 0 0 0 0 0 0 0 0 0
+2024-10-23T13:28:58.169+03:00| vmx| I005: MemSched: LOCK_TARGET P50 1 P70 1 P90 1 MIN 262144 MAX 0
+2024-10-23T13:28:58.169+03:00| vmx| I005: MemSched: ACTIVE_PCT HIST [0, 100]: 0 0 0 0 0 0 0 0 0 0 0 0
+2024-10-23T13:28:58.169+03:00| vmx| I005: MemSched: ACTIVE_PCT P50 1 P70 1 P90 1 MIN 100 MAX 0
+2024-10-23T13:28:58.169+03:00| vmx| I005: MemSched: NUM_VMS HIST [0, 10]: 0 0 0 0 0 0 0 0 0 0 0 0
+2024-10-23T13:28:58.169+03:00| vmx| I005: MemSched: NUM_VMS P50 1 P70 1 P90 1 MIN 10 MAX 0
+2024-10-23T13:28:58.169+03:00| vmx| I005: MemSched: HOSTLOCK HIST [0, 2742865]: 0 0 0 0 0 0 0 0 0 0 0 0
+2024-10-23T13:28:58.169+03:00| vmx| I005: MemSched: HOSTLOCK P50 1 P70 1 P90 1 MIN 2742865 MAX 0
+2024-10-23T13:28:58.169+03:00| vmx| I005: TOOLS received request in VMX to set option 'enableDnD' -> '0'
+2024-10-23T13:28:58.171+03:00| vmx| I005: GuestRpc: Attempt to send TCLO msg for 'toolbox' while GuestRpc is powering off.
+2024-10-23T13:28:58.171+03:00| vmx| I005: TOOLS received request in VMX to set option 'copypaste' -> '0'
+2024-10-23T13:28:58.171+03:00| vmx| I005: GuestRpc: Attempt to send TCLO msg for 'toolbox' while GuestRpc is powering off.
+2024-10-23T13:28:58.171+03:00| vmx| I005: HgfsServerManagerVigorExit: Destroy:
+2024-10-23T13:28:58.171+03:00| vmx| I005: Tools: ToolsRunningStatus_Exit, delayedRequest is 0x0
+2024-10-23T13:28:58.171+03:00| vmx| I005: Tools: Changing running status: 1 => 0.
+2024-10-23T13:28:58.171+03:00| vmx| I005: Tools: [RunningStatus] Last heartbeat value 1070 (last received 3s ago)
+2024-10-23T13:28:58.172+03:00| vmx| I005: TOOLS: appName=toolbox-dnd, oldStatus=0, status=0, guestInitiated=0.
+2024-10-23T13:28:58.173+03:00| vmx| I005: Tools: [AppStatus] Last heartbeat value 1070 (last received 3s ago)
+2024-10-23T13:28:58.173+03:00| vmx| I005: TOOLS: appName=toolbox, oldStatus=0, status=0, guestInitiated=0.
+2024-10-23T13:28:58.178+03:00| vmx| I005: USB: Disconnecting device 0x10e0f0002
+2024-10-23T13:28:58.182+03:00| usbCCIDEnumCards| I005: USB-CCID: Card enum thread exiting.
+2024-10-23T13:28:58.185+03:00| vmx| I005: SOUNDLIB: Closing Wave sound backend.
+2024-10-23T13:28:58.185+03:00| vmx| I005: MKS thread was already stopped
+2024-10-23T13:28:58.185+03:00| mks| I005: MKSControlMgr: disconnected
+2024-10-23T13:28:58.185+03:00| mks| I005: MKS-RenderMain: Stopping MKSBasicOps
+2024-10-23T13:28:58.187+03:00| mks| I005: MKS PowerOff
+2024-10-23T13:28:58.187+03:00| mks| I005: MKS thread is exiting
+2024-10-23T13:28:58.189+03:00| vmx| W003: 
+2024-10-23T13:28:58.189+03:00| vmx| I005: scsi0:0: numIOs = 8555 numMergedIOs = 1496 numSplitIOs = 8 ( 0.5%)
+2024-10-23T13:28:58.189+03:00| vmx| I005: Closing disk 'scsi0:0'
+2024-10-23T13:28:58.194+03:00| vmx| I005: AIOWIN32C: asyncOps=8401 syncOps=7 bufSize=200Kb fixedOps=3184
+2024-10-23T13:28:58.194+03:00| aioCompletion| I005: AIO thread processed 8401 completions
+2024-10-23T13:28:58.302+03:00| deviceThread| I005: Device thread is exiting
+2024-10-23T13:28:58.303+03:00| vmx| I005: Vix: [mainDispatch.c:1163]: VMAutomationPowerOff: Powering off.
+2024-10-23T13:28:58.304+03:00| vmx| I005: Win32U_GetFileAttributes: GetFileAttributesExW("D:\Универ\7 семестр\Облачные технологии\нст\CentOS_SAI_scloud2\CentOS_SAI_scloud2.vmpl", ...) failed, error: 2
+2024-10-23T13:28:58.304+03:00| vmx| I005: Policy_SavePolicyFile: invalid arguments to function.
+2024-10-23T13:28:58.304+03:00| vmx| I005: PolicyVMX_Exit: Could not write out policies: 15.
+2024-10-23T13:28:58.304+03:00| vmx| I005: WORKER: asyncOps=2 maxActiveOps=1 maxPending=1 maxCompleted=1
+2024-10-23T13:28:58.309+03:00| WinNotifyThread| I005: WinNotify thread exiting
+2024-10-23T13:28:58.311+03:00| vmx| I005: Vix: [mainDispatch.c:4200]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2024-10-23T13:28:58.311+03:00| vmx| I005: Vix: [mainDispatch.c:4218]: VMAutomation: Ignoring ReportPowerOpFinished because the VMX is shutting down.
+2024-10-23T13:28:58.313+03:00| vmx| A000: ConfigDB: Setting cleanShutdown = "TRUE"
+2024-10-23T13:28:58.330+03:00| vmx| I005: Vix: [mainDispatch.c:4200]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1 additionalError=0
+2024-10-23T13:28:58.330+03:00| vmx| I005: Vix: [mainDispatch.c:4218]: VMAutomation: Ignoring ReportPowerOpFinished because the VMX is shutting down.
+2024-10-23T13:28:58.330+03:00| vmx| I005: Transitioned vmx/execState/val to poweredOff
+2024-10-23T13:28:58.330+03:00| vmx| I005: VMX idle exit
+2024-10-23T13:28:58.331+03:00| vmx| I005: WQPoolFreePoll : pollIx = 3, signalHandle = 992
+2024-10-23T13:28:58.332+03:00| vmx| I005: Vix: [mainDispatch.c:815]: VMAutomation_LateShutdown()
+2024-10-23T13:28:58.332+03:00| vmx| I005: Vix: [mainDispatch.c:770]: VMAutomationCloseListenerSocket. Closing listener socket.
+2024-10-23T13:28:58.332+03:00| vmx| I005: Flushing VMX VMDB connections
+2024-10-23T13:28:58.332+03:00| vmx| I005: VmdbDbRemoveCnx: Removing Cnx from Db for '/db/connection/#1/'
+2024-10-23T13:28:58.332+03:00| vmx| I005: VmdbCnxDisconnect: Disconnect: closed pipe for pub cnx '/db/connection/#1/' (0)
+2024-10-23T13:28:58.332+03:00| vmx| I005: VigorTransport_ServerDestroy: server destroyed.
+2024-10-23T13:28:58.333+03:00| vmx| I005: WQPoolFreePoll : pollIx = 2, signalHandle = 824
+2024-10-23T13:28:58.333+03:00| vmx| I005: WQPoolFreePoll : pollIx = 1, signalHandle = 832
+2024-10-23T13:28:58.338+03:00| vmx| I005: VMX exit (0).
+2024-10-23T13:28:58.338+03:00| vmx| I005: OBJLIB-LIB: ObjLib cleanup done.
+2024-10-23T13:28:58.338+03:00| vmx| I005: AIOMGR-S : stat o=3 r=27 w=0 i=0 br=120304 bw=0

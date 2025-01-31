@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Foundry>
+<VM>
+<VMId type="string">52 5c 92 86 28 8b f7 ed-ad 27 4c 34 c4 1c ca 83</VMId>
+<ClientMetaData>
+<clientMetaDataAttributes/>
+<HistoryEventList/></ClientMetaData>
+<vmxPathName type="string">CentOS_SAI_scloud2.vmx</vmxPathName></VM></Foundry>
